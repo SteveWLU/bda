@@ -6,9 +6,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        
+          <h1> The Benci Digital Archive
+          </h1> <code>src/App.js</code> and save to reload.
+          <h2> Il Guerrin Meschino</h2>
+      <p> </p>
         <a
           className="App-link"
           href="https://reactjs.org"

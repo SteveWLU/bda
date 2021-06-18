@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!-- title of the resource -->
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>1445</date>
+                </edition>
+                <p>
+                    <!-- information about the edition of the
+				resource  -->
+                </p>
+            </editionStmt>
+            <extent>
+                <!-- description of the size of the resource -->
+            </extent>
+            <publicationStmt>
+                <p>
+                    <!-- information about the distribution
+				   of the resource -->
+                </p>
+            </publicationStmt>
+            <seriesStmt>
+                <p>
+                    <!-- information about any series to which
+			      the resource belongs  -->
+                </p>
+            </seriesStmt>
+            <notesStmt>
+                <note>
+                    <!-- notes on other aspects of the resource -->
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Florence</settlement>
+                        <repository>Biblioteca Riccardiana</repository>
+                        <collection>Riccardiano</collection>
+                        <idno>2266</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- <div1 type="book" n="1">
+        <cb n="a"/>
+        <rubric>
+            <lg>
+                <l>
+                    <hi rend="blue"/>
+                </l>
+            </lg>
+        </rubric>
+        <milestone>
+            <lg>
+                <l>
+                    <hi rend="red"/>
+                </l>
+            </lg>
+        </milestone>
+    </div1> -->
+    <text>
+        <body>
+            <div1 type="book" n="1">
+                <cb n="a"/>
+                <rubric>
+                    <lg>
+                        <l>
+                            <hi rend="blue"/>
+                        </l>
+                    </lg>
+                </rubric>
+                <milestone>
+                    <lg>
+                        <l>
+                            <hi rend="red"/>
+                        </l>
+                        <l><hi rend="blue">N</hi>aturalemente pare</l>
+                        
+                        <l>che sia di rhonruet</l> 
+                        
+                        <l>Udine che gli uomi</l> 
+                        
+                        <l>ni sidilettono dudiue</l> 
+                        
+                        <l>nouelli aftori ./ osse</l> 
+                        
+                        <l>anturha furrono ernoraemo da</l> 
+                        
+                        <l>chonsuerrtubine cioenonsieno</l> 
+                        
+                        <l>Paherati alla uolbharue burte</l> 
+                        
+                        <l>Per che chose anthcrhe e non pafe</l> 
+                        
+                        <l>Per te paiono anti che alle menti</l> 
+                        
+                        <l>derhoforo $e non hanno hudite</l> 
+                        
+                        <l>Piu/ Eperquesto mede simo di</l> 
+                        
+                        <l>Letto di cierchare molte storie</l> 
+                        
+                        <l>Nouelle  eauendo di piaciere @</l> 
+                        
+                        <l>Molte storie trouai Que sta le</l> 
+                        
+                        <l>ggienda che molto mi piaque / on</l> 
+                        
+                        <l>Dio nonno glio ossere inbrato de</l> 
+                        
+                        <l>Ebeneficio  ricieuto  da dDio e da</l> 
+                        
+                        <l>la humana  natura ricieui. e da’</l> 
+                        
+                        <l>Dacieli Piu che degnio  merito</l> 
+                        
+                        <l>?lperurhe sono di bassa rhonndazioni</l> 
+                        
+                        <l>Epu?e mirhonforta perchio uebbu</l> 
+                    </lg>
+                </milestone>
+            </div1>
+        </body>
+    </text>
+</TEI>
