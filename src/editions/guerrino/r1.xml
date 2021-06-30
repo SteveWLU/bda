@@ -69,149 +69,86 @@
             </lg>
         </milestone>
     </div1> -->
-    <text>
-        <body>
-            <div1 type="book" n="1">
-                <rubric>
-                    <lg>
-                        <l><milestone n="1R" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>...</l>
-                    </lg>
-                </rubric>
-                    <lg>
-                        <l><hi rend="blue">N</hi>aturalemente pare</l>
-                        
-                        <l>che sia di rhonruet</l> 
-                        
-                        <l>Udine che gli uomi</l> 
-                        
-                        <l>ni sidilettono dudiue</l> 
-                        
-                        <l>nouelli aftori ./ osse</l> 
-                        
-                        <l>anturha furrono ernoraemo da</l> 
-                        
-                        <l>chonsuerrtubine cioenonsieno</l> 
-                        
-                        <l>Paherati alla uolbharue burte</l> 
-                        
-                        <l>Per che chose anthcrhe e non pafe</l> 
-                        
-                        <l>Per te paiono anti che alle menti</l> 
-                        
-                        <l>derhoforo $e non hanno hudite</l> 
-                        
-                        <l>Piu/ Eperquesto mede simo di</l> 
-                        
-                        <l>Letto di cierchare molte storie</l> 
-                        
-                        <l>Nouelle  eauendo di piaciere @</l> 
-                        
-                        <l>Molte storie trouai Que sta le</l> 
-                        
-                        <l>ggienda che molto mi piaque / on</l> 
-                        
-                        <l>Dio nonno glio ossere inbrato de</l> 
-                        
-                        <l>Ebeneficio  ricieuto  da dDio e da</l> 
-                        
-                        <l>la humana  natura ricieui. e da’</l> 
-                        
-                        <l>Dacieli Piu che degnio  merito</l> 
-                        
-                        <l>?lperurhe sono di bassa rhonndazioni</l> 
-                        
-                        <l>Epu?e mirhonforta perchio uebbu</l> 
-                    </lg>
-                    <cb n="b"/>
-                    <milestone> 
-                        <lg>
-                            <l>
-                               <l>Molti di mabiore nazione dme </l>
-                                
-                               <l>Muere esrare e fare Prebio </l>
-                                
-                                <l>Di me / o che sia p??i loro perrh </l>
-                                
-                               <l>ati paterni E auesro io non bi </l>
-                                
-                                <l>Udrho marimanbha nelpumo</l>
-                                
-                                <l>Fattore / anchora uebbio perho</l>  
-                                
-                                <l>Chontrario  molti da piu ?’li d</l> 
-                                
-                                <l>I me sono sormontati e fanno e</l> 
-                                
-                                <l>Pranno e uiuono meblio di me ea</l> 
-                                
-                                <l>Uesro mi chon forta che noi sia</l>
-                                
-                                <l>Mo tutta fibbiuoli del padre</l> 
-                                
-                                <l>oreati danno soho fattore che</l> 
-                                
-                                <l>Lucie de ?le sue fuci ebrazie</l>
-                                
-                                <l>Piu E meno sechondo chepnoi</l> 
-                                
-                                <l>saguista chi inuna hopera e</l>
-                                
-                                <l>Chi inuna altra equerso e do</l> 
-                                
-                                <l>Tato da idotati cieh sirrhe ho</l> 
-                                
-                                <l>gni uno puo uenire nelbro</l> 
-                                
-                                <l>do puo uerthoso oheresa</l> 
-                                
-                                <l>In quesa uita nella quale @</l> 
-                                
-                                <l>Que ro Puo abueaue empun</l> 
-                                
-                                <l>dere uirtu eurziio bon? e a</l> 
-                                
-                                <l>mmepare che lla mabio? pa</l> 
-                                
-                                <l>rte soghuita fapu? Fatirhora</l> 
-                                
-                                <l>Di queso ?npero che e doppia</l> 
-                                
-                                <l>Forte ?ho e?e affare almale</l> 
-                                
-                                <l>Auitpetto de lle ne sofo ?a di</l> 
-                                
-                                <l>lettantia intrauompe essyy a</l> 
-                                
-                                <l>Mlscie lanimo nosro etiafo</l>  
-                                
-                                <l>Per la pua uilta almale piu</l> 
-                                
-                                <l>Che alle ne / a?anessuna choro</l> 
-                                
-                                <l>Non ti srhsra per la. liderta</l> 
-                                
-                                <l>Del pierno albiro asperrhiati ne</l> 
-                                
-                                <l>Lla prma liberta data alpz</l> 
-                                
-                                <l>Imo padre adamo che chotutto</l> 
-                                
-                                <l>Che iddio gli chomandasser non</l> 
-                                
-                                <l>Pecchorue non gli Tol?e pero</l> 
-                                
-                                <l>Ilpierno albitro da fore si chome</l> 
-                                
-                                <l>Allu? Piagne / e cho?i nonto??e</l> 
-                                
-                                <l>Mar aneurno eparo siamo o?</l> 
-                                
-                                <l>iamati aniamali titrazional?</l> 
-                                
-                                <l>Euseiendo fuori ?ella ragione</l> 
-                                
-                                <l>siamo simili ablisrinah in?mag</l>   
-                                                    
+<text>
+    <body>
+        <div1 type="book" n="1">
+            <rubric>
+                <lg><!-- Chapter # -->
+                    <l><milestone n="1R" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>...</l>
+                </lg>
+            </rubric>
+                <lg>
+                    <l><hi rend="blue">N</hi>aturalemente pare</l>
+                    <l>che sia di chonsuet</l> 
+                    <l>udine che gli uomi</l> 
+                    <l>ni si dilettono d'udire</l> 
+                    <l>nouelli altori ./ osse</l>
+<!-- Scribal error? altori > autori -->
+                    <l>anticha fussono e no siemo di</l> 
+                    <l>chonsuertudine cioe non sieno</l> 
+                    <l>palesati alla volgare ge[n]te</l> 
+                    <l>perche chose antiche e non pale</l> 
+                    <l>sate paiono nove alle menti</l> 
+                    <l>di choloro che non hanno hudite</l> 
+                    <l>piu / e per questo medesimo di</l> 
+                    <l>Letto di cierchare molte storie</l> 
+                    <l>nouelle  e avendo di piaciere di</l> 
+                    <l>molte storie trovai questa le</l> 
+                    <l>ggienda che molto mi piaque / on</l> 
+                    <l>d'io non voglio essere ingrato de</l> 
+                    <l>l beneficio ricievto da dDio e da</l> 
+                    <l>lla humana natura ricievi .</l> 
+                    <l>da cieli più che degnio  merito</l> 
+                    <l>il perche sono di bassa chondizione</l> 
+                    <l>e pure mi chonforta perch'io veggo</l> 
+                </lg>
+                <lg>
+                   <l><cb n="b"/>molti di magiore nazione d[i] me </l>
+                   <!-- d - ligation d + i, or missing i? -->
+                   <l>vivere e stare e fare pregio </l>
+                   <!-- Scribal error? pregio > pegio -->
+                   <l>di me / o che sia per li loro pecch</l>
+                   <l>ati paterni / e questo io non gi</l>
+                   <l>udcho ma rimangha nel primo</l>
+                   <l>fattore / anchora ueggio per lo</l>  
+                   <l>chontrario molti di piu vile d[i]</l>
+                   <!-- d - ligation d + i, or missing i? -->
+                   <l>me sono sormontati / e fanno e</l> 
+                   <l>stanno e vivono meglio di me / e q</l> 
+                   <l>esto mi chonforta che noi . sia</l>
+                   <l>mo tutti figgluoli del padre</l> 
+                   <l>creati da uno solo fattore che</l> 
+                   <l>lucie delle sue luci e grazie</l>
+                   <l>piu e meno sechondo che p[er] noi</l> 
+                   <l>s'aquista chi in una hopera e</l>
+                   <l>chi in una altra / e questo e do</l> 
+                   <l>tato dai dotati cieli sicche . ho</l> 
+<l>gni uno puo uenire nelbro</l> 
+<l>do puo uerthoso oheresa</l> 
+<l>In quesa uita nella quale @</l> 
+<l>Que ro Puo abueaue empun</l> 
+<l>dere uirtu eurziio bon? e a</l> 
+<l>mmepare che lla mabio? pa</l> 
+<l>rte soghuita fapu? Fatirhora</l> 
+<l>Di queso ?npero che e doppia</l> 
+<l>Forte ?ho e?e affare almale</l> 
+<l>Auitpetto de lle ne sofo ?a di</l> 
+<l>lettantia intrauompe essyy a</l> 
+<l>Mlscie lanimo nosro etiafo</l>  
+<l>Per la pua uilta almale piu</l> 
+<l>Che alle ne / a?anessuna choro</l> 
+<l>Non ti srhsra per la. liderta</l> 
+<l>Del pierno albiro asperrhiati ne</l> 
+<l>Lla prma liberta data alpz</l> 
+<l>Imo padre adamo che chotutto</l> 
+<l>Che iddio gli chomandasser non</l> 
+<l>Pecchorue non gli Tol?e pero</l> 
+<l>Ilpierno albitro da fore si chome</l> 
+<l>Allu? Piagne / e cho?i nonto??e</l> 
+<l>Mar aneurno eparo siamo o?</l> 
+<l>iamati aniamali titrazional?</l> 
+<l>Euseiendo fuori ?ella ragione</l> 
+<l>siamo simili ablisrinah in?mag</l>   
                                 <lg>
                                     <l><milestone n="1V" unit="fol."/><cb n="a"/></l>
                                 </lg>
