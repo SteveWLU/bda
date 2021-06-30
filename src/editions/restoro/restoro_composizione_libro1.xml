@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="huon-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="text">Composizione del mondo</title>
+                <title type="manuscript">Padua Biblioteca del Seminario Vescovile MS 32 </title>
+                <sponsor>
+                    <address>
+                        <addrLine>Washington and Lee University</addrLine>
+                        <addrLine>204 W. Washington St.</addrLine>
+                        <addrLine>Lexington, VA 24450</addrLine>
+                    </address>
+                </sponsor>
+                <funder>Washington and Lee University, Lenfest Endowment</funder>
+                <principal>Stephen P. McCormick</principal>
+                <respStmt>
+                    <name resp="editor">Stephen P. McCormick</name>
+                    <resp>Edition of P</resp>
+                </respStmt>
+                <respStmt>
+                    <name resp="encoder">Stephen P. McCormick</name>
+                    <resp>Web interface development</resp>
+                    <resp>TEI coding and development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MKB">Mackenzie K. Brooks</name>
+                    <resp>TEI consultant</resp>
+                    <resp>TEI coding and development</resp>
+                    <resp>Web development</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0.0">
+                    <title rend="italic" type="digital">Version 0.1, enriched with text structure
+                        tags, abbreviation expansions, basic decoration identification, and a notes
+                        and commentaries apparatus.</title>
+                    <date when="2017">31 August 2017</date>
+                </edition>
+                <respStmt>
+                    <name>Stephen P. McCormick</name>
+                    <resp>Created initial digital document, developed TEI tags for text structure,
+                        and began tagging for text structure</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Washington and Lee University</publisher>
+                <pubPlace>Lexington, Virginia</pubPlace>
+                <address>
+                    <name type="institution">Washington and Lee University</name>
+                    <street>204 W. Washington St.</street>
+                    <name type="city">Lexington</name>
+                    <name type="state">Virginia</name>
+                    <postCode>24405</postCode>
+                    <name type="country">USA</name>
+                </address>
+                <availability status="free">
+                    <p>The digital transcription of Restoro d'Arezzo's <hi>La Composizione del mondo</hi> 
+                        is part of the Benci Digital Library project. All texts are freely available for 
+                        use. Images may be subject to copyright restrictions.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <!-- TEI P5 12.1.4.3 -->
+                    <witness>Florence, Riccardiana, ms. 2164</witness>
+                    <!-- The oldest manuscript witness -->
+                    <witness>Vatican, Apostolica, Barberiniano latino 4110</witness>
+                    <witness>Vatican, Apostolica, Chigiano M. VIII. 169</witness>
+                    <witness>Florence, Riccardiana Library, ms. 2229</witness>
+                    <witness>Florence, Nazionale Centrale, II.viii.37</witness>
+                </listWit>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Padua</settlement>
+                        <repository>Biblioteca del Seminario Vescovile</repository>
+                        <idno>MS 32</idno>
+                    </msIdentifier>
+                    <head type="msHeading">
+                        <title type="manuscript" xml:lang="FI">Huon d'Auvergne, Biblioteca del
+                            Seminario Vescovile di Padova, Manuscript 32</title>
+                        <origPlace cert="low">Padua</origPlace>
+                        <origDate cert="medium" evidence="internal">second half of fourteenth
+                            century or first half of fifteenth</origDate>
+                    </head>
+                    <history>
+                        <origin>
+                            <p>
+                                <origPlace><origPlace/>
+                            </p>
+                        </origin>
+                        <!-- <seg type="textLang" subtype="LAT">Latin</seg> ? See Cummings 55 -->
+                        <provenance><provenance/>
+                        <acquisation>
+                            <p>Florence, Riccardiana, ms. 2164 is the oldest surviving witness of Restoro d'Arezzo's La Composizione del mondo</p>
+                        </acquisation>
+                    </history>
+                    <msContents>
+                        <textLang mainLang="IT">Tuscan, Aretine dialect</textLang>
+                        <msItem>
+                            <locus></locus>
+                            <!-- ex. from="1r" to="117v" -->
+                            <author xml:id="scribe">Restoro d'Arezzo</author>
+                            <!-- check foliation with Leslie -->
+                            <title type="text" xml:lang="IT">La Composizione del mondo</title>
+                            <incipit>Encomenzase el libro de la composizione del mondo</incipit>
+                            <explicit>Compiuto è questo libro sotto l'anni de Cristo mille doicento 
+                                otanta e doi, Rodolfo imperadore re eletto, Martino Papa quarto 
+                                rescidente.</explicit>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support></support>
+                                <extent> <!-- ex. 117 manuscript folios, 5,690 lines of verse -->
+                                    <dimensions>
+                                        <height></height>
+                                        <width></width>
+                                    </dimensions>
+                                </extent>
+                                <!-- Where does <dimensions> go?  -->
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p></p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p></p>
+                        </handDesc>
+                        <decoDesc>
+                            <p></p>
+                        </decoDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <!-- <variantEncoding method="location-referenced" location="external"/> -->
+            <!-- Why won't this validate? -->
+            <editorialDecl>
+                <correction method="markup">
+                    <p>Apparent errors have been corrected using the sic/corr elements, wrapped in a
+                        choice element.</p>
+                </correction>
+                <!-- How do I include methods for abbreviations and omissions? -->
+            </editorialDecl>
+            <projectDesc>
+                <p>Text encoded for Huon d'Auvergne Project, which aims to create a digital edition
+                    for all four extant manuscripts of the Franco-Italian Huon d'Auvergne romance
+                    epic</p>
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="lg">Marks laisse divisions.</tagUsage>
+                    <tagUsage gi="l">Marks line divisions.</tagUsage>
+                    <tagUsage gi="head">Marks laisse divisions</tagUsage>
+                    <tagUsage gi="gap">Marks missing folios</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change>Last updated December 3, 2020</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <head>Encomenzase el libro de la composizione del mondo e delle sue cascioni, composto
+                da Restoro d'Arezzo in quella nobilissima cità, e en doi libri diviso, la quale cità
+                e fore del zodiaco, verso la fine del quinto clima, e la sua latitudine da
+                l'equatore del die è quaranta e doi gradi e quindeci menuti, e la sua longitudine da
+                parte d'occidente è trenta e doi gradi e vinti minuti.</head>
+        </body>
+    </text>
+</TEI>
