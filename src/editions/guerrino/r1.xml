@@ -70,59 +70,81 @@
         </milestone>
     </div1> -->
 <text>
-    <body>
-        <div1 type="book" n="1">
-            <rubric>
-                <lg><!-- Chapter # -->
-                    <l><milestone n="1R" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>...</l>
-                </lg>
-            </rubric>
-                <lg>
-                    <l><hi rend="blue">N</hi>aturalemente pare</l>
-                    <l>che sia di chonsuet</l> 
-                    <l>udine che gli uomi</l> 
-                    <l>ni si dilettono d'udire</l> 
-                    <l>nouelli altori ./ osse</l>
+<body>
+<div1 type="book" n="1">
+<rubric>
+<!-- no lg tag inside of rubric -->
+<l><milestone n="1R" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>ui comincia [il] primo li</l>
+<l>bro chiamato el meschino</l>
+<l>di durazo e questo meschino</l>
+<l>fu suo sopranome / ch'el</l>
+<l>suo primo e diritto nome</l>
+<l>fue ghuerino del sangue de</l>
+<l>llegniagio de reali di francia</l>
+<l>ed è partito questo ... i[n] otto</l>
+<l>parti / e tratta di tutte e tre le</l>
+<l>parti del mondo ciò è d'africha</l>
+<!-- ciò è > cioè ? -->
+<l>asia e uropia / e tratta degli</l>
+<l>alberi del sole e della luna</l>
+<l>e tratta della sibilla / e tratta</l>
+<l>del purghatorio di san patrizio</l>
+<l>e di molti grandi fatti d'arme</l>
+<l>che fei questo meschino che</l>
+<!-- fei > fe' - vertical stroke after e; unclear -->
+<l>cierchando va chi fu la sua n</l>
+<l>azione cioè il suo padre cho</l>
+<l>me la storia dimostra e qui</l>
+<l>chomincia il proemio dell'al</l>
+<l>tore nel chapitolo primo</l>
+<!-- Something after primo, unclear -->
+</rubric>
+<lg>
+<l><hi rend="blue">N</hi>aturalemente pare</l>
+<l>che sia di chonsuet</l> 
+<l>udine che gli uomi</l> 
+<l>ni si dilettono d'udire</l> 
+<l>nouelli altori ./ osse</l>
 <!-- Scribal error? altori > autori -->
-                    <l>anticha fussono e no siemo di</l> 
-                    <l>chonsuertudine cioe non sieno</l> 
-                    <l>palesati alla volgare ge[n]te</l> 
-                    <l>perche chose antiche e non pale</l> 
-                    <l>sate paiono nove alle menti</l> 
-                    <l>di choloro che non hanno hudite</l> 
-                    <l>piu / e per questo medesimo di</l> 
-                    <l>Letto di cierchare molte storie</l> 
-                    <l>nouelle  e avendo di piaciere di</l> 
-                    <l>molte storie trovai questa le</l> 
-                    <l>ggienda che molto mi piaque / on</l> 
-                    <l>d'io non voglio essere ingrato de</l> 
-                    <l>l beneficio ricievto da dDio e da</l> 
-                    <l>lla humana natura ricievi .</l> 
-                    <l>da cieli più che degnio  merito</l> 
-                    <l>il perche sono di bassa chondizione</l> 
-                    <l>e pure mi chonforta perch'io veggo</l> 
-                </lg>
-                <lg>
-                   <l><cb n="b"/>molti di magiore nazione d[i] me </l>
-                   <!-- d - ligation d + i, or missing i? -->
-                   <l>vivere e stare e fare pregio </l>
-                   <!-- Scribal error? pregio > pegio -->
-                   <l>di me / o che sia per li loro pecch</l>
-                   <l>ati paterni / e questo io non gi</l>
-                   <l>udcho ma rimangha nel primo</l>
-                   <l>fattore / anchora ueggio per lo</l>  
-                   <l>chontrario molti di piu vile d[i]</l>
-                   <!-- d - ligation d + i, or missing i? -->
-                   <l>me sono sormontati / e fanno e</l> 
-                   <l>stanno e vivono meglio di me / e q</l> 
-                   <l>esto mi chonforta che noi . sia</l>
-                   <l>mo tutti figgluoli del padre</l> 
-                   <l>creati da uno solo fattore che</l> 
-                   <l>lucie delle sue luci e grazie</l>
-                   <l>piu e meno sechondo che p[er] noi</l> 
-                   <l>s'aquista chi in una hopera e</l>
-                   <l>chi in una altra / e questo e do</l> 
-                   <l>tato dai dotati cieli sicche . ho</l> 
+<l>anticha fussono e no siemo di</l> 
+<l>chonsuertudine cioe non sieno</l> 
+<l>palesati alla volgare ge[n]te</l> 
+<l>perche chose antiche e non pale</l> 
+<l>sate paiono nove alle menti</l> 
+<l>di choloro che non hanno hudite</l> 
+<l>piu / e per questo medesimo di</l> 
+<l>Letto di cierchare molte storie</l> 
+<l>nouelle  e avendo di piaciere di</l> 
+<l>molte storie trovai questa le</l> 
+<l>ggienda che molto mi piaque / on</l> 
+<l>d'io non voglio essere ingrato de</l> 
+<l>l beneficio ricievto da dDio e da</l> 
+<l>lla humana natura ricievi .</l> 
+<l>da cieli più che degnio  merito</l> 
+<l>il perche sono di bassa chondizione</l> 
+<l>e pure mi chonforta perch'io veggo</l> 
+</lg>
+<lg>
+<l><cb n="b"/>molti di magiore nazione d[i] me </l>
+<!-- d - ligation d + i, or missing i? -->
+<l>vivere e stare e fare pregio </l>
+<!-- Scribal error? pregio > pegio -->
+<l>di me / o che sia per li loro pecch</l>
+<l>ati paterni / e questo io non gi</l>
+<l>udcho ma rimangha nel primo</l>
+<l>fattore / anchora ueggio per lo</l>  
+<l>chontrario molti di piu vile d[i]</l>
+<!-- d - ligation d + i, or missing i? -->
+<l>me sono sormontati / e fanno e</l> 
+<l>stanno e vivono meglio di me / e q</l> 
+<l>esto mi chonforta che noi . sia</l>
+<l>mo tutti figgluoli del padre</l> 
+<l>creati da uno solo fattore che</l> 
+<l>lucie delle sue luci e grazie</l>
+<l>piu e meno sechondo che p[er] noi</l> 
+<l>s'aquista chi in una hopera e</l>
+<l>chi in una altra / e questo e do</l> 
+<l>tato dai dotati cieli sicche . ho</l> 
 <l>gni uno puo venire nel gra</l> 
 <l>do suo vertuoso / che resta</l> 
 <l>in questa vita nella quale p[er]</l> 
