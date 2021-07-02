@@ -105,8 +105,7 @@
                 <lg>
                    <l><cb n="b"/>molti di magiore nazione d[i] me </l>
                    <!-- d - ligation d + i, or missing i? -->
-                   <l>vivere e stare e fare pregio </l>
-                   <!-- Scribal error? pregio > pegio -->
+                   <l>vivere e stare e fare <choice><sic>pregio</sic><corr>pegio</corr></choice></l>
                    <l>di me / o che sia per li loro pecch</l>
                    <l>ati paterni / e questo io non gi</l>
                    <l>udcho ma rimangha nel primo</l>
@@ -149,10 +148,8 @@
 <l>iamati aniamali titrazional?</l> 
 <l>Euseiendo fuori ?ella ragione</l> 
 <l>siamo simili ablisrinah in?mag</l>   
-                                <lg>
-                                    <l><milestone n="1V" unit="fol."/><cb n="a"/></l>
                                 </lg>
-                            <l>Nali cioe ber?ali Epero sassy</l>    
+                                    <lg><l><milestone n="1V" unit="fol."/><cb n="a"/>Nali cioe ber?ali Epero sassy</l>    
                             
                             <l>chontune annoi lapunizion?</l> 
                             
