@@ -12,6 +12,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>
+                    git 
                     <date>1445</date>
                 </edition>
                 <p>
@@ -72,6 +73,7 @@
 <body>
 <div1 type="book" n="1">
 <rubric>
+<!-- no lg tag inside of rubric -->
 <l><milestone n="1R" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>ui comincia [il] primo li</l>
 <l>bro chiamato el meschino</l>
 <l>di durazo e questo meschino</l>
@@ -104,6 +106,72 @@
 <l>ni si dilettono d'udire</l> 
 <l>nouelli altori ./ osse</l>
 <!-- Scribal error? altori > autori -->
+                    <l>anticha fussono e no siemo di</l> 
+                    <l>chonsuertudine cioe non sieno</l> 
+                    <l>palesati alla volgare ge[n]te</l> 
+                    <l>perche chose antiche e non pale</l> 
+                    <l>sate paiono nove alle menti</l> 
+                    <l>di choloro che non hanno hudite</l> 
+                    <l>piu / e per questo medesimo di</l> 
+                    <l>Letto di cierchare molte storie</l> 
+                    <l>nouelle  e avendo di piaciere di</l> 
+                    <l>molte storie trovai questa le</l> 
+                    <l>ggienda che molto mi piaque / on</l> 
+                    <l>d'io non voglio essere ingrato de</l> 
+                    <l>l beneficio ricievto da dDio e da</l> 
+                    <l>lla humana natura ricievi .</l> 
+                    <l>da cieli più che degnio  merito</l> 
+                    <l>il perche sono di bassa chondizione</l> 
+                    <l>e pure mi chonforta perch'io veggo</l> 
+                </lg>
+                <lg>
+                   <l><cb n="b"/>molti di magiore nazione d[i] me </l>
+                   <!-- d - ligation d + i, or missing i? -->
+                   <l>vivere e stare e fare <choice><sic>pregio</sic><corr>pegio</corr></choice></l>
+                   <l>di me / o che sia per li loro pecch</l>
+                   <l>ati paterni / e questo io non gi</l>
+                   <l>udcho ma rimangha nel primo</l>
+                   <l>fattore / anchora ueggio per lo</l>  
+                   <l>chontrario molti di piu vile d[i]</l>
+                   <!-- d - ligation d + i, or missing i? -->
+                   <l>me sono sormontati / e fanno e</l> 
+                   <l>stanno e vivono meglio di me / e q</l> 
+                   <l>esto mi chonforta che noi . sia</l>
+                   <l>mo tutti figgluoli del padre</l> 
+                   <l>creati da uno solo fattore che</l> 
+                   <l>lucie delle sue luci e grazie</l>
+                   <l>piu e meno sechondo che p[er] noi</l> 
+                   <l>s'aquista chi in una hopera e</l>
+                   <l>chi in una altra / e questo e do</l> 
+                   <l>tato dai dotati cieli sicche . ho</l> 
+<l>gni uno puo uenire nelbro</l> 
+<l>do puo uerthoso oheresa</l> 
+<l>In quesa uita nella quale @</l> 
+<l>Que ro Puo abueaue empun</l> 
+<l>dere uirtu eurziio bon? e a</l> 
+<l>mmepare che lla mabio? pa</l> 
+<l>rte soghuita fapu? Fatirhora</l> 
+<l>Di queso ?npero che e doppia</l> 
+<l>Forte ?ho e?e affare almale</l> 
+<l>Auitpetto de lle ne sofo ?a di</l> 
+<l>lettantia intrauompe essyy a</l> 
+<l>Mlscie lanimo nosro etiafo</l>  
+<l>Per la pua uilta almale piu</l> 
+<l>Che alle ne / a?anessuna choro</l> 
+<l>Non ti srhsra per la. liderta</l> 
+<l>Del pierno albiro asperrhiati ne</l> 
+<l>Lla prma liberta data alpz</l> 
+<l>Imo padre adamo che chotutto</l> 
+<l>Che iddio gli chomandasser non</l> 
+<l>Pecchorue non gli Tol?e pero</l> 
+<l>Ilpierno albitro da fore si chome</l> 
+<l>Allu? Piagne / e cho?i nonto??e</l> 
+<l>Mar aneurno eparo siamo o?</l> 
+<l>iamati aniamali titrazional?</l> 
+<l>Euseiendo fuori ?ella ragione</l> 
+<l>siamo simili ablisrinah in?mag</l>   
+                                </lg>
+                                    <lg><l><milestone n="1V" unit="fol."/><cb n="a"/>Nali cioe ber?ali Epero sassy</l>    
 <l>anticha fussono e no siemo di</l> 
 <l>chonsuertudine cioe non sieno</l> 
 <l>palesati alla volgare ge[n]te</l> 
@@ -125,7 +193,7 @@
 <lg>
 <l><cb n="b"/>molti di magiore nazione d[i] me </l>
 <!-- d - ligation d + i, or missing i? -->
-    <l>vivere e stare e fare <choice><sic>pregio</sic><corr>pegio</corr></choice></l>
+<l>vivere e stare e fare pregio </l>
 <!-- Scribal error? pregio > pegio -->
 <l>di me / o che sia per li loro pecch</l>
 <l>ati paterni / e questo io non gi</l>
@@ -174,7 +242,6 @@
 <l>e usciendo fuori della ragione</l> 
 <l>siamo simili a gli animali irrazio</l>   
 </lg>
-    
 <lg>
 <l><milestone n="1V" unit="fol."/><cb n="a"/>nali cioe bestiali / e pero sissy</l>
 <!-- sissy < si ? -->    
@@ -448,7 +515,6 @@
                             
                             <l>?cho meschino chapito li?m?</l>
                         </rubric>
-    <!-- Missing lg -->
                         <l><hi rend="red">E</hi>sendo milion punci</l>
                         
                         <l>Pe di taranto sigli</l>
