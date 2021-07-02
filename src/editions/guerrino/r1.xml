@@ -70,19 +70,41 @@
         </milestone>
     </div1> -->
 <text>
-    <body>
-        <div1 type="book" n="1">
-            <rubric>
-                <lg><!-- Chapter # -->
-                    <l><milestone n="1R" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>...</l>
-                </lg>
-            </rubric>
-                <lg>
-                    <l><hi rend="blue">N</hi>aturalemente pare</l>
-                    <l>che sia di chonsuet</l> 
-                    <l>udine che gli uomi</l> 
-                    <l>ni si dilettono d'udire</l> 
-                    <l>nouelli altori ./ osse</l>
+<body>
+<div1 type="book" n="1">
+<rubric>
+<!-- no lg tag inside of rubric -->
+<l><milestone n="1R" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>ui comincia [il] primo li</l>
+<l>bro chiamato el meschino</l>
+<l>di durazo e questo meschino</l>
+<l>fu suo sopranome / ch'el</l>
+<l>suo primo e diritto nome</l>
+<l>fue ghuerino del sangue de</l>
+<l>llegniagio de reali di francia</l>
+<l>ed è partito questo ... i[n] otto</l>
+<l>parti / e tratta di tutte e tre le</l>
+<l>parti del mondo ciò è d'africha</l>
+<!-- ciò è > cioè ? -->
+<l>asia e uropia / e tratta degli</l>
+<l>alberi del sole e della luna</l>
+<l>e tratta della sibilla / e tratta</l>
+<l>del purghatorio di san patrizio</l>
+<l>e di molti grandi fatti d'arme</l>
+<l>che fei questo meschino che</l>
+<!-- fei > fe' - vertical stroke after e; unclear -->
+<l>cierchando va chi fu la sua n</l>
+<l>azione cioè il suo padre cho</l>
+<l>me la storia dimostra e qui</l>
+<l>chomincia il proemio dell'al</l>
+<l>tore nel chapitolo primo</l>
+<!-- Something after primo, unclear -->
+</rubric>
+<lg>
+<l><hi rend="blue">N</hi>aturalemente pare</l>
+<l>che sia di chonsuet</l> 
+<l>udine che gli uomi</l> 
+<l>ni si dilettono d'udire</l> 
+<l>nouelli altori ./ osse</l>
 <!-- Scribal error? altori > autori -->
                     <l>anticha fussono e no siemo di</l> 
                     <l>chonsuertudine cioe non sieno</l> 
@@ -150,104 +172,175 @@
 <l>siamo simili ablisrinah in?mag</l>   
                                 </lg>
                                     <lg><l><milestone n="1V" unit="fol."/><cb n="a"/>Nali cioe ber?ali Epero sassy</l>    
+<l>anticha fussono e no siemo di</l> 
+<l>chonsuertudine cioe non sieno</l> 
+<l>palesati alla volgare ge[n]te</l> 
+<l>perche chose antiche e non pale</l> 
+<l>sate paiono nove alle menti</l> 
+<l>di choloro che non hanno hudite</l> 
+<l>piu / e per questo medesimo di</l> 
+<l>Letto di cierchare molte storie</l> 
+<l>nouelle  e avendo di piaciere di</l> 
+<l>molte storie trovai questa le</l> 
+<l>ggienda che molto mi piaque / on</l> 
+<l>d'io non voglio essere ingrato de</l> 
+<l>l beneficio ricievto da dDio e da</l> 
+<l>lla humana natura ricievi .</l> 
+<l>da cieli più che degnio  merito</l> 
+<l>il perche sono di bassa chondizione</l> 
+<l>e pure mi chonforta perch'io veggo</l> 
+</lg>
+<lg>
+<l><cb n="b"/>molti di magiore nazione d[i] me </l>
+<!-- d - ligation d + i, or missing i? -->
+<l>vivere e stare e fare pregio </l>
+<!-- Scribal error? pregio > pegio -->
+<l>di me / o che sia per li loro pecch</l>
+<l>ati paterni / e questo io non gi</l>
+<l>udcho ma rimangha nel primo</l>
+<l>fattore / anchora ueggio per lo</l>  
+<l>chontrario molti di piu vile d[i]</l>
+<!-- d - ligation d + i, or missing i? -->
+<l>me sono sormontati / e fanno e</l> 
+<l>stanno e vivono meglio di me / e q</l> 
+<l>esto mi chonforta che noi . sia</l>
+<l>mo tutti figgluoli del padre</l> 
+<l>creati da uno solo fattore che</l> 
+<l>lucie delle sue luci e grazie</l>
+<l>piu e meno sechondo che p[er] noi</l> 
+<l>s'aquista chi in una hopera e</l>
+<l>chi in una altra / e questo e do</l> 
+<l>tato dai dotati cieli sicche . ho</l> 
+<l>gni uno puo venire nel gra</l> 
+<l>do suo vertuoso / che resta</l> 
+<l>in questa vita nella quale p[er]</l> 
+<l>questa puo aguistare e 'mpren</l> 
+<l>dere virtu e vizio / benche a</l> 
+<l>mme pare che lla magior pa</l> 
+<l>rte seghuita la piu fatichosa</l> 
+<l>di queste / inpero che e doppia</l>
+<!-- queste > questa ? -->
+<l>faticha ène affare al male</l>
+                    <!-- ène: è con -ne paragogico; see Rohlfs, 336 -->
+<l>a rispetto del bene solo la di</l> 
+<l>lettantia intrarronpe e ssy a</l> 
+<l>viliscie l'animo nostro e tiralo</l>  
+<l>per la sua vilta al male . piu</l> 
+<l>che a bbene / ma nessuna chosa</l> 
+<l>non ti schusa per la liberta</l> 
+<l>del pieno albitro / ispècchiati ne</l> 
+<l>lla prima liberta data al pr</l> 
+<l>imo padre adamo che cho[n] tutto</l> 
+<l>che iddio gli chomandasse non</l> 
+<l>pecchare non gli tolse pero</l> 
+<l>il pieno albitro di fare si chome</l> 
+<l>a llui piaque / e chosi non tolse</l> 
+<l>mai a neunno / e pero siamo ch</l>
+<!-- neunno > neuno ? -->
+<l>iamati animali <choice><sic>irrazionali</sic><corr>razionali</corr></choice></l>
+<!-- scribal correction: ir of irrazionale stuck out -->
+<l>e usciendo fuori della ragione</l> 
+<l>siamo simili a gli animali irrazio</l>   
+</lg>
+<lg>
+<l><milestone n="1V" unit="fol."/><cb n="a"/>nali cioe bestiali / e pero sissy</l>
+<!-- sissy < si ? -->    
+<l>chonviene a nnoi la punizione</l> 
+<l>del fallo per questo . niuno altro</l> 
+<l>animale e ssugietto a lleggie</l> 
+<l>di punizione che noi perche no[n]</l>
+<l>anno la ragione / e per questo</l> 
                             
-                            <l>chontune annoi lapunizion?</l> 
-                            
-                            <l>Delfei Llo per questo niunoaliro</l> 
-                            
-                            <l>Animale essugietto alle ggu</l> 
-                            
-                            <l>Dupunizione che oi per che no</l>  
-                            
-                            <l>anno larabione e per que cfro??</l> 
-                            
-                            <l>sono chiamati animali inrazi</l>  
-                            
-                            <l>Onali eioe sanza ragione</l> 
-                            
-                            <l>e per che alihuno durha la foz</l> 
-                            
-                            <l>Tunamia mi so chosy chapitae</l>  
-                            
-                            <l>Aueso non e choso guiso?? che</l> 
-                            
-                            <l>lla fortuna e choso ??rra e</l> 
-                            
-                            <l>Dizitta manoi raramo indir</l>
-                            
-                            <l>?tti nelle no?re hoperogiona</l> 
-                            
-                            <l>La fortuna raredde hoperagiona</l> 
-                            
-                            <l>Epero none ??holpato la fortuna mainrholpa noi me?e</l> 
-                            
-                            <l>Pima errella urp??nde p?e</l>
-                            
-                            <l>Meno inuno huobro rhe ?ni?</l> 
-                            
-                            <l>No al??o querto amene pez</l> 
-                            
-                            <l>Rhrnoi ririamo atti aronare</l> 
-                            
-                            <l>Eroniamo noi didane??a rroz</l> 
-                            
-                            <l>Menti almon?o ?pero abni</l> 
-                            
-                            <l>Uno rirri inbiebni dinparare</l> 
-                            
-                            <l>Aronare buono prorme?te ella</l> 
-                            
-                            <l>Fortuna riblrebe intone dip</l> 
-                            
-                            <l>Erfetta mur?fa agabhuarda</l>  
-                            
-                            <l>Rhelle rhorde nonrieno fa?e</l> 
-                            
-                            <l>?rpero rhebbe rhonronam?e ho</l> 
-                            
-                            <l>Urpondeuddono e non raredda</l> 
-                            
-                            <l>Paro cholpa per non e date pr</l> 
-                            
-                            <l>Opio che non sanza  ragione / e</l> 
-                            
-                            <l>Non e cholpa de lla fortuna o</l> 
-                            
-                            <l>Dio chiamo e?nome de lla ?i</l> 
-                            
-                            <l>Ssimo iddio e tutte la por?e d</l> 
-                            
-                            <l>All? Hordinate ne?eli che</l>  
-                            
-                            <l>Mi chon?edino non per de dua</l> 
-                            
-                            <l>?abioine mapergrazia dcscz????</l> 
-                            
-                            <l>Ineue anesa pichola hopera</l> 
-                            
-                            <l>Gimiamano / ?chon quello ho</l>  
-                        </l>
-                            <cb n="b"/>
-                    <l>Ordine che per me supotra ???</l>
+<l>sono chiamati animali inrazi</l>  
 
-                    <l>Da frutto e da di?etto /.</l> 
+<l>Onali eioe sanza ragione</l> 
 
-                     <l>XXXX red XXXXX</l> 
+<l>e per che alihuno durha la foz</l> 
 
-                    <l>Magnitichando charto<l/> 
+<l>Tunamia mi so chosy chapitae</l>  
 
-                    <l>Magnio che di fianria</l> 
+<l>Aueso non e choso guiso?? che</l> 
 
-                    <l>Fagliuolo</l>  
+<l>lla fortuna e choso ??rra e</l> 
 
-                    <l>Pipino che d??ancia</l>  
+<l>Dizitta manoi raramo indir</l>
 
-                    <l>Einperadoue di roma  ??egni</l>
+<l>?tti nelle no?re hoperogiona</l> 
 
-                    <l>?ndo ne gli anni del ne ?osi</l> 
+<l>La fortuna raredde hoperagiona</l> 
 
-                    <l>Ngnioue gusocrisro dXXXX</l> 
+<l>Epero none ??holpato la fortuna mainrholpa noi me?e</l> 
 
+<l>Pima errella urp??nde p?e</l>
+
+<l>Meno inuno huobro rhe ?ni?</l> 
+
+<l>No al??o querto amene pez</l> 
+
+<l>Rhrnoi ririamo atti aronare</l> 
+
+<l>Eroniamo noi didane??a rroz</l> 
+
+<l>Menti almon?o ?pero abni</l> 
+
+<l>Uno rirri inbiebni dinparare</l> 
+
+<l>Aronare buono prorme?te ella</l> 
+
+<l>Fortuna riblrebe intone dip</l> 
+
+<l>Erfetta mur?fa agabhuarda</l>  
+
+<l>Rhelle rhorde nonrieno fa?e</l> 
+
+<l>?rpero rhebbe rhonronam?e ho</l> 
+
+<l>Urpondeuddono e non raredda</l> 
+
+<l>Paro cholpa per non e date pr</l> 
+
+<l>Opio che non sanza  ragione / e</l> 
+
+<l>Non e cholpa de lla fortuna o</l> 
+
+<l>Dio chiamo e?nome de lla ?i</l> 
+
+<l>Ssimo iddio e tutte la por?e d</l> 
+
+<l>All? Hordinate ne?eli che</l>  
+
+<l>Mi chon?edino non per de dua</l> 
+
+<l>?abioine mapergrazia dcscz????</l> 
+
+<l>Ineue anesa pichola hopera</l> 
+
+<l>Gimiamano / ?chon quello ho</l>
+    
+<l><cb n="b"/>Ordine che per me supotra ???</l>
+
+<l>Da frutto e da di?etto /.</l>
+</lg>
+<lg>
+
+ <l>XXXX red XXXXX</l><!-- rubric tag? -->
+
+<l>Magnitichando charto<l/> 
+
+<l>Magnio che di fianria</l> 
+
+<l>Fagliuolo</l>  
+
+<l>Pipino che d??ancia</l>  
+
+<l>Einperadoue di roma  ??egni</l>
+
+<l>?ndo ne gli anni del ne ?osi</l> 
+
+<l>Ngnioue gusocrisro dXXXX</l>
+
+</lg>
+<lg>
                      <l>XXXXXxx . O ttanta tue anni e</l>
 
                      <l>ssendo charto mangnio nuiui</l>
@@ -299,8 +392,8 @@
                      <l>Ducha du ?orghognia che ero</l> 
 
                      <l>Nimicho di charto che auena</l>  
-                     <l><milestone n="2R" unit="fol."/><cb n="a"/></l>
-                        <l>No me che iardo  da pratta /eu</l> 
+                     
+                        <l><milestone n="2R" unit="fol."/><cb n="a"/>No me che iardo  da pratta /eu</l> 
                         
                         <l>Enne chon quatro pigli?oly</l> 
                         
@@ -374,9 +467,7 @@
                         
                         <l>I hon passarono inpuglia e?egli</l>
                         
-                        <cb n="b"/>
-                        
-                        <l>Delregnio silli ucierietto no</l>
+                        <l><cb n="b"/>Delregnio silli ucierietto no</l>
                         
                         <l>Einquesro efue inchoronato</l>
                         
@@ -405,6 +496,7 @@
                         <l>Chomincio gtentare  aprue</l>
                         
                         <l>Magiore sinbnioria /</l>
+                    </lg>
                         
                         <rubric>
                             <l>Chome amlon princupe buta</l>
