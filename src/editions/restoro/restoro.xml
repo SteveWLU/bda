@@ -65,7 +65,14 @@
                 <listWit>
                     <!-- TEI P5 12.1.4.3 -->
                     <witness>Florence, Riccardiana, ms. 2164</witness>
-                    <!-- The oldest manuscript witness -->
+                    <!-- The oldest manuscript witness; "il manoscritto 2164 della Biblioteca Riccardiana 
+                        di Firenze [...] ha un'ornamentazione definita di imitazione bolognese, posteriore 
+                        alla scrittura, fatta risalire a un periodo a cavallo fra il XIII e il XIV secolo. 
+                        I motivi vegetali nelle lettere miniate (le fgure, disegnate e non colorate, 
+                        all'inizio di ciascuno dei due libri appaiono più tarde di poco meno di un secolo) 
+                        accostano il codice ad altri quattro manoscritti della Bibliothèque Nationale di 
+                        Parigi. Uno di essi, l'italiano 233, contenente un volgarizzamento di Egidio Romano, 
+                        è scritto in aretino, così come il testimone restoriano." (Morino, ed., IX)-->
                     <witness>Vatican, Apostolica, Barberiniano latino 4110</witness>
                     <witness>Vatican, Apostolica, Chigiano M. VIII. 169</witness>
                     <witness>Florence, Riccardiana Library, ms. 2229</witness>
