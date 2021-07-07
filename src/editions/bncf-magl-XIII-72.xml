@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Information about publication or distribution</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Florence</settlement>
+                  <repository>Biblioteca Nazionale</repository>
+                  <idno>Magliabechiano XIII.72</idno>
+               </msIdentifier>
+            </msDesc>
+            <msContents>
+               <msItem n="1">
+                  <locus>fols. 1r-34r</locus>
+                  <title>Portolano</title>
+                  <rubric n="1">Qui comincia elibro chiamato portolano composto da valentissimi marinai et emendato</rubric>
+                  <handNote>On fol. 27v there is a margin note in a later possibly library hand that reads: <handShift>fine del Portolano Cod. 256.</handShift></handNote>
+               </msItem>
+               <msItem n="2">
+                  <locus>fols. 34v-41r</locus>
+                  <title>[catasto del 1427]</title>
+                  <rubric>Della graneza del catasto del 1427</rubric>
+               </msItem>
+               <msItem n="3">
+                  <locus>fols. 41v-42v</locus>
+                  <p>Three blank pages. An upside down <watermark>lily flower</watermark> watermark clearly visible on folio 42.</p>
+               </msItem>
+               <msItem>
+                  <locus>43r-88v</locus>
+                  <title>Il compasso di navigazione</title>
+                  <handNote>Change of hand starting 43r?</handNote>
+                  <decoNote>Space reserved for a missing decorative initial. A small q is in the left margin as a note to the illuminator.</decoNote>
+               </msItem>
+            </msContents>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>
