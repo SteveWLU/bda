@@ -308,7 +308,7 @@
 <l>Fortuna della inuidia sig?</l>
 <l>Chomincio gtentare  aprue</l>
 <l>Magiore sinbnioria /</l>
-<lg>
+</lg>
 <rubric>
     <l>Chome amlon princupe buta</l>
     <l>Ranto danbero fore ghruera</l>
@@ -363,8 +363,8 @@
     <l>Ando I schorendo epredando el</l>
     <l>Paese edupoi non dorono udu</l>
     <l>Raggo</l>
-<rubric> <!-- red section come nack to later --> </rubric> 
     </lg>
+<rubric> <!-- red section come nack to later --> </rubric> 
     <lg type="chapter" n="4">
     <l><hi rend="red">O</hi>etifuchanto lanone</l>
     <l>Lla adurago chome</l>
@@ -435,6 +435,7 @@
     <l>Ando ischozendo epredando el</l>
     <l>Paese edrpoi nandorono udu</l>
     <l>Raggo /.</l>
+    </lg>
 <rubric>
     <l>Chome lagunte deri scu anicho</l>
     <l>Bbatterono chonanelli didu</l>
@@ -555,6 +556,7 @@
     <l>Detto ??spuose ilmeschino on</l>
     <l>Gni chosa  sa atte lal?a m</l>
     <l>Attina  sifu richominato.</l>
+</lg>
     <rubric>
     <l>Chome fumesso oldono on</l>
     <l>Piago e Como el meschino</l>
@@ -635,6 +637,7 @@
     <l>en?a cherue asilla doro nome</l>
     <l>anesse notizia eali famdeo ?</l>
     <l>chon pagnio grampego d?a</l>
+    </lg>
     <rubric>
         <l>come el meschino sipantre dago</l>
         <l>?rmnno poli e amdo uecso elbra</l>
@@ -643,8 +646,10 @@
         <l>nolmane maon? eueclo la</l>
         <l>tuma nando capitoloi</l>
         <l>oo?s</l>
+        <!-- come back to this -->
     </rubric>
         <lg type="chapter" n="?">
+            <!-- make sure to add chapter number -->
         <l><hi rend="red">P</hi>reso el meschino chon</l>
         <l>miato dallo i peradore</l>
         <l>piangiendo lonperador</l>
