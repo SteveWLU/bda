@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="bdl.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="bdl-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -217,8 +217,6 @@
             <!-- Last word of line unclear -->
             <l>di frutto e di diletto /.</l>
 </lg>
-    
-<lg>
 <rubric>
     <l>Chome e per che chagione la</l>
     <l>schiatta di borghognia furono</l>
@@ -314,7 +312,7 @@
 <l>Fortuna della inuidia sig?</l>
 <l>Chomincio gtentare  aprue</l>
 <l>Magiore sinbnioria /</l>
-</lg>
+</<lg>
 <rubric>
     <l>Chome amlon princupe buta</l>
     <l>Ranto danbero fore ghruera</l>
@@ -628,7 +626,11 @@
     <l>Euerano già g???h tutti I si</l>
     <l>Ngniori e ogni ?na ghuata</l>
     <l>Na ?iquello ?illano deduce</l>
+        
+        
     <!-- some more pages after this, moving on to 29R -->
+        
+        
     <l><milestone n="29R" unit="fol."/><cb n="a"/>due che gli ritornerebbe dalui</l>
     <l>e dale famdro e chosi amro epr</l>
     <l>o misse e fririy molte lagr?me</l>
@@ -699,8 +701,61 @@
         <l>aore naruchandi ?iue</l>
         <l>rso latana per molti die qua</l>
         <l>ndo arremi e quando auele</l>
-        <l>
-                            
+        <l>sechondo e tenpi earri auah a</l>
+        <l>lloscretto di samor presso allo</l>
+        <l>tana a duguento miglia pr</l>
+        <l>esono porto alla fo??e duno fi</l>
+        <l>ume che ssi chiama uardon</l>
+        <l>el meschino smonto e armo ssi</l>
+        <l>e monto achauallo e partito</l>
+        <l>si dalla ghalea e su per lari</l>
+        <l>ua di quesio frume nando In</l>
+        <l>sino auna grande monta gnia</l>
+        <l>chiamata chorouan nando</l>
+        <l>e poi suiolfe uerso echolchy</l>
+        <l>per terre di saraini e abando</l>
+        <l>no e no?ri mari e amdome</l>
+        <l>uarso elmare chaspio el?ale </l>
+    <l><milestone n="29V" unit="fol."/><cb n="a"/>mare a tu nomi el primo e</l>
+    <l>chaspia secondo alganos tergo</l>
+    <l>archanio e quesci nomi sono</l>
+    <l>perle prauncie che glia din</l>
+    <l>torno che naru? chomo ?e?a?</l>
+    <l>are alchune giente lachio</l>
+    <l>mano mare tarterescho pe</l>
+    <l>rche di nerfo lat?rteria labuo</l>
+    <l>no e tartari bassi e quali sono</l>
+    <l>di pui humana chondzione e fo</l>
+    <l>no merchatanh ayaque gli che</l>
+    <l>sono chiamati tartari machal</l>
+    <l>eos sono giente besciale e u</l>
+    <l>iuono chome fammo tramna e</l>
+    <l>lupi e chami sanga ne ssuna</l>
+    <l>leggie e mangiano la char</l>
+    <l>ne erida chome e chami eno</l>   
+    <l>ne nel mondo altro che due gie</l>
+    <l>negagioni che abbino chorpo d</l>
+    <l>persona umana che mangino</l>
+    <l>charne erida lua a sono apesi</l>
+    <l>tartari alturiori chiamati ay</l>
+    <l>a?habeo se gli altri pnoi cha</l>
+    <l>inomoni che anno chapo di ch</l>
+    <l>ane e quesca giene ragione di</l>
+    <l>tartari che sono pui sotto la</l>
+    <l>tua montana abitano ?le</l>
+    <l>chauerne delle montagme</l>
+    <l>e tiene quescaltra tarteri ?</l>
+    <l>bassa dal mare chaspio ?in</l>
+    <l>sino almare di fiand?a ??</l>
+    <l>si dal ponente alleuante in</l>
+    <l>india ? la perfia ?la sia diu</l>
+    <l>erso tra montana chon finae</l>
+    <l>trodonia cioe la mangnio</l>
+    <l>uerso tramontana freddo</l>
+    <l>masono chomumali ay?????ebe</l>
+    <l>stiali sono tutti gio ghanh e sono</l>
+    <l><cb n="b"/>nimci di que qli della suprio re</l>
+    <l>tartaria per </l>
 </div1>                
 </body>
 </text>
