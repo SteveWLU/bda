@@ -14,10 +14,6 @@
                 <edition>
                     <date>1445</date>
                 </edition>
-                <p>
-                    <!-- information about the edition of the
-				resource  -->
-                </p>
             </editionStmt>
             <extent>
                 <!-- description of the size of the resource -->
@@ -312,7 +308,7 @@
 <l>Fortuna della inuidia sig?</l>
 <l>Chomincio gtentare  aprue</l>
 <l>Magiore sinbnioria /</l>
-</<lg>
+<lg>
 <rubric>
     <l>Chome amlon princupe buta</l>
     <l>Ranto danbero fore ghruera</l>
@@ -691,7 +687,7 @@
         <l>dcitta o ton?adulmacio ??aspio</l>
         <l>quanti nomi alli a einpan?te</l>
         <l>toicha di ta??re ?? chapitoloi</l>
-        <l> <!-- roman numerals ---> </l>
+         <!-- roman numerals --> 
         <!--found this rubric very challenging, come back later -->
     </rubric>
         <lg type="chapter" n="?">
@@ -756,6 +752,7 @@
     <l>stiali sono tutti gio ghanh e sono</l>
     <l><cb n="b"/>nimci di que qli della suprio re</l>
     <l>tartaria per </l>
+        </lg>
 </div1>                
 </body>
 </text>
