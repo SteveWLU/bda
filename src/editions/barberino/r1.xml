@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="bdl.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -640,9 +640,66 @@
     <rubric>
         <l>come el meschino sipantre dago</l>
         <l>?rmnno poli e amdo uecso elbra</l>
-        <l>mo di s</l>
+        <l>mo di sangiongio e allessamdro g</l>
+        <l>lie uno galoa e entro alospunto</l>
+        <l>nolmane maon? eueclo la</l>
+        <l>tuma nando capitoloi</l>
+        <l>oo?s</l>
     </rubric>
-        
+        <lg type="chapter" n="?">
+        <l><hi rend="red">P</hi>reso el meschino chon</l>
+        <l>miato dallo i peradore</l>
+        <l>piangiendo lonperador</l>
+        <l>e lobacio e abraciollo</l>
+        <l>e bene di sselo e no leuagli dar</l>
+        <l>e conpangnia manonne uole</l>
+        <l>oiento domari dozo porto dasp</l>
+        <l>endere earmato a chauallo</l>
+        <l>usci drohoscantinopoli e nerfo</l>
+        <l>lo scretto dali spunto namdo e</l>
+        <l>ale fandro gli fecie chon pagnia</l>
+        <l>insino albra?cio di san giorgio</l>
+        <l>e imaneua alesandro fatto</l>
+        <l>aparechiare una ghal?a ?</l>
+        <l>chegli nonamdasse ?terrede</l>
+        <l>turchi ?amore derre ascil</l>
+        <l>la doro e in quella ghalea a?</l>
+        <l>isse il suo chariallo eordino</l>
+        <l>che glino loponessino o iermi</l>
+        <l>nia ointre bufonda oincholchi</l>
+        <l>pru che inturchia nollo pone</l>
+        <l>wwono e quando il meschino en</l>
+        <l>tro inghalea ealramo alesan</l>
+        <l><cb n="b"/>dro e dirotta mento piasono ?</l>
+        <l>mendue el meschino lo??o</l>
+        <l>che gli faciesse dire ufrci al so</l>
+        <l>cierdoti e che glino pre??asso</l>
+        <l>no addio ? lui e poi enteo</l>
+        <l>nella ghalea e ferono ue</l>
+        <l>la ea <!-- insertion above? --> remi e a uela suparti</l>
+        <l>rono e dent?arono nel mare =</l>
+        <l>maore euerso latana nando</l>
+        </lg>
+    <rubric>
+        <l><hi rend="red">F</hi>inito?lp?mo libro del mesc</l>
+        <l>hino di ?u??azo ? chomincia el</l>
+        <l>sechondo libro en prima doula</l>
+        <l>galea ?lomac?mao? lopose?m</l>
+        <l>olti nomi d??ami edman?</l>
+        <l>dcitta o ton?adulmacio ??aspio</l>
+        <l>quanti nomi alli a einpan?te</l>
+        <l>toicha di ta??re ?? chapitoloi</l>
+        <l> <!-- roman numerals ---> </l>
+        <!--found this rubric very challenging, come back later -->
+    </rubric>
+        <lg type="chapter" n="?">
+        <l><hi rend="red">P</hi>artita che fu lachale</l>
+        <l>a dalbra?cio di somgio</l>
+        <l>rgio e perlo mare m</l>
+        <l>aore naruchandi ?iue</l>
+        <l>rso latana per molti die qua</l>
+        <l>ndo arremi e quando auele</l>
+        <l>
                             
 </div1>                
 </body>
