@@ -105,7 +105,7 @@
                         <repository>Biblioteca Riccardiana</repository>
                         <idno>Riccardiano 2266</idno>
                     </msIdentifier>
-               </msDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -304,36 +304,41 @@
                     <!-- check serviere -->
                     <l>di mia mano / e chon quello ho</l>
                     <!-- check di -->
-                    <!-- STOP SPM 12 luglio 2021 -->ß <l><cb n="b"/>rdine che per me si potra ?</l>
-                    <!-- Last word of line unclear -->
+                    <l><cb n="b"/>rdine che per me si potrà più</l>
                     <l>di frutto e di diletto /.</l>
                 </lg>
                 <rubric>
                     <l>Chome e per che chagione la</l>
                     <l>schiatta di borghognia furono</l>
-                    <l>singniori di puglia e del pr?</l>
+                    <l>singniori di puglia e del princi</l>
                     <!-- last letters unclear - check MS -->
                     <l>pato di taranto e di chui naque</l>
-                    <l>el famoso meschino. chapitolo . ii</l>
+                    <l>el famoso meschino. chapitolo . ii -</l>
                     <!-- last letter of chapitolo - maybe i? - check MS -->
                 </rubric>
                 <lg type="chapter" n="2">
                     <l><hi rend="red">M</hi>agnifichando charlo</l>
-                    <l>magnio che di francia</l>
-                    <l>figliuolo</l>
+                    <l>magnio re di francia</l>
+                    <l>figliuolo <gap reason="faded" extent="two words"/></l>
                     <l>pipino re di francia</l>
-                    <l>Einperadoue di roma ??egni</l>
-                    <l>?ndo ne gli anni del ne ?osi</l>
-                    <l>Ngnioue gusocrisro dXXXX</l>
-                    <l>XXXXXxx . O ttanta tue anni e</l>
-                    <l>ssendo charto mangnio nuiui</l>
-                    <l>Ele c?o imperadoue manie.i</l>
-                    <l>Choronato per che promasse?</l>
-                    <l>?otto a dio di non pighaue da</l>
-                    <l>Per io senpui ma non e aqui?</l>
-                    <l>Ana. Elchammino da santo ?a</l>
-                    <l>Chopo aposcolo da ghaligia eq</l>
-                    <l>Iesro fu altenpo dupapa dion?</l>
+                    <l>e inperadore di roma regni</l>
+                    <l>ando negli anni del nostro si</l>
+                    <l>ngniore gieso cristo d<gap reason="faded" extent="several words"/></l>
+                    <l><gap reason="faded" extent="several words"/> ottanta tre anni e</l>
+                    <l>ssendo charto mangnio nuovo</l>
+                    <l>electo inperadore ma
+                            <choice><abbr>no</abbr><expan>no<ex>n</ex></expan></choice> e
+                                <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice></l>
+                    <!-- utf-8 character to represent n with titulus -->
+                    <!-- utf-8 character to represent i with titulus -->
+                    <l>choronato perche promisse di</l>
+                    <l>botto a dio di non pigliare d'<choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice></l>
+                    <!-- utf-8 character to represent i with titulus -->
+                    <l>perio sen prima none aquist</l>
+                    <l>ava el chammino di santo ia</l>
+                    <l>chopo apostolo di ghalizia e q</l>
+                    <l>uesto fu al tenpo di papa lione</l>
+                    <!-- SPM STOP 12 July 2021 -->
                     <l>Ein queso tenpo parssarono gl</l>
                     <l>Ia fuchani in italia neru??</l>
                     <l>Di puglia e duchalauia epr</l>
