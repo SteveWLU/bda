@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="text">Composizione del mondo</title>
+                <sponsor>
+                    <address>
+                        <addrLine>Washington and Lee University</addrLine>
+                        <addrLine>204 W. Washington St.</addrLine>
+                        <addrLine>Lexington, VA 24450</addrLine>
+                    </address>
+                </sponsor>
+                <funder>Washington and Lee University, Lenfest Endowment</funder>
+                <principal>Stephen P. McCormick</principal>
+                <respStmt>
+                    <name resp="editor">Stephen P. McCormick</name>
+                    <resp>Transcription and TEI markup.</resp>
+                </respStmt>
+                <respStmt>
+                    <name resp="encoder">Stephen P. McCormick</name>
+                    <resp>Web interface development</resp>
+                    <resp>TEI coding and development</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MKB">Mackenzie K. Brooks</name>
+                    <resp>TEI consultant</resp>
+                    <resp>TEI coding and development</resp>
+                    <resp>Web development</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0.0">
+                    <title rend="italic" type="digital">Version 0.1, enriched with text structure
+                        tags, abbreviation expansions, basic decoration identification, and a notes
+                        and commentaries apparatus.</title>
+                    <date when="2017">09 July 2021</date>
+                </edition>
+                <respStmt>
+                    <name>Stephen P. McCormick</name>
+                    <resp>Created initial digital document, developed TEI tags for text structure,
+                        and began tagging for text structure</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Washington and Lee University</publisher>
+                <pubPlace>Lexington, Virginia</pubPlace>
+                <address>
+                    <name type="institution">Washington and Lee University</name>
+                    <street>204 W. Washington St.</street>
+                    <name type="city">Lexington</name>
+                    <name type="state">Virginia</name>
+                    <postCode>24405</postCode>
+                    <name type="country">USA</name>
+                </address>
+                <availability status="free">
+                    <p>The digital transcription of Restoro d'Arezzo's <hi>La Composizione del
+                            mondo</hi> is part of the Benci Digital Library project. All texts are
+                        freely available for use. Images may be subject to copyright
+                        restrictions.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <!-- TEI P5 12.1.4.3 -->
+                    <witness>Florence, Biblioteca Nazionale, II.viii.37</witness>
+                    <witness>Vatican, Apostolica, Barberiniano latino 4110</witness>
+                    <witness>Vatican, Apostolica, Chigiano M. VIII. 169</witness>
+                    <witness>Florence, Riccardiana Library, ms. 2229</witness>
+                    <witness>Florence, Riccardiana Library, ms. 2164</witness>
+                    <!-- The oldest manuscript witness; "il manoscritto 2164 della Biblioteca Riccardiana 
+                        di Firenze [...] ha un'ornamentazione definita di imitazione bolognese, posteriore 
+                        alla scrittura, fatta risalire a un periodo a cavallo fra il XIII e il XIV secolo. 
+                        I motivi vegetali nelle lettere miniate (le fgure, disegnate e non colorate, 
+                        all'inizio di ciascuno dei due libri appaiono più tarde di poco meno di un secolo) 
+                        accostano il codice ad altri quattro manoscritti della Bibliothèque Nationale di 
+                        Parigi. Uno di essi, l'italiano 233, contenente un volgarizzamento di Egidio Romano, 
+                        è scritto in aretino, così come il testimone restoriano." (Morino, ed., IX) -->
+                </listWit>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Florence</settlement>
+                        <repository>Biblioteca nazionale di Firenze</repository>
+                        <idno>II.viii.37</idno>
+                    </msIdentifier>
+                    <head type="msHeading">
+                        <title type="manuscript" xml:lang="IT">Libro della composizione del
+                            mondo</title>
+                        <origPlace cert="high">Florence</origPlace>
+                        <origDate cert="medium" evidence="internal">1480</origDate>
+                        <!-- Check on date and certainty -->
+                    </head>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <!-- <variantEncoding method="location-referenced" location="external"/> -->
+            <!-- Why won't this validate? -->
+            <editorialDecl>
+                <correction method="markup">
+                    <p>Apparent errors have been corrected using the sic/corr elements, wrapped in a
+                        choice element.</p>
+                </correction>
+                <!-- How do I include methods for abbreviations and omissions? -->
+            </editorialDecl>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="lg"/>
+                    <tagUsage gi="l"/>
+                    <tagUsage gi="head"/>
+                    <tagUsage gi="gap"/>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                <head>
+                    <lb/>Incomincia e libro della composizione del mo<ex>n</ex>
+                    <lb/>do co<ex>n</ex> le sue cagioni composto da Ristoro d'a
+                    <lb/>rezo et i<ex>n</ex> quella nobilissima cipta el q
+                    <lb/>uale e diviso i<ex>n</ex> due libri la quale cipta
+                    <lb/>è posta fuori del zodiaco verso la fine del
+                    <lb/>quinto clima e la sua latitudine dallo
+                    <lb/>equatoer del die e quarantadue gradi
+                    <!-- Check 'equatoer' -->
+                    <lb/>et quindici minuti et la sua longitu
+                    <lb/>dine dalla parte di ponente e xxxii gra<ex>di</ex>
+                    <!-- Check 'gradi' -->
+                    <lb/>et xx minuti
+                </head>
+            <div1 type="book" n="1">
+                <head>
+                    <lb/>Libro primo del trovame<ex>n</ex>to del mondo et
+                    <lb/>della forma rdella sua dispositione
+                </head>
+            </div1>
+            <div2 type="chapter" n="1">
+                <head>
+                    <lb/>Capitolo primo et prologo et andame<ex>n</ex>to
+                    <lb/>a libro
+                </head>
+            </div2>
+        </body>
+    </text>
+</TEI>

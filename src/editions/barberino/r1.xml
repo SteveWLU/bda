@@ -6,9 +6,22 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>
-                    <!-- title of the resource -->
-                </title>
+                <title>Guerrino Meschino</title>
+                <author>
+                    <persName ref="#barberino">Andrea da Barberino</persName>
+                </author>
+                <respStmt xml:id="#spm">
+                    <persName>McCormick, Stephen P.</persName>
+                    <resp>Founding editor, manuscript transcription, TEI development and markup, interface development.</resp>
+                </respStmt>
+                <respStmt xml:id="#jbm">
+                    <persName>Mitchell, Jack B.</persName>
+                    <resp>Founding editor, manuscript transcription, TEI development and markup, interface development.</resp>
+                </respStmt>
+                <respStmt xml:id="#heh">
+                    <persName>ElHussiny, Hussiny</persName>
+                    <resp>Founding programmer, interface development, NLP development and implementation.</resp>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>
@@ -169,46 +182,53 @@
         <!-- scribal correction: ir of irrazionale stuck out -->
         <l>e usciendo fuori della ragione</l> 
         <l>siamo simili a gli animali irrazio</l>   
-            <l><milestone n="1V" unit="fol."/><cb n="a"/>nali cioe bestiali / e pero sissy</l>
-            <!-- sissy < si ? -->    
-            <l>chonviene a nnoi la punizione</l> 
-            <l>del fallo per questo . niuno altro</l> 
-            <l>animale e ssugietto a lleggie</l> 
-            <l>di punizione che noi perche no[n]</l>
-            <l>anno la ragione / e per questo</l> 
-            <l>sono chiamati animali inrazi</l>  
-            <l>Onali eioe sanza ragione</l> 
-            <l>e per che alihuno durha la foz</l> 
-            <l>Tunamia mi so chosy chapitae</l>  
-            <l>Aueso non e choso guiso?? che</l> 
-            <l>lla fortuna e choso ??rra e</l> 
-            <l>Dizitta manoi raramo indir</l>
-            <l>?tti nelle no?re hoperogiona</l> 
-            <l>La fortuna raredde hoperagiona</l> 
-            <l>Epero none ??holpato la fortuna mainrholpa noi me?e</l> 
-            <l>Pima errella urp??nde p?e</l>
-            <l>Meno inuno huobro rhe ?ni?</l> 
-            <l>No al??o querto amene pez</l> 
-            <l>Rhrnoi ririamo atti aronare</l> 
-            <l>Eroniamo noi didane??a rroz</l> 
-            <l>Menti almon?o ?pero abni</l> 
-            <l>Uno rirri inbiebni dinparare</l> 
-            <l>Aronare buono prorme?te ella</l> 
-            <l>Fortuna riblrebe intone dip</l> 
-            <l>Erfetta mur?fa agabhuarda</l>  
-            <l>Rhelle rhorde nonrieno fa?e</l> 
-            <l>?rpero rhebbe rhonronam?e ho</l> 
-            <l>Urpondeuddono e non raredda</l> 
-            <l>Paro cholpa per non e date pr</l> 
-            <l>Opio che non sanza  ragione / e</l> 
-            <l>Non e cholpa de lla fortuna o</l> 
-            <l>Dio chiamo e?nome de lla ?i</l> 
-            <l>Ssimo iddio e tutte la por?e d</l> 
-            <l>All? Hordinate ne?eli che</l>  
-            <l>Mi chon?edino non per de dua</l> 
-            <l>?abioine mapergrazia dcscz????</l> 
-            <l>Ineue anesa pichola hopera</l> 
-            <l>Gimiamano / ?chon quello ho</l>
+        <l><milestone n="1V" unit="fol."/><cb n="a"/>nali cioe  bestiali / e pero si ssy</l>
+        <l>chonviene a nnoi la punizione</l> 
+        <l>del fallo per questo . niuno altro</l> 
+        <l>animale e ssugietto a lleggie</l> 
+        <l>di punizione che noi perche no[n]</l>
+        <l>anno la ragione / e per questo</l> 
+        <l>sono chiamati animali irrazi</l>  
+        <l>onali cioe sanza ragione</l> 
+        <l>e perche alchuno dicha la for</l> 
+        <l>tuna mia mi fo chosy chapitare</l>  
+        <l>questo non è vero / Inperò che</l> 
+        <l>lla fortuna è rheso giusta e</l> 
+        <l>diritta ma noi si siamo indir</l>
+        <l>itti nelle nostre hoperazioni /</l> 
+        <l>La fortuna sarebbe chomune</l> 
+        <l>e però non è incholpato la fort</l> 
+        <l>una ma incholpa noi mede</l>
+        <l>dismi e sse lla risprende più è</l>
+        <l>meno in uno luogho che in u</l> 
+        <l>no altro / questo aviene per</l> 
+        <l>che noi si siamo atti a sonare</l> 
+        <l>e soniamo noi di diversi stor</l> 
+        <l>menti al mondo / e però ogni</l> 
+        <l>uno si ssi ingiegni d'inparare</l> 
+        <l>a sonare buono stormente / e lla</l>
+        <!-- stormente / scormente ? -->
+        <l>fortuna si gliele intone di p</l> 
+        <l>erfetta musicha ma ghuarda</l>
+        <!-- first letter of 'ma guarda' - compare to other occurences of initial m -->
+        <l>che lle chorde non sieno false</l>
+        <!-- false / falle ? -->
+        <l>Inperò che lle chonsonanze <choice><abbr>no</abbr><expan>no<ex>n</ex></expan></choice></l>
+        <!-- utf-8 character to represent n with titulus -->
+        <l>risponderebbero / e non sarebbe</l> 
+        <l>però cholpa senone di te pr</l> 
+        <l>opio che vai sanza ragione / e</l> 
+        <l>non è cholpa de lla fortuna / o</l> 
+        <l>nd'io chiamo el nome dell'alti</l> 
+        <l>ssimo iddio / e tutte le forze d</l> 
+        <l>a llui hordinate ne' cieli che</l>  
+        <l>mi chonciedino non per debita</l> 
+        <l>ragione ma per grazia di ser</l> 
+        <l>ivere questa picchola hopera</l> 
+    <!-- check serviere -->
+        <l>di mia mano / e chon quello ho</l>
+    <!-- check di -->
+    <!-- STOP SPM 12 luglio 2021 -->
             <l><cb n="b"/>rdine che per me si potra ?</l>
             <!-- Last word of line unclear -->
             <l>di frutto e di diletto /.</l>
