@@ -319,8 +319,10 @@
                 <lg type="chapter" n="2">
                     <l><hi rend="red">M</hi>agnifichando charlo</l>
                     <l>magnio re di francia</l>
+                    <!-- cap R? -->
                     <l>figliuolo <gap reason="faded" extent="two words"/></l>
                     <l>pipino re di francia</l>
+                    <!-- cap R? -->
                     <l>e inperadore di roma regni</l>
                     <l>ando negli anni del nostro si</l>
                     <l>ngniore gieso cristo d<gap reason="faded" extent="several words"/></l>
@@ -332,67 +334,75 @@
                     <!-- utf-8 character to represent n with titulus -->
                     <!-- utf-8 character to represent i with titulus -->
                     <l>choronato perche promisse di</l>
-                    <l>botto a dio di non pigliare d'<choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice></l>
+                    <l>botto a dio di non pigliare
+                                d'<choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice></l>
                     <!-- utf-8 character to represent i with titulus -->
                     <l>perio sen prima none aquist</l>
                     <l>ava el chammino di santo ia</l>
                     <l>chopo apostolo di ghalizia e q</l>
                     <l>uesto fu al tenpo di papa lione</l>
-                    <!-- SPM STOP 12 July 2021 -->
-                    <l>Ein queso tenpo parssarono gl</l>
-                    <l>Ia fuchani in italia neru??</l>
-                    <l>Di puglia e duchalauia epr</l>
-                    <l>Esano tutto quasy ilueame I</l>
-                    <l>Suella marina e lla prima</l>
-                    <l>Teria che pue sono sifue atisa</l>
-                    <l>Pos?a in suella punta d? Talia</l>
-                    <l>I??ul farro di me ssina / essi</l>
-                    <l>Gh?ascarono tutto c?uame e</l>
-                    <l>Per que sco erre charro magnio</l>
-                    <l>??e di francia sissi mosse choll</l>
-                    <l>Amto di tutti io usciani duzop</l>
-                    <l>Ia essi posso in italia contu</l>
-                    <l>Aghafuchani e in que esca da</l>
-                    <l>Tta glia siuui fu inmuto. ?</l>
-                    <l>Ducha du ?orghognia che ero</l>
-                    <l>Nimicho di charto che auena</l>
-                    <l><milestone n="2R" unit="fol."/><cb n="a"/>No me che iardo da pratta /eu</l>
-                    <l>Enne chon quatro pigli?oly</l>
-                    <l>E??ondue nupoti / e?lpumo</l>
-                    <l>D?fi gluroli ebbe nome d?rig</l>
-                    <l>Iori e ilse chondo figlirro ?o</l>
-                    <l>?lrando cioe armaldo que</l>
-                    <l>S? Due fe gherardo chaualue</l>
-                    <l>Ri inborghogri a elter?o fi</l>
-                    <l>Glirrolo ghiri ??iaRdo elquarto</l>
-                    <l>Ebbe nome oy chon equesi due</l>
-                    <l>Fecie charlo chaualieri inasp</l>
-                    <l>Ra monte e perche gli africha</l>
-                    <l>Ni a?eno morti tutti isingnio</l>
-                    <l>Ri berream? Dupuglia ed </l>
-                    <l>Chalauria ellamagior par?e</l>
-                    <l>Charlo sigli doto singniori de</l>
-                    <l>Rreame di puglia edrchahauria</l>
-                    <l>Ebel prinripato di taranto ed </l>
-                    <l>Poi che furono uinti gliafri</l>
-                    <l>Chanti emorto irre agholante</l>
-                    <l>Che era?lmagioue singniore</l>
-                    <l>Dello sce degli africhanti etm </l>
-                    <l>Orto cl?ro figluro lo almonte</l>
-                    <l>Ella magiore parte dere che</l>
-                    <l>Uennono chollui charto sissy</l>
-                    <l>Torno in francia e debbe molta</l>
-                    <l>Ghriera chon gherardo du?a</l>
-                    <l>D?borghognia nella quale</l>
-                    <l>Uimorirono molti nobili sing</l>
-                    <l>Niori fra quali siui mori don</l>
-                    <l>Chiaro e donbrioso nipoti di ghe </l>
-                    <l>Rardo da fratta ebahante ue</l>
-                    <l>Ltachin erria ieri uassallo e? </l>
-                    <l>Ilfron duparis egiardo drah</l>
-                    <l>Uascho gnia e dopo la morte</l>
-                    <l>Di gherardo ghriaiardo e ?</l>
-                    <l>I hon passarono inpuglia e?egli</l>
+                    <l>E in questo tenpo passarono gl</l>
+                    <l>i africhani <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice>n italia nei reame</l>
+                    <!-- utf-8 character to represent n with titulus -->
+                    <l>di puglia e di chalavria / e pr</l>
+                    <l>esono tutto quasy il reame <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice></l>
+                    <!-- utf-8 character to represent n with titulus -->
+                    <l>sulla marina / e lla prima</l>
+                    <l>terra che presono si fue Risa</l>
+                    <!-- cap R? -->
+                    <l>posta in sulla punta d'italia</l>
+                    <l>il sul farro di messina / e ssi</l>
+                    <l>ghuastarono tutto il reame / e</l>
+                    <l>per questo e rre charlo magnio</l>
+                    <l>re di francia si ssi mosse choll</l>
+                    <!-- cap. R? -->
+                    <l>aiuto di tutti i cristiani d'urop</l>
+                    <l>ia essi passo in italia chontro</l>
+                    <l>agli africhani / e inquesta ba
+                    <l>ttaglia si vvi fu in aiuto il</l>
+                    <l>dicha di borghognia che era</l>
+                    <l>nimicho di charlo che aveva</l>
+                    <l><milestone n="2R" unit="fol."/><cb n="a"/>nome gherardo da fratta / e v</l>
+                    <l>enne chon quatro figliuoly</l>
+                    <l>e chon due nipoti / e il primo</l>
+                    <l>de' figliuoli ebbe nome Rug</l>
+                    <l>ieri / e il sechondo figliuolo</l>
+                    <l>?ando cioè arnaldo / que</l>
+                        <!-- First letters of line unclear -->
+                    <l>sti due fe gherardo chavalie</l>
+                    <l>ri in borghognia / e 'l terzo fi</l>
+                    <l>gliuolo ghuicciardo / el quarto</l>
+                    <l>ebbe nome milon / e questi due</l>
+                    <l>fecie charlo chavalieri in asp</l>
+                    <l>ramonte / e perche gli africha</l>
+                    <l>ni avieno morti tutti i singnio</l>
+                    <l>ri de rreame di puglia ed</l>
+                    <l>chalavria / e lla magior parte</l>
+                    <l>charlo si gli doto singniori de</l>
+                    <l>rreame di puglia e di chalavria</l>
+                    <l>e del principato di taranto / ed</l>
+                    <l>poi che surono vinti gli afri</l>
+                    <l>chanti / e morto i rre agholante</l>
+                    <l>che era il magiore singniore</l>
+                    <l>dell'oste degli africhanti / et m</l>
+                        <!-- et? unclear -->
+                    <l>orto il suo figliuolo almonte</l>
+                    <l>e lla magiore parte de' re che</l>
+                    <l>vennono chollui / charlo si ssi</l>
+                    <l>torno in francia e debbe molta</l>
+                    <l>ghuerra chon gherardo ducca</l>
+                    <l>di borghognia / nella quale</l>
+                    <l>vi morirono molti nobili sing</l>
+                    <l>niori fra' quali si vi morì / don</l>
+                    <l>chiaro / e don buoso nipoti di ghe</l>
+                    <l>rardo da fratta / e balante ve</l>
+                    <l>ltachin e rriccieri vassallo e g</l>
+                    <l>ilfron di paris e girardo di gh</l>
+                    <l>uaschognia / e dopo la morte</l>
+                    <l>di gherardo / ghiucciardo / e m</l>
+                    <l>ilon passarono in puglia e quegli</l>
+                        <!-- quegli - abbr? -->
+                        <!-- SPM STOP 12 July 2021 -->
                     <l><cb n="b"/>Delregnio silli ucierietto no</l>
                     <l>Einquesro efue inchoronato</l>
                     <l>Ghui aiardo re dupuglia eayi</l>
