@@ -131,23 +131,6 @@
             <change/>
         </revisionDesc>
     </teiHeader>
-    <!-- <div1 type="book" n="1">
-        <cb n="a"/>
-        <rubric>
-            <lg>
-                <l>
-                    <hi rend="blue"/>
-                </l>
-            </lg>
-        </rubric>
-        <milestone>
-            <lg>
-                <l>
-                    <hi rend="red"/>
-                </l>
-            </lg>
-        </milestone>
-    </div1> -->
     <text>
         <body>
             <div1 type="book" n="1">
@@ -342,10 +325,12 @@
                     <l>chopo apostolo di ghalizia e q</l>
                     <l>uesto fu al tenpo di papa lione</l>
                     <l>E in questo tenpo passarono gl</l>
-                    <l>i africhani <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice>n italia nei reame</l>
+                    <l>i africhani <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice>n italia
+                        nei reame</l>
                     <!-- utf-8 character to represent n with titulus -->
                     <l>di puglia e di chalavria / e pr</l>
-                    <l>esono tutto quasy il reame <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice></l>
+                    <l>esono tutto quasy il reame
+                            <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice></l>
                     <!-- utf-8 character to represent n with titulus -->
                     <l>sulla marina / e lla prima</l>
                     <l>terra che presono si fue Risa</l>
@@ -358,7 +343,7 @@
                     <!-- cap. R? -->
                     <l>aiuto di tutti i cristiani d'urop</l>
                     <l>ia essi passo in italia chontro</l>
-                    <l>agli africhani / e inquesta ba
+                    <l>agli africhani / e inquesta ba</l>
                     <l>ttaglia si vvi fu in aiuto il</l>
                     <l>dicha di borghognia che era</l>
                     <l>nimicho di charlo che aveva</l>
@@ -368,7 +353,7 @@
                     <l>de' figliuoli ebbe nome Rug</l>
                     <l>ieri / e il sechondo figliuolo</l>
                     <l>?ando cioè arnaldo / que</l>
-                        <!-- First letters of line unclear -->
+                    <!-- First letters of line unclear -->
                     <l>sti due fe gherardo chavalie</l>
                     <l>ri in borghognia / e 'l terzo fi</l>
                     <l>gliuolo ghuicciardo / el quarto</l>
@@ -385,7 +370,7 @@
                     <l>chanti / e morto i rre agholante</l>
                     <l>che era il magiore singniore</l>
                     <l>dell'oste degli africhanti / et m</l>
-                        <!-- et? unclear -->
+                    <!-- et? unclear -->
                     <l>orto il suo figliuolo almonte</l>
                     <l>e lla magiore parte de' re che</l>
                     <l>vennono chollui / charlo si ssi</l>
@@ -401,34 +386,36 @@
                     <l>uaschognia / e dopo la morte</l>
                     <l>di gherardo / ghiucciardo / e m</l>
                     <l>ilon passarono in puglia e quegli</l>
-                        <!-- quegli - abbr? -->
-                        <!-- SPM STOP 12 July 2021 -->
-                    <l><cb n="b"/>Delregnio silli ucierietto no</l>
-                    <l>Einquesro efue inchoronato</l>
-                    <l>Ghui aiardo re dupuglia eayi</l>
-                    <l>Lon fri fatto principe dta??to</l>
-                    <l>E di que sco milo? Na que ilfra</l>
-                    <l>Ncho / meschino achui honore</l>
-                    <l>E fatto quesco libro chome ??</l>
-                    <l>Scoria seghui tando rachanta</l>
-                    <l>Ques? Due fratelli ressp no</l>
-                    <l>Imparie cinque anni edero</l>
-                    <l>No molti amati nelloro rebi</l>
-                    <l>Mento da loro sottoposci I ella</l>
-                    <l>Fortuna della inuidia sig?</l>
-                    <l>Chomincio gtentare aprue</l>
-                    <l>Magiore sinbnioria /</l>
+                    <!-- quegli - abbr? -->
+                    <l><cb n="b"/>del regnio si lli ricievettono</l>
+                    <l>e in questo e fue inchoronato</l>
+                    <l>guicciardo re di puglia e mi</l>
+                    <l>lon fu fatto principe di
+                            tar<choice><abbr>a</abbr><expan>a<ex>n</ex></expan></choice>to</l>
+                    <l>e di questo milon naque il fra</l>
+                    <l>ncho / meschino / a chui honore</l>
+                    <l>e fatto questo libro / chome la</l>
+                    <l>storia seghuitando rachonta</l>
+                    <l>questi due fratelli ressono</l>
+                    <l>in pacie cinque anni ed era</l>
+                    <l>no molti amati nel loro regi</l>
+                    <l>mento da loro sottoposti / e lla</l>
+                    <l>fortuna della invidia si <del rend="strikethrough">ch</del></l>
+                    <l>chomincio a tentare di più e</l>
+                    <l>magiore signioria /</l>
                 </lg>
                 <rubric>
-                    <l>Chome amlon princupe buta</l>
-                    <l>Ranto danbero fore ghruera</l>
-                    <l>Abliallani sotte honbra da</l>
-                    <l>Quisare pacse maegh ?z?e</l>
-                    <l>Peramoro di dam?a porqua</l>
-                    <l>Pe ebbe nome finisia / e?</l>
-                    <l>Choscei naque ehialoroso c?a</l>
-                    <l>?cho meschino chapito li?m?</l>
+                    <l>Chome milon principe di ta</l>
+                    <l>ranto delibero fare ghuerra</l>
+                    <l>agli albani sotto honbra d'a</l>
+                    <l>quistare pacie ma egli il fe</l>
+                    <l>Per amore di donna la qua</l>
+                    <l>le ebbe nome finisia / e di</l>
+                    <l>costei naque el valoroso e fra</l>
+                    <l>ncho meschino chapitolo iii -</l>
+                    <!-- again here chapitolo may be chapitoli -->
                 </rubric>
+                <!-- SPM STOP -->
                 <lg type="chapter" n="3">
                     <l><hi rend="red">E</hi>sendo milion punci</l>
                     <l>Pe di taranto sigli</l>
