@@ -885,7 +885,7 @@
                     <l>groganio capitoli</l>
                     <!-- these two words also don't make sense most likely the names of places, check to make sure right, this line is also followed by roman numerals -->
                 </rubric>
-                <lg type= "chapter" n="?">
+                <lg type="chapter" n="?">
                     <l><hi rend="red">S</hi>endo uolto el meschino a</l>
                     <l>lla mano ritta uerfo</l>
                     <l>cholchose etnouamdo ce</l>
@@ -1011,11 +1011,11 @@
                     <l>te pelle dibescie e aueria</l>
                     <l>in mano uno albero dise?min</l>
                     <!-- ? above -->
-                    
+
                     <!-- 31 R and V missing -->
-                    
+
                     <!-- 32 R missing -->
-                    
+
                     <l><milestone n="32V" unit="fol."/><cb n="a"/>el meschino disse chauea ue</l>
                     <!-- chauea? -->
                     <l>luta latesa del chonpagnroy</l>
@@ -1049,7 +1049,25 @@
                     <l>chose e noi due eiuantamo</l>
                     <l>dicierchare el mondo ?ma</l>
                     <!-- ? above, maybe a symbol?-->
+                    <l>re e?terra e choli cinpalm</l>
+                    <!-- ? above -->
+                    <l>amo in fino almorire dino</l>
+                    <l>abandonare lumo lalteo e</l>
+                    <l>l mio chonpagnio aireia n</l>
+                    <l>ome anche lamiro dorien f</l>
+                    <l>ecierchamo in prima ing</l>
+                    <l>ilterra eirlamsenorbella</l>
+                    <!-- this word makes no sense come back to it -->
+                    <l>nf eschogia tutta fiandres</l>
+                    <l>trigia ba? brettangina l</l>
+                    <!-- ? above, also talkonb about england -->
+                    <l>aspangnia borohongnia lam</l>
+                    <l><cb n="a"/>mgnia bassa e lalta uno heri?</l>
+                    <!-- ? above hard to tell probably "a" or "o"-->
+                    <l>buemia la italia chor?i cha</l>
+                    <!-- ? above, chorsi, chorfi, I have a hard time with this letter, don't know what it is, also neither of those words really work -->
                     
+
                 </lg>
             </div1>
         </body>
