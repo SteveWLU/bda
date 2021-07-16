@@ -8,7 +8,7 @@
                 <author>
                     <persName ref="#barberino">Andrea da Barberino</persName>
                 </author>
-                <date>1445</date>
+                <!-- EDIT SCEHMA:insert date tag, 1445 -->
             </titleStmt>
             <editionStmt>
                 <edition n="0.0.1">
@@ -21,14 +21,18 @@
                     <date when="2021">Initial transcription and TEI development started on June 7,
                         2021.</date>
                 </edition>
-                <respStmt xml:id="#spm">
-                    <persName xml:id="#spm">McCormick, Stephen P.</persName>
+                <respStmt>
+                    <persName xml:id="spm">McCormick, Stephen P.</persName>
                     <resp>Founding editor, manuscript transcription, TEI development and markup,
                         interface development.</resp>
-                    <persName xml:id="#jbm">Mitchell, Jack B.</persName>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="jbm">Mitchell, Jack B.</persName>
                     <resp>Founding editor, manuscript transcription, TEI development and markup,
                         interface development.</resp>
-                    <persName xml:id="#heh">ElHussiny, Hussiny</persName>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="heh">ElHussiny, Hussiny</persName>
                     <resp>Founding programmer, interface development, NLP development and
                         implementation.</resp>
                 </respStmt>
@@ -86,31 +90,42 @@
                     <!-- The siglum for display is contained in the abbr element; see 12.1.4.3 The Witness List -->
                 </listWit>
                 <msDesc>
-                    <msIdentifier xml:id="R1">
+                    <msIdentifier>
                         <country>Italy</country>
                         <settlement>Florence</settlement>
                         <repository>Biblioteca Riccardiana</repository>
                         <idno>Riccardiano 2266</idno>
-                        <date>1445</date>
+                        <!-- EDIT SCHEMA:insert date tag, 1445 -->
                     </msIdentifier>
-                    <respStmt>
-                        <persName>Giovanni Benci</persName>
-                        <resp xml:id="#scribe1">The first hand copied from fol. 1r to the end of the
-                            first half of the first column of fol. 66r. This may be the hand of
-                            Giovanni or Iacopo.</resp>
-                        <persName>Iacopo Benci</persName>
-                        <resp xml:id="#scribe2">The second hand copied from the second half of the
-                            first column of fol. 66r to fol. 80v, and again briefly on fol. 167r.
-                            This may be the hand of Giovanni or Iacopo.</resp>
-                        <persName>Filippo Benci</persName>
-                        <resp xml:id="#fb">Separate documental evidence confirms Filippo Benci as
-                            the scribe for the section from 81r to the first column of 188v.</resp>
-                        <persName>Tommaso Benci</persName>
-                        <resp xml:id="#tb">Separate documental evidence confirms Tommaso Benci as
-                            the scribe for the section from the second column of 188v to
-                            190v.</resp>
-                        <!-- Cursietti 2006, 612; Tanturli 1978, 284-85. -->
-                    </respStmt>
+                    <msContents>
+                        <msItem>
+                            <respStmt>
+                                <persName>Giovanni Benci</persName>
+                                <resp xml:id="scribe1">The first hand copied from fol. 1r to the end
+                                    of the first half of the first column of fol. 66r. This may be
+                                    the hand of Giovanni or Iacopo.</resp>
+                            </respStmt>
+                            <respStmt>
+                                <persName>Iacopo Benci</persName>
+                                <resp xml:id="scribe2">The second hand copied from the second half
+                                    of the first column of fol. 66r to fol. 80v, and again briefly
+                                    on fol. 167r. This may be the hand of Giovanni or Iacopo.</resp>
+                            </respStmt>
+                            <respStmt>
+                                <persName>Filippo Benci</persName>
+                                <resp xml:id="fb">Separate documental evidence confirms Filippo
+                                    Benci as the scribe for the section from 81r to the first column
+                                    of 188v.</resp>
+                            </respStmt>
+                            <respStmt>
+                                <persName>Tommaso Benci</persName>
+                                <resp xml:id="tb">Separate documental evidence confirms Tommaso
+                                    Benci as the scribe for the section from the second column of
+                                    188v to 190v.</resp>
+                            </respStmt>
+                        </msItem>
+                    </msContents>
+                    <!-- Cursietti 2006, 612; Tanturli 1978, 284-85. -->
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -196,8 +211,10 @@
                     <l>e pure mi chonforta perch'io veggo</l>
                     <l><cb n="b"/>molti di magiore nazione d[i] me </l>
                     <!-- d - ligation d + i, or missing i? -->
-                    <l>vivere e stare e fare
-                        <choice><sic>pregio</sic><corr resp="#spm">pegio</corr></choice></l>
+                    <l>vivere e stare e fare <choice>
+                            <sic>pregio</sic>
+                            <corr resp="#spm">pegio</corr>
+                        </choice></l>
                     <!-- Scribal error? pregio > pegio -->
                     <l>di me / o che sia per li loro pecch</l>
                     <l>ati paterni / e questo io non gi</l>
@@ -241,7 +258,10 @@
                     <l>a llui piaque / e chosi non tolse</l>
                     <l>mai a neunno / e pero siamo ch</l>
                     <!-- neunno > neuno ? -->
-                    <l>iamati animali <choice><sic>irrazionali</sic><corr resp="scribe1">razionali</corr></choice></l>
+                    <l>iamati animali <choice>
+                            <sic>irrazionali</sic>
+                            <corr resp="scribe1">razionali</corr>
+                        </choice></l>
                     <!-- scribal correction: ir of irrazionale stuck out -->
                     <l>e usciendo fuori della ragione</l>
                     <l>siamo simili a gli animali irrazio</l>
@@ -277,8 +297,10 @@
                     <!-- first letter of 'ma guarda' - compare to other occurences of initial m -->
                     <l>che lle chorde non sieno false</l>
                     <!-- false / falle ? -->
-                    <l>Inperò che lle chonsonanze
-                            <choice><abbr>no</abbr><expan>no<ex>n</ex></expan></choice></l>
+                    <l>Inperò che lle chonsonanze <choice>
+                            <abbr>no</abbr>
+                            <expan>no<ex>n</ex></expan>
+                        </choice></l>
                     <!-- utf-8 character to represent n with titulus -->
                     <l>risponderebbero / e non sarebbe</l>
                     <l>però cholpa senone di te pr</l>
@@ -317,26 +339,36 @@
                     <l>ngniore gieso cristo d<gap reason="faded" extent="several words"/></l>
                     <l><gap reason="faded" extent="several words"/> ottanta tre anni e</l>
                     <l>ssendo charto mangnio nuovo</l>
-                    <l>electo inperadore ma
-                            <choice><abbr>no</abbr><expan>no<ex>n</ex></expan></choice> e
-                                <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice></l>
+                    <l>electo inperadore ma <choice>
+                            <abbr>no</abbr>
+                            <expan>no<ex>n</ex></expan>
+                        </choice> e <choice>
+                            <abbr>i</abbr>
+                            <expan>i<ex>n</ex></expan>
+                        </choice></l>
                     <!-- utf-8 character to represent n with titulus -->
                     <!-- utf-8 character to represent i with titulus -->
                     <l>choronato perche promisse di</l>
-                    <l>botto a dio di non pigliare
-                                d'<choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice></l>
+                    <l>botto a dio di non pigliare d'<choice>
+                            <abbr>i</abbr>
+                            <expan>i<ex>n</ex></expan>
+                        </choice></l>
                     <!-- utf-8 character to represent i with titulus -->
                     <l>perio sen prima none aquist</l>
                     <l>ava el chammino di santo ia</l>
                     <l>chopo apostolo di ghalizia e q</l>
                     <l>uesto fu al tenpo di papa lione</l>
                     <l>E in questo tenpo passarono gl</l>
-                    <l>i africhani <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice>n italia
-                        nei reame</l>
+                    <l>i africhani <choice>
+                            <abbr>i</abbr>
+                            <expan>i<ex>n</ex></expan>
+                        </choice>n italia nei reame</l>
                     <!-- utf-8 character to represent n with titulus -->
                     <l>di puglia e di chalavria / e pr</l>
-                    <l>esono tutto quasy il reame
-                            <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice></l>
+                    <l>esono tutto quasy il reame <choice>
+                            <abbr>i</abbr>
+                            <expan>i<ex>n</ex></expan>
+                        </choice></l>
                     <!-- utf-8 character to represent n with titulus -->
                     <l>sulla marina / e lla prima</l>
                     <l>terra che presono si fue Risa</l>
@@ -396,8 +428,10 @@
                     <l><cb n="b"/>del regnio si lli ricievettono</l>
                     <l>e in questo e fue inchoronato</l>
                     <l>guicciardo re di puglia e mi</l>
-                    <l>lon fu fatto principe di
-                            tar<choice><abbr>a</abbr><expan>a<ex>n</ex></expan></choice>to</l>
+                    <l>lon fu fatto principe di tar<choice>
+                            <abbr>a</abbr>
+                            <expan>a<ex>n</ex></expan>
+                        </choice>to</l>
                     <l>e di questo milon naque il fra</l>
                     <l>ncho / meschino / a chui honore</l>
                     <l>e fatto questo libro / chome la</l>
@@ -430,15 +464,25 @@
                     <l>no due frategli turchi l'uno</l>
                     <l>auea nome / madar e l'altro</l>
                     <l>napar non molti possenti di g</l>
-                    <l>ente / e avevano una loro <del rend="strikethrough" resp="scribe1">i</del></l>
+                    <l>ente / e avevano una loro <del rend="strikethrough" resp="scribe1"
+                        >i</del></l>
                     <!-- letter i struck through at end of line by scribe1 -->
                     <l>sorella laquale era tenuta</l>
-                    <l>la più <choice><sic>f</sic><corr resp="scribe1">b</corr></choice>ella damigiella ch</l>
-                    <l>e in quel tenpo fusse nel m<choice><abb>o</abb><expan>o<ex>n</ex></expan></choice></l>
+                    <l>la più <choice>
+                            <sic>f</sic>
+                            <corr resp="scribe1">b</corr>
+                        </choice>ella damigiella ch</l>
+                    <l>e in quel tenpo fusse nel m<choice>
+                            <abb>o</abb>
+                            <expan>o<ex>n</ex></expan>
+                        </choice></l>
                     <!-- o with titulus -->
                     <l>do / e questa si fue più chagio</l>
                     <l>ne di fare muovere la ghue</l>
-                    <l>rra a milon che altra <choice><sic>chago</sic><corr resp="#spm">chagio</corr></choice></l>
+                    <l>rra a milon che altra <choice>
+                            <sic>chago</sic>
+                            <corr resp="#spm">chagio</corr>
+                        </choice></l>
                     <!-- how to wrap the 'ne' in the next line? -->
                     <l>ne benche sotto chagione om</l>
                     <!-- 'ombra' in Cursietti, pg. 10; check form of 'm' with other occurences -->
