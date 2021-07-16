@@ -10,17 +10,6 @@
                 <author>
                     <persName ref="#barberino">Andrea da Barberino</persName>
                 </author>
-                <respStmt>
-                    <persName xml:id="#manetti">Antonio di Tuccio Manetti (Florence, 6 July 1423 –
-                        Florence, 26 May 1497)</persName>
-                </respStmt>
-                <respStmt>
-                    <persName xml:id="#tb">Tommaso Benci</persName>
-                    <persName xml:id="#gb">Giovanni Benci</persName>
-                    <persName xml:id="#fb">Filippo Benci</persName>
-                    <persName xml:id=""/>
-                    <!-- Fill out names of four Benci brothers, scribes, and sections of manuscript they transcribed. -->
-                </respStmt>
                 <date>1445</date>
             </titleStmt>
             <editionStmt>
@@ -104,7 +93,26 @@
                         <settlement>Florence</settlement>
                         <repository>Biblioteca Riccardiana</repository>
                         <idno>Riccardiano 2266</idno>
+                        <date>1445</date>
                     </msIdentifier>
+                    <respStmt>
+                        <persName>Giovanni Benci</persName>
+                        <resp xml:id="#scribe1">The first hand copied from fol. 1r to the end of the
+                            first half of the first column of fol. 66r. This may be the hand of
+                            Giovanni or Iacopo.</resp>
+                        <persName>Iacopo Benci</persName>
+                        <resp xml:id="#scribe2">The second hand copied from the second half of the
+                            first column of fol. 66r to fol. 80v, and again briefly on fol. 167r.
+                            This may be the hand of Giovanni or Iacopo.</resp>
+                        <persName>Filippo Benci</persName>
+                        <resp xml:id="#fb">Separate documental evidence confirms Filippo Benci as
+                            the scribe for the section from 81r to the first column of 188v.</resp>
+                        <persName>Tommaso Benci</persName>
+                        <resp xml:id="#tb">Separate documental evidence confirms Tommaso Benci as
+                            the scribe for the section from the second column of 188v to
+                            190v.</resp>
+                        <!-- Cursietti 2006, 612; Tanturli 1978, 284-85. -->
+                    </respStmt>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -114,6 +122,7 @@
                     <p>Apparent errors have been corrected using the sic/corr elements, wrapped in a
                         choice element.</p>
                 </correction>
+                <!-- include the <respons> tag for editor name and activity -->
             </editorialDecl>
             <projectDesc>
                 <p/>
@@ -190,7 +199,7 @@
                     <l><cb n="b"/>molti di magiore nazione d[i] me </l>
                     <!-- d - ligation d + i, or missing i? -->
                     <l>vivere e stare e fare
-                        <choice><sic>pregio</sic><corr>pegio</corr></choice></l>
+                        <choice><sic>pregio</sic><corr resp="#spm">pegio</corr></choice></l>
                     <!-- Scribal error? pregio > pegio -->
                     <l>di me / o che sia per li loro pecch</l>
                     <l>ati paterni / e questo io non gi</l>
@@ -234,8 +243,7 @@
                     <l>a llui piaque / e chosi non tolse</l>
                     <l>mai a neunno / e pero siamo ch</l>
                     <!-- neunno > neuno ? -->
-                    <l>iamati animali
-                        <choice><sic>irrazionali</sic><corr>razionali</corr></choice></l>
+                    <l>iamati animali <choice><sic>irrazionali</sic><corr resp="scribe1">razionali</corr></choice></l>
                     <!-- scribal correction: ir of irrazionale stuck out -->
                     <l>e usciendo fuori della ragione</l>
                     <l>siamo simili a gli animali irrazio</l>
@@ -415,24 +423,29 @@
                     <l>ncho meschino chapitolo iii -</l>
                     <!-- again here chapitolo may be chapitoli -->
                 </rubric>
-                <!-- SPM STOP -->
                 <lg type="chapter" n="3">
-                    <l><hi rend="red">E</hi>sendo milion punci</l>
-                    <l>Pe di taranto sigli</l>
-                    <l>Crebbe lanimo ama</l>
-                    <l>Giore signioria egli</l>
-                    <l>Senti che inallania regniaua</l>
-                    <l>No due frategli tuechi limo</l>
-                    <l>Auea nome ayadar e talteo</l>
-                    <l>Napar non molti possenti dio</l>
-                    <l>Sente caneuano una loro I</l>
-                    <l>Sorella laquale e?a tenuta</l>
-                    <l>Lapru ?ella da mi giella ch </l>
-                    <l>E in quel tenpo fusso nel mo</l>
-                    <l>Do e quesca si fue piu chigro</l>
-                    <l>Ne di fare muouere la ghue</l>
-                    <l>Ua amilon che altra chago</l>
-                    <l>Ne benche sotto chagione odo </l>
+                    <l><hi rend="red">E</hi>sendo milion princi</l>
+                    <l>pe di taranto si gli</l>
+                    <l>crebbe l'animo a ma</l>
+                    <l>giore signioria / e gli /</l>
+                    <l>senti che in albania rigniava</l>
+                    <l>no due frategli turchi l'uno</l>
+                    <l>auea nome / madar e l'altro</l>
+                    <l>napar non molti possenti di g</l>
+                    <l>ente / e avevano una loro <del rend="strikethrough" resp="scribe1">i</del></l>
+                    <!-- letter i struck through at end of line by scribe1 -->
+                    <l>sorella laquale era tenuta</l>
+                    <l>la più <choice><sic>f</sic><corr resp="scribe1">b</corr></choice>ella damigiella ch</l>
+                    <l>e in quel tenpo fusse nel m<choice><abb>o</abb><expan>o<ex>n</ex></expan></choice></l>
+                    <!-- o with titulus -->
+                    <l>do / e questa si fue più chagio</l>
+                    <l>ne di fare muovere la ghue</l>
+                    <l>rra a milon che altra <choice><sic>chago</sic><corr resp="#spm">chagio</corr></choice></l>
+                    <!-- how to wrap the 'ne' in the next line? -->
+                    <l>ne benche sotto chagione om</l>
+                    <!-- 'ombra' in Cursietti, pg. 10; check form of 'm' with other occurences -->
+                    <!-- SKIP fol. 2v -->
+                    <!-- SPM STOP -->
                     <l><milestone n="3R" unit="fol."/><cb n="a"/>Io o giassoiato chome isa lalba</l>
                     <l>Nia edu presente non deremo</l>
                     <l>Driarazo elauale inporcho na</l>
@@ -462,7 +475,7 @@
                     <l>Raggo</l>
                 </lg>
                 <rubric>
-                    <!-- red section come nack to later -->
+                    <!-- red section come back to later -->
                 </rubric>
                 <lg type="chapter" n="4">
                     <l><hi rend="red">O</hi>etifuchanto lanone</l>
@@ -829,7 +842,7 @@
                     <l>di pui humana chondzione e fo</l>
                     <l>no merchatanh ayaque gli che</l>
                     <l>sono chiamati tartari machal</l>
-                    <l>eos sono giente besciale e u</l>
+                    <l>eos sono giente bestiale e u</l>
                     <l>iuono chome fammo tramna e</l>
                     <l>lupi e chami sanga ne ssuna</l>
                     <l>leggie e mangiano la char</l>
@@ -885,7 +898,7 @@
                     <l>groganio capitoli</l>
                     <!-- these two words also don't make sense most likely the names of places, check to make sure right, this line is also followed by roman numerals -->
                 </rubric>
-                <lg type= "chapter" n="?">
+                <lg type="chapter" n="?">
                     <l><hi rend="red">S</hi>endo uolto el meschino a</l>
                     <l>lla mano ritta uerfo</l>
                     <l>cholchose etnouamdo ce</l>
@@ -911,7 +924,7 @@
                     <l>ta artanissa pure i iberia po</l>
                     <l>i grunse annaltra cupta chio</l>
                     <l><milestone n="30R" unit="fol."/><cb n="a"/>mata armahbia la quale e ne</l>
-                    <l>el grande fiume eufnates e</l>
+                    <l>el grande fiume <place xml:id="912849">eufnates</place> e</l>
                     <!-- name of a river eufnates, maybe the euphrates?-->
                     <l>done egli entra in quesco fiu</l>
                     <l>me chon fina dalluna parte d</l>
@@ -980,7 +993,7 @@
                     <l>del fieume el quale la notte</l>
                     <l>ghia?ia eddi </l>
                     <!-- ? above -->
-                    
+
                 </lg>
             </div1>
         </body>
