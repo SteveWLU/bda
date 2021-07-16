@@ -20,20 +20,25 @@
                 <title>Guerrino Meschino Digital Edition</title>
             </head>
             <body>
-                <div xml:id="chapter">
-                    <h3 xml:id="head">
-                        <!-- Chapter headings -->
-                    </h3>
-                    
-                    <xsl:for-each select="rubric">
-                        <p><xsl:value-of select="l"/></p>
-                    </xsl:for-each>
-                    
-                    <xsl:for-each select="lg">
-                        <p><xsl:value-of select="l"/></p>
-                    </xsl:for-each>                
-                </div>
+                <xsl:apply-templates select="/TEI/text"/>
             </body>
         </html>
-    </xsl:template> 
+    </xsl:template>
+    
+    <xsl:template match="rubric">
+        <div class="rubric"><xsl:apply-templates/></div>
+    </xsl:template>
+    
+    <xsl:template match="//rubric/l">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match="lg">
+        <div class="chapter"><xsl:apply-templates/></div>
+    </xsl:template>
+    
+    <xsl:template match="//lg/l">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    
 </xsl:stylesheet>

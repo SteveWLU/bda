@@ -4,21 +4,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Guerrino Meschino</title>
+                <title>Silly Guerrino Meschino</title>
                 <author>
                     <persName ref="#barberino">Andrea da Barberino</persName>
                 </author>
-                <respStmt>
-                    <persName xml:id="#manetti">Antonio di Tuccio Manetti (Florence, 6 July 1423 –
-                        Florence, 26 May 1497)</persName>
-                </respStmt>
-                <respStmt>
-                    <persName xml:id="#tb">Tommaso Benci</persName>
-                    <persName xml:id="#gb">Giovanni Benci</persName>
-                    <persName xml:id="#fb">Filippo Benci</persName>
-                    <persName xml:id=""/>
-                    <!-- Fill out names of four Benci brothers, scribes, and sections of manuscript they transcribed. -->
-                </respStmt>
                 <date>1445</date>
             </titleStmt>
             <editionStmt>
@@ -102,6 +91,7 @@
                         <settlement>Florence</settlement>
                         <repository>Biblioteca Riccardiana</repository>
                         <idno>Riccardiano 2266</idno>
+                        <date>1445</date>
                     </msIdentifier>
                     <respStmt>
                         <persName>Giovanni Benci</persName>
@@ -130,6 +120,7 @@
                     <p>Apparent errors have been corrected using the sic/corr elements, wrapped in a
                         choice element.</p>
                 </correction>
+                <!-- include the <respons> tag for editor name and activity -->
             </editorialDecl>
             <projectDesc>
                 <p/>
@@ -430,7 +421,6 @@
                     <l>ncho meschino chapitolo iii -</l>
                     <!-- again here chapitolo may be chapitoli -->
                 </rubric>
-                <!-- SPM STOP -->
                 <lg type="chapter" n="3">
                     <l><hi rend="red">E</hi>sendo milion princi</l>
                     <l>pe di taranto si gli</l>
@@ -932,7 +922,7 @@
                     <l>ta artanissa pure i iberia po</l>
                     <l>i grunse annaltra cupta chio</l>
                     <l><milestone n="30R" unit="fol."/><cb n="a"/>mata armahbia la quale e ne</l>
-                    <l>el grande fiume eufnates e</l>
+                    <l>el grande fiume <place xml:id="912849">eufnates</place> e</l>
                     <!-- name of a river eufnates, maybe the euphrates?-->
                     <l>done egli entra in quesco fiu</l>
                     <l>me chon fina dalluna parte d</l>
