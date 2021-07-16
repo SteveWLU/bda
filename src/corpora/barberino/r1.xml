@@ -22,6 +22,10 @@
                         2021.</date>
                 </edition>
                 <respStmt>
+                    <persName xml:id="mkb">Brooks, Mackenzie</persName>
+                    <resp>Founding editor, TEI development and interface development, server and backend management.</resp>
+                </respStmt>
+                <respStmt>
                     <persName xml:id="spm">McCormick, Stephen P.</persName>
                     <resp>Founding editor, manuscript transcription, TEI development and markup,
                         interface development.</resp>
@@ -157,7 +161,7 @@
         <body>
             <div1 type="book" n="1">
                 <div2 type="chapter" n="1">
-                        <head>
+                        <head type="rubric">
                             <l><milestone n="1R" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>ui
                                 comincia [il] primo li</l>
                             <l>bro chiamato el meschino</l>
@@ -320,7 +324,7 @@
                     
                 </div2>
                 <div2 type="chapter" n="2">
-                    <head>
+                    <head type="rubric">
                         <l>Chome e per che chagione la</l>
                         <l>schiatta di borghognia furono</l>
                         <l>singniori di puglia e del princi</l>
@@ -449,7 +453,7 @@
                     </lg>
                 </div2>
                 <div2 type="chpater" n="3">
-                    <head>
+                    <head type="rubric">
                         <l>Chome milon principe di ta</l>
                         <l>ranto delibero fare ghuerra</l>
                         <l>agli albani sotto honbra d'a</l>
@@ -492,42 +496,50 @@
                         <l>ne benche sotto chagione om</l>
                         <!-- 'ombra' in Cursietti, pg. 10; check form of 'm' with other occurences -->
                         <!-- SKIP fol. 2v -->
-                        <!-- SPM STOP -->
-                        <l><milestone n="3R" unit="fol."/><cb n="a"/>Io o giassoiato chome isa
-                            lalba</l>
-                        <l>Nia edu presente non deremo</l>
-                        <l>a durazo / e la vale in pocho na</l>
-                        <l>ndremo setoigli eremo etanto</l>
+                        <l><milestone n="3R" unit="fol."/><cb n="a"/>Io o già ispiato chome ista l'alba</l>
+                        <l>nia / e di presente n'anderemo</l>
+                        <l>a durazo / el quale in pocho n'a</l>
+                        <l>ndremo e piclieremo / e tanto</l>
                         <l>gli disse ch'ello recho alla sua</l>
                         <l>volontà essa gli die licienzia</l>
-                        <l>Di fare laghuieria chontro atu?</l>
-                        <l>Chi eagliallani ediegli quatro</l>
-                        <l>Milia chaualieri e einque mulie</l>
-                        <l>Pedoni emilon ferie tradelle</l>
-                        <l>Pare terre e delli suoi amici gu</l>
-                        <l>Atromilia huomini achuallo</l>
-                        <l>Onnque milia pedoni erchono</l>
-                        <l>Randi namili sui[arti dalrandi</l>
-                        <l>Zia echon que e?ra giente epa</l>
-                        <l>Sso sopra ghaldani eassa;o a?ll</l>
-                        <l>Didurago dasprissima ghrur?a</l>
-                        <l>Enella [r?ma chorreria suolso</l>
-                        <l>No due chasella clinno era</l>
-                        <l>Chiamato dar ehaltro era chia</l>
-                        <l>Mato trapal lequali egli si</l>
-                        <l>Forni poi darme edrgiente ed</l>
-                        <l>Uettuaglia eapresso diner?o </l>
-                        <l>Durago chon tutta lose sime</l>
-                        <l>Ando I schorendo epredando el</l>
-                        <l>Paese edupoi non dorono udu</l>
-                        <l>Raggo</l>
+                        <l>di fare la ghuerra chontro a tur</l>
+                        <l>chi e agli albani / e diegli quatro</l>
+                        <l>milia chavalieri e cinque milie</l>
+                        <l>pedoni / e milon fecie tra delle</l>
+                        <l>sue terre e delli suoi amici qu</l>
+                        <l>atromilia huomini a chavallo</l>
+                        <l>e cinque milia pedoni / e chon g</l>
+                        <l>randi navili si parti da brandi</l>
+                        <l>zia / e chon questa giente / e pa</l>
+                        <l>sso sopra gli albani / e assali <choice><abbr>q</abbr><expan>q<ex>u</ex></expan></choice>uelli</l>
+                        <!-- insert character for 'qu' abbreviation -->
+                        <l>di durazo d'asprissima ghuerra</l>
+                        <l>e nella prima chorreria si tolso</l>
+                        <l>no due chastella / e l'uno era</l>
+                        <l>chiamato far e l'altro era chia</l>
+                        <l>mato trapal / le quali egli si</l>
+                        <l>forni poi d'arme e di giente e di</l>
+                        <l>vettovaglia / e apresso di verso</l>
+                        <l>durazo chon tutta l'oste si nne</l>
+                        <!-- check 'nneando' for other occurences -->
+                        <l>ando <choice><sic>ischorendo</sic><corr resp="#scribe1">ischorrendo</corr></choice> e predando el</l>
+                        <!-- Scribe adds missing r above line -->
+                        <l>paese / e dipoi non dorono a du</l>
+                        <!-- 'dorono'? -->
+                        <l>razzo /</l>
                     </lg>
                 </div2>
-                <div2 type="chapter" n="4">
-                    <head>
-                        <!-- red section come back to later -->
+                <div2 type="chapter" n="5">
+                    <head type="rubric">
+                        <l>Chome la giente de'cristiani ch<choice><abbr>o</abbr><expan>o<ex>m</ex></expan></choice></l>
+                        <l>bbatterono chon quelli di du</l>
+                        <l>razo e vinsono e nella quale</l>
+                        <l>vincita presono durazzo / e</l>
+                        <l>milon tolse per moglie la</l>
+                        <l>bella finisia chapitolo v</l>
                     </head>
-                    <lg type="chapter" n="4">
+                    <!-- SPM STOP -->
+                    <lg>
                         <l><hi rend="red">O</hi>etifuchanto lanone</l>
                         <l>Lla adurago chome</l>
                         <l>Iori stani erano pa</l>
@@ -600,8 +612,9 @@
                         <l>Raggo /.</l>
                     </lg>
                 </div2>
-                <div2 type="chapter" n="5">
-                    <head>
+                <div2 type="chapter" n="?">
+                    <!-- insert chapter number -->
+                    <head type="rubric">
                         <l>Chome lagunte deri scu anicho</l>
                         <l>Bbatterono chonanelli didu</l>
                         <l>Rago euinsono enella quale</l>
@@ -725,7 +738,7 @@
                 </div2>
                 <div2 type="chapter" n="?">
                     <!-- insert chapter number -->
-                    <head>
+                    <head type="rubric">
                         <l>Chome fumesso oldono on</l>
                         <l>Piago e Como el meschino</l>
                         <l>Sa?mo lah?ga volta ueshto</l>
@@ -810,7 +823,7 @@
                 </div2>
                 <div2 type="chapter" n="?">
                     <!-- insert chapter number -->
-                    <head>
+                    <head type="rubric">
                         <l>come el meschino sipantre dago</l>
                         <l>?rmnno poli e amdo uecso elbra</l>
                         <l>mo di sangiongio e allessamdro g</l>
@@ -858,7 +871,7 @@
                 </div2>
                 <div2 type="chapter" n="?">
                     <!-- insert chapter number -->
-                    <head>
+                    <head type="rubric">
                         <l><hi rend="red">F</hi>inito?lp?mo libro del mesc</l>
                         <l>hino di ?u??azo ? chomincia el</l>
                         <l>sechondo libro en prima doula</l>
@@ -951,7 +964,7 @@
                 </div2>
                 <div2 type="chapter" n="?">
                     <!-- insert chapter number -->
-                    <head>
+                    <head type="rubric">
                         <l>come el meschino passo le min</l>
                         <!--mania? -->
                         <l>ia mangnia e uido il mano calp</l>
