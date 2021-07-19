@@ -4,7 +4,7 @@
     exclude-result-prefixes="#all" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     version="2.0">
     <xsl:output method="xml"/>
-    
+
     <xd:doc scope="stylesheet">
         <xd:desc>
             <xd:p><xd:b>Created on:</xd:b> July 13, 2021</xd:p>
@@ -12,33 +12,61 @@
             <xd:p/>
         </xd:desc>
     </xd:doc>
-    
-    
+
     <xsl:template match="/">
         <html>
-            <head>
-                <title>Guerrino Meschino Digital Edition</title>
-            </head>
             <body>
-                <xsl:apply-templates select="/TEI/text"/>
+                <h1>
+                    <xsl:value-of select="TEI/teiHeader/fileDesc/titleStmt/title"/>
+                </h1>
+                <xsl:for-each select="/TEI/text/body/div1">
+                    <h2 class="book">
+                        <xsl:value-of select="@type | @n"/>
+                    </h2>
+                    <xsl:for-each select="div2">
+                        <div class="chapter">
+
+                            <h3>
+                                <xsl:value-of select="@type | @n"/>
+                            </h3>
+
+                            <div class="rubric">
+                                <xsl:for-each select="head">
+                                    <p>
+                                        <xsl:apply-templates/>
+                                    </p>
+                                </xsl:for-each>
+                            </div>
+
+                            <div class="text">
+                                <xsl:for-each select="p">
+                                    <p>
+                                        <xsl:apply-templates/>
+                                    </p>
+                                </xsl:for-each>
+                            </div>
+                        </div>
+                    </xsl:for-each>
+                </xsl:for-each>
             </body>
         </html>
     </xsl:template>
-    
-    <xsl:template match="rubric">
-        <div class="rubric"><xsl:apply-templates/></div>
+
+    <xsl:template match="lb">
+        <xsl:apply-templates/>
+        <br/>
     </xsl:template>
-    
-    <xsl:template match="//rubric/l">
-        <p><xsl:apply-templates/></p>
+
+    <xsl:template match="milestone">
+        <a>
+            <xsl:value-of select="@unit"/>
+            <xsl:value-of select="@n"/>
+        </a>
     </xsl:template>
-    
-    <xsl:template match="lg">
-        <div class="chapter"><xsl:apply-templates/></div>
+
+    <xsl:template match="cb">
+        <a> Col. <xsl:value-of select="@n"/>
+        </a>
     </xsl:template>
-    
-    <xsl:template match="//lg/l">
-        <p><xsl:apply-templates/></p>
-    </xsl:template>
-    
+
 </xsl:stylesheet>

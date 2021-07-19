@@ -158,38 +158,13 @@
             <change/>
         </revisionDesc>
     </teiHeader>
-    <!--  <facsimile>
-        <surface xml:id="">
-            <graphic url="" width="" height=""/>
-            <zone ulx="" uly="" lrx="" lry="" xml:id=""/>
-        </surface>
-    </facsimile> -->
     <text>
-
-        <!-- TEMPLATES
-        
-        * <lb/> If line break happens within a word, add the attribute @break="no"; <lb break="no"/>
-        * White space after complete word at end of line (+ <lb/>) but no white space if <lb/> occurs within a word
-        * <milestone n="3V" unit="fol."/><cb n="a"/><lb/>
-        * Corrections: <choice><sicc></sicc><corr></corr>, with @resp="#SPM/#JBM" or @resp="scribe1, scribe2, #fb, #tb"
-        * Facsimile: <surface xml:id=""><graphic url="" width="" height=""/><zone ulx="" uly="" lrx="" lry="" xml:id="">
-            </zone></surface>
-        
-        -->
-        <!-- TO DO LIST
-            
-         * Move <lb/> to beginning of line instead of end
-         * Add @facs="#001r" to pb tags
-         * Update TEI schema
-        
-        -->
-
         <body>
             <div1 type="Book" n="1">
                 <div2 type="Chapter" n="1">
                     <head type="rubric">
-                        <milestone n="1r" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>ui comincia
-                        [il] primo li<lb/> bro chiamato el meschino<lb/> di durazo e questo
+                        <milestone n="1R" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>ui<lb/>
+                        comincia [il] primo li<lb/> bro chiamato el meschino<lb/> di durazo e questo
                         meschino<lb/> fu suo sopranome / ch'el<lb/> suo primo e diritto nome<lb/>
                         fue ghuerino del sangue de<lb/> llegniagio de reali di francia<lb/> ed è
                         partito questo ... i[n] otto<lb/> parti / e tratta di tutte e tre le<lb/>
@@ -248,7 +223,7 @@
                         </choice><lb/>
                         <!-- scribal correction: ir of irrazionale stuck out --> e usciendo fuori
                         della ragione<lb/> siamo simili a gli animali irrazio<lb/>
-                        <milestone n="1v" unit="fol."/><cb n="a"/>nali cioe bestiali / e pero si
+                        <milestone n="1V" unit="fol."/><cb n="a"/>nali cioe bestiali / e pero si
                         ssy<lb/> chonviene a nnoi la punizione<lb/> del fallo per questo . niuno
                         altro<lb/> animale e ssugietto a lleggie<lb/> di punizione che noi perche
                         no[n]<lb/> anno la ragione / e per questo<lb/> sono chiamati animali
@@ -266,13 +241,15 @@
                         <!-- first letter of 'ma guarda' - compare to other occurences of initial m -->
                         che lle chorde non sieno false<lb/>
                         <!-- false / falle ? --> Inperò che lle chonsonanze <choice>
-                            <abbr>nō</abbr>
+                            <abbr>no</abbr>
                             <expan>no<ex>n</ex></expan>
-                        </choice><lb/>risponderebbero / e non sarebbe<lb/> però cholpa senone di te
-                        pr<lb/> opio che vai sanza ragione / e<lb/> non è cholpa de lla fortuna /
-                        o<lb/> nd'io chiamo el nome dell'alti<lb/> ssimo iddio / e tutte le forze
-                        d<lb/> a llui hordinate ne' cieli che<lb/> mi chonciedino non per
-                        debita<lb/> ragione ma per grazia di ser<lb/> ivere questa picchola hopera<lb/>
+                        </choice><lb/>
+                        <!-- utf-8 character to represent n with titulus --> risponderebbero / e non
+                        sarebbe<lb/> però cholpa senone di te pr<lb/> opio che vai sanza ragione /
+                        e<lb/> non è cholpa de lla fortuna / o<lb/> nd'io chiamo el nome
+                        dell'alti<lb/> ssimo iddio / e tutte le forze d<lb/> a llui hordinate ne'
+                        cieli che<lb/> mi chonciedino non per debita<lb/> ragione ma per grazia di
+                        ser<lb/> ivere questa picchola hopera<lb/>
                         <!-- check serviere --> di mia mano / e chon quello ho<lb/>
                         <!-- check di -->
                         <cb n="b"/>rdine che per me si potrà più<lb/> di frutto e di diletto /.<lb/>
@@ -294,31 +271,39 @@
                         si<lb/> ngniore gieso cristo d<gap reason="faded" extent="several words"/><lb/>
                         <gap reason="faded" extent="several words"/> ottanta tre anni e<lb/> ssendo
                         charto mangnio nuovo<lb/> electo inperadore ma <choice>
-                            <abbr>nō</abbr>
+                            <abbr>no</abbr>
                             <expan>no<ex>n</ex></expan>
                         </choice> e <choice>
-                            <abbr>ī</abbr>
+                            <abbr>i</abbr>
                             <expan>i<ex>n</ex></expan>
-                        </choice><lb/>choronato perche promisse di<lb/> botto a dio di non pigliare d'<choice>
-                            <abbr>ī</abbr>
+                        </choice><lb/>
+                        <!-- utf-8 character to represent n with titulus -->
+                        <!-- utf-8 character to represent i with titulus --> choronato perche
+                        promisse di<lb/> botto a dio di non pigliare d'<choice>
+                            <abbr>i</abbr>
                             <expan>i<ex>n</ex></expan>
-                        </choice><lb/>perio sen prima none aquist<lb/> ava el chammino di santo
-                        ia<lb/> chopo apostolo di ghalizia e q<lb/> uesto fu al tenpo di papa
-                        lione<lb/> E in questo tenpo passarono gl<lb/> i africhani <choice>
-                            <abbr>ī</abbr>
+                        </choice><lb/>
+                        <!-- utf-8 character to represent i with titulus --> perio sen prima none
+                        aquist<lb/> ava el chammino di santo ia<lb/> chopo apostolo di ghalizia e
+                        q<lb/> uesto fu al tenpo di papa lione<lb/> E in questo tenpo passarono
+                        gl<lb/> i africhani <choice>
+                            <abbr>i</abbr>
                             <expan>i<ex>n</ex></expan>
-                        </choice>n italia nei reame<lb/>di puglia e di chalavria / e pr<lb/> esono
-                        tutto quasy il reame <choice>
-                            <abbr>ī</abbr>
+                        </choice>n italia nei reame<lb/>
+                        <!-- utf-8 character to represent n with titulus --> di puglia e di
+                        chalavria / e pr<lb/> esono tutto quasy il reame <choice>
+                            <abbr>i</abbr>
                             <expan>i<ex>n</ex></expan>
-                        </choice><lb/>sulla marina / e lla prima<lb/> terra che presono si fue Risa<lb/>
+                        </choice><lb/>
+                        <!-- utf-8 character to represent n with titulus --> sulla marina / e lla
+                        prima<lb/> terra che presono si fue Risa<lb/>
                         <!-- cap R? --> posta in sulla punta d'italia<lb/> il sul farro di messina /
                         e ssi<lb/> ghuastarono tutto il reame / e<lb/> per questo e rre charlo
                         magnio<lb/> re di francia si ssi mosse choll<lb/>
                         <!-- cap. R? --> aiuto di tutti i cristiani d'urop<lb/> ia essi passo in
                         italia chontro<lb/> agli africhani / e inquesta ba<lb/> ttaglia si vvi fu in
                         aiuto il<lb/> dicha di borghognia che era<lb/> nimicho di charlo che aveva<lb/>
-                        <milestone n="2r" unit="fol."/><cb n="a"/>nome gherardo da fratta / e v<lb/>
+                        <milestone n="2R" unit="fol."/><cb n="a"/>nome gherardo da fratta / e v<lb/>
                         enne chon quatro figliuoly<lb/> e chon due nipoti / e il primo<lb/> de'
                         figliuoli ebbe nome Rug<lb/> ieri / e il sechondo figliuolo<lb/> ?ando cioè
                         arnaldo / que<lb/>
@@ -342,15 +327,14 @@
                         <!-- quegli - abbr? -->
                         <cb n="b"/>del regnio si lli ricievettono<lb/> e in questo e fue
                         inchoronato<lb/> guicciardo re di puglia e mi<lb/> lon fu fatto principe di tar<choice>
-                            <abbr>ā</abbr>
+                            <abbr>a</abbr>
                             <expan>a<ex>n</ex></expan>
                         </choice>to<lb/> e di questo milon naque il fra<lb/> ncho / meschino / a
                         chui honore<lb/> e fatto questo libro / chome la<lb/> storia seghuitando
                         rachonta<lb/> questi due fratelli ressono<lb/> in pacie cinque anni ed
                         era<lb/> no molti amati nel loro regi<lb/> mento da loro sottoposti / e
-                        lla<lb/> fortuna della invidia si <del resp="#scribe1" rend="overstrike"
-                            >ch</del><lb/> chomincio a tentare di più e<lb/> magiore signioria
-                        /<lb/>
+                        lla<lb/> fortuna della invidia si <del rend="strikethrough">ch</del><lb/>
+                        chomincio a tentare di più e<lb/> magiore signioria /<lb/>
                     </p>
                 </div2>
                 <div2 type="chpater" n="3">
@@ -365,38 +349,40 @@
                         crebbe lb'animo a ma<lb/> giore signioria / e gli /<lb/> senti che in
                         albania rigniava<lb/> no due frategli turchi lb'uno<lb/> auea nome / madar e
                         lb'altro<lb/> napar non molti possenti di g<lb/> ente / e avevano una loro
-                            <del resp="#scribe1" rend="overstrike">i</del><lb/>
+                            <del rend="strikethrough" resp="scribe1">i</del><lb/>
                         <!-- letter i struck through at end of line by scribe1 --> sorella laquale
                         era tenuta<lb/> la più <choice>
                             <sic>f</sic>
                             <corr resp="scribe1">b</corr>
                         </choice>ella damigiella ch<lb/> e in quel tenpo fusse nel m<choice>
-                            <abbr>ō</abbr>
+                            <abbr>o</abbr>
                             <expan>o<ex>n</ex></expan>
-                        </choice><lb/>do / e questa si fue più chagio<lb/> ne di fare muovere la
-                        ghue<lb/> rra a milon che altra <choice>
+                        </choice><lb/>
+                        <!-- o with titulus --> do / e questa si fue più chagio<lb/> ne di fare
+                        muovere la ghue<lb/> rra a milon che altra <choice>
                             <sic>chago</sic>
                             <corr resp="#spm">chagio</corr>
                         </choice><lb/>
                         <!-- how to wrap the 'ne' in the next line? --> ne benche sotto chagione om<lb/>
                         <!-- 'ombra' in Cursietti, pg. 10; check form of 'm' with other occurences -->
                         <!-- SKIP fol. 2v -->
-                        <milestone n="3r" unit="fol."/><cb n="a"/>
-                        <lb/>Io o già ispiato chome ista l'alba <lb/>nia / e di presente n'anderemo
-                        <lb/>a durazo / el quale in pocho n'a <lb/>ndremo e piclieremo / e tanto
-                        <lb/>gli disse ch'ello recho alla sua <lb/>volontà essa gli die licienzia
-                        <lb/>di fare la ghuerra chontro a tur <lb/>chi e agli albani / e diegli
-                        quatro <lb/>milia chavalieri e cinque milie <lb/>pedoni / e milon fecie tra
-                        delle <lb/>sue terre e delli suoi amici qu <lb/>atromilia huomini a chavallo
-                        <lb/>e cinque milia pedoni / e chon g <lb/>randi navili si parti da brandi
-                        <lb/>zia / e chon questa giente / e pa <lb/>sso sopra gli albani / e assali <choice>
+                        <milestone n="3R" unit="fol."/><cb n="a"/>Io o già ispiato chome ista
+                        lb'alba<lb/> nia / e di presente n'anderemo<lb/> a durazo / el quale in
+                        pocho n'a<lb/> ndremo e piclieremo / e tanto<lb/> gli disse ch'ello recho
+                        alla sua<lb/> volontà essa gli die licienzia<lb/> di fare la ghuerra chontro
+                        a tur<lb/> chi e agli albani / e diegli quatro<lb/> milia chavalieri e
+                        cinque milie<lb/> pedoni / e milon fecie tra delle<lb/> sue terre e delli
+                        suoi amici qu<lb/> atromilia huomini a chavallo<lb/> e cinque milia pedoni /
+                        e chon g<lb/> randi navili si parti da brandi<lb/> zia / e chon questa
+                        giente / e pa<lb/> sso sopra gli albani / e assali <choice>
                             <abbr>q</abbr>
                             <expan>q<ex>u</ex></expan>
-                        </choice>uelli <!-- insert character for 'qu' abbreviation -->
-                        <lb/>di durazo d'asprissima ghuerra<lb/> e nella prima chorreria si
-                        tolso<lb/> no due chastella / e lb'uno era<lb/> chiamato far e lb'altro era
-                        chia<lb/> mato trapal / le quali egli si<lb/> forni poi d'arme e di giente e
-                        di<lb/> vettovaglia / e apresso di verso<lb/> durazo chon tutta lb'oste si nne<lb/>
+                        </choice>uelli<lb/>
+                        <!-- insert character for 'qu' abbreviation --> di durazo d'asprissima
+                        ghuerra<lb/> e nella prima chorreria si tolso<lb/> no due chastella / e
+                        lb'uno era<lb/> chiamato far e lb'altro era chia<lb/> mato trapal / le quali
+                        egli si<lb/> forni poi d'arme e di giente e di<lb/> vettovaglia / e apresso
+                        di verso<lb/> durazo chon tutta lb'oste si nne<lb/>
                         <!-- check 'nneando' for other occurences --> ando <choice>
                             <sic>ischorendo</sic>
                             <corr resp="#scribe1">ischorrendo</corr>
@@ -407,71 +393,139 @@
                 </div2>
                 <div2 type="Chapter" n="5">
                     <head type="rubric"> Chome la giente de'cristiani ch<choice>
-                            <abbr>ō</abbr>
+                            <abbr>o</abbr>
                             <expan>o<ex>m</ex></expan>
                         </choice><lb/> bbatterono chon quelli di du<lb/> razo e vinsono e nella
                         quale<lb/> vincita presono durazzo / e<lb/> milon tolse per moglie la<lb/>
                         bella finisia chapitolo v<lb/>
                     </head>
+                    <!-- SPM STOP -->
                     <p>
-                        <hi rend="red">C</hi>ertifichan<choice>
-                            <sic>t</sic>
-                            <corr resp="#scribe1">d</corr>
-                        </choice>o la nove<lb/>lla a durazo chome <lb/>i cristani erano pa
-                        <lb/>ssati / e chome aveano <lb/><cb n="b"/>tolto / far e trapal vi fu gran
-                        <lb/>de romorie e paura / e sentivo<lb/>no chome andavano inverso
-                        <lb/>durazo / e subito mando uno / <del resp="#scribe1" rend="overstrike"
-                            >i</del><lb/>messo al suo fratello ch'auea <lb/>nome / madar ch'ello a
-                        sso ocho<lb/>rresse / e chome i cristiani ave <lb/>vano passato el mare / e
-                        chome <lb/>egli ebbe mamdati via <add>i
-                        messi</add><!-- Scribal insertion with + after 'i messi' --> si ssi
-                        <lb/>aparechio chon quanta giente <lb/>potea da chauallo e da pp<unclear
-                            reason="faded">iè</unclear>
-                        <lb/>e usci di durazzo e venne inch<lb/>ontro a milon chon ventimilia
-                        <lb/>tra chavallo e a pie / e apressa<lb/>to l'uno chanpo all'altro / fene<!-- 'féne': ne fece (Cursietti 13) -->
-                        <lb/>milon due ischiere / e lla pr <lb/>ima chondusse il magnificho <del
-                            resp="#scribe1" rend="overstrike">i</del>
-                        <lb/>lanberto da ppavia chon tre <lb/>milia chavalieri e quatro/ <lb/>milia
-                        pedoni / la sechonda <lb/>schiera tolse e ghuido milon <lb/>perse chon
-                        cinque milia ch<lb/>avalieri e cinquemilia pedo<lb/>ni / e napar si fecie
-                        lui due <lb/>schiere della sua giente / la <lb/>prima chomando che <choice>
-                            <sic>ghidasse</sic>
-                            <corr resp="#spm">ghuidasse</corr>
-                        </choice>
-                        <lb/>uno albanese ch'avea nome <lb/>tinbero / el quale aveva u<lb/>na
-                        chapigliera ch'egli richo <lb/>priva tutte le spalle eb a <lb/>veva la fama
-                        si barbuta ch<lb/>e pocho della faccia si vedeva <lb/>ed era molto grande di
-                        perso <lb/>na / e grosso oltre a misura <lb/>e portava uno chappello di fe
-                        <lb/>rro inchapo e il resto della sua <lb/>armadura era di quoio chotto
-                        <lb/>e in mano portava una maza <lb/>
-                        <!-- Start SPM transcription -->
-                        <milestone n="3v" unit="fol."/><cb n="a"/>
-                        <lb/>ferrata / e una scimitarra <lb/>portava per ispada e ssenpre
-                        <lb/>andava a ppiè alla battaglia <lb/>chostui ebbe dieci milia cha
-                        <lb/>valieri tra chavallo e a ppiè <lb/>nella prima schiera / e chon a
-                        <lb/>ltrettanta giente chondusse <lb/>napar / e l'una giente cho·l'a
-                        <lb/>ltra s'apressava chon diver <lb/>se strida / e gli albani all'usa
-                        <lb/>nza de' turchih / e i cristiani all' <lb/>usanza di più taliana che fra
-                        <lb/>nciosa / e in questi due chanpi v'e <lb/>ra di diverse armi e di varia
-                        <lb/>ti stormenti / poche bandiere <lb/>avieno gli albani / e a vedergli
-                        <lb/>venire parevano giente sa <lb/>lvaticha chon pocho hordine e <lb/>chon
-                        grande hordine / le piu <lb/>volte ene chagione di vinciere <lb/>e di
-                        perdere le battaglie / e pe <lb/>ro e romani antichamente <lb/>facievano più
-                        honore a cholui <lb/>che hordinato aveva <unclear reason="illegible"
-                            >no</unclear><!-- looks like a correction to make verb plural, even if this would be incorrect -->
-                        chonba <lb/>ttuto e perduto che cholui che <lb/>disordinatamente avevano
-                        <lb/>chonbattuto e vinto / diciendo <lb/>che 'l buono provedimento rade
-                        <lb/>volte doveva perdere / e cho <lb/>si per lo <choice>
-                            <sic>chontradio</sic>
-                            <corr resp="#spm">chontrario</corr>
-                        </choice> / e apressa <lb/>ndosi l'una giente all'altra <lb/>e
-                        chomincianrono grande batta <lb/>glia / e in questo tinbero
-                        <!-- unclear; check for other occurences --> entro <lb/>nella battaglia /
-                        <!-- compare this to the 'i' with overstrike above - same thing? -->mughiando
-                        <lb/>chom'uno toro salvaticho / e <lb/>per queste grida alquanti cr
-                        <lb/>istiana isbighottiti e indietro <lb/><cb n="b"/>
-                        <!-- Missing 5r - 11v -->
-                        <milestone n="12v" unit="fol."/><cb n="a"/>Chello inpemdore gliautue<lb/>
+                        <hi rend="red">O</hi>etifuchanto lanone<lb/> Lla adurago chome<lb/> Iori
+                        stani erano pa<lb/>
+                        <cb n="b"/>Ssati echame ameano<lb/> Tolto for etrapal uifu bran<lb/>
+                        Deromorie epaura esentiuo<lb/> No chome andauano inerso<lb/> Durago esudito
+                        mando sono y<lb/> Messo alsuo fratello chauea<lb/> Nome a?adar chello asso
+                        eho<lb/> Rresse e chome ?rsiani aue<lb/> Uano passato elmre e chome<lb/>
+                        Egli ebbe mamdati uia ???? Siss<lb/> Apare chio chon quanta guen?<lb/> Potea
+                        dachauallo edapp<lb/> Eusci diduraggo euenne inch<lb/> Ontro amilon
+                        chonuentimilia<lb/> Trachauallo eapue eapressa<lb/> To luno chanpo alla ltro
+                        fen?<lb/> Milon due uschuere elle pr<lb/> Ima chondusse climagni fucho
+                        y<lb/> Lanberto dappauia chon tre<lb/> Milia chaualieri e quatro<lb/> Milia
+                        pedoni lasechonda<lb/> Schiera tolse eghuido miton<lb/> Perse chon ein que
+                        emilia ch<lb/> Aualieri ecinquemilia pedo<lb/> Ni senapar sifecie lui
+                        due<lb/> Schiere della sua guente la<lb/> Puma chomando che ghiadasse<lb/>
+                        Uno albanese chauea nome<lb/> Tinbero epuale aueri a ?<lb/> Na chapigliera
+                        che gli richo<lb/> Priua tutte despalle eba<lb/> Ueua da fama sibarbuta
+                        ch<lb/> E pocho della faaia siuedena<lb/> Edera molto grande dper?o<lb/> Na
+                        egrosso oltre amisuza<lb/> Eportaua uno chappello d??<lb/> Rro I nchapo
+                        eilreso della sria<lb/> Arma duro era dquoio chotto<lb/> Einmano portua una maza<lb/>
+                        <milestone n="3R" unit="fol."/><cb n="a"/>Io o giaissoiato chome isa
+                        lalla<lb/> Nia e dupre sente nan deremo<lb/> Adrirazo elaule inpocho na<lb/>
+                        Ndremo epiglieremo e tanto<lb/> Gli disse chello recho alla sua<lb/> Nolonta
+                        cessi glidie licienzia<lb/> Di fare laghueria chontro atri?<lb/> Chi
+                        eagliabbani ediegli quatro<lb/> Milia chaualieri e cinque merlie<lb/>
+                        Perdoni emilon fecie tradelle<lb/> Pare terre edelli sua amici qu<lb/>
+                        Atromilia huomini achaua llo<lb/> Ocin que milia pedoni echong<lb/> Ocin que
+                        milia pedoni echong<lb/> Zia echom wue sia giente epa<lb/> Sso sopra
+                        ghalbani eassali apill?<lb/> Di durazo dasprissima ghiurra <lb/> Enella
+                        prima chorreria sitolso<lb/> No drie chase lla chino cra<lb/> Chiamato fare
+                        ?alro era chia <lb/> Mato trapal le quali e glifi<lb/> Forni poi darme
+                        edioiente e?<lb/> Uettoria glia e apresso diner?o<lb/> Durago chon tutta
+                        hosce sime<lb/> Ando ischozendo epredando el<lb/> Paese edrpoi nandorono
+                        udu<lb/> Raggo /.<lb/>
+                    </p>
+                </div2>
+                <div2 type="Chapter" n="?">
+                    <!-- insert chapter number -->
+                    <head type="rubric"> Chome lagunte deri scu anicho<lb/> Bbatterono chonanelli
+                        didu<lb/> Rago euinsono enella quale<lb/> Uinrito preso no duraggo e<lb/>
+                        M?lon tolre permoggre ha <lb/> Bella fimisia chasorto ei??? <lb/>
+                    </head>
+                    <p> Oerti fucha?? Lanone<lb/> Lla aburago chome<lb/> Icris?ani erano pa<lb/>
+                        <cb n="b"/>Ssati e chome aueano<lb/> Tolto faretrapal uifugran<lb/> De
+                        romore epaura e sentiuo<lb/> No chome andauano inuerso<lb/> Burago e subito
+                        mando sono y<lb/> Messo alsuo chiatello assocho<lb/> Nome e chome uer?? Anni
+                        ari<lb/> Uano passato elmare e chome<lb/> Agli ebbe mamdati uia??s???<lb/>
+                        Apare chio chon quanta guen??<lb/> Potea dachariallo e dapp?<lb/> Eusei
+                        diduraggo euenne inch<lb/> Ontro amilon chonuenti milia<lb/> Trachauallo
+                        eapue eapressa<lb/> To luno chanpo all altro / fene<lb/> Milon drie usuhiere
+                        ella pr<lb/> Ima chondusse clmngni fuchoy<lb/> Lanberto dappama chon
+                        tre<lb/> Milia chaualieri equatro<lb/> Milia perdoni lasechonda<lb/> Schiera
+                        tolre eghuido mihon<lb/> Perse chon eicinquemilia ch<lb/> Aualieri ecinq
+                        eicinquemilia pedo<lb/> Ni senapar sifecie lui due<lb/> Schiere della sua
+                        guerte la<lb/> Puma chomando chegliadasse<lb/> Uno allanese chauea nome<lb/>
+                        Tinbero epuale aueua?<lb/> Priua tutte dessalle a?a<lb/> Ueua defama
+                        sibarbuta ch<lb/> E pocho della faaia siuedena<lb/> Edera molto grande
+                        dper?o<lb/> Na egrosso oltre amisura<lb/> Eportaua uno chappello d?a<lb/>
+                        Rro inchapo eilreso della sua<lb/> Armadura era dquoio chotto<lb/> Einmano
+                        portaua una maza<lb/>
+                        <!-- <milestone n="3V" unit="fol."/><cb n="a"/><lb/>
+                            <cb n="b"/>
+                            <milestone n="4R" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="4V" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="5R" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="5V" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="6R" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="6V" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="7R" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="7V" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="8R" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="8V" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="9R" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="9V" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="10R" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="10V" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="11R" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/>
+                            
+                            <milestone n="11V" unit="fol."/><cb n="a"/><lb/>
+                            
+                            <cb n="b"/> -->
+                        <milestone n="12V" unit="fol."/><cb n="a"/>Chello inpemdore gliautue<lb/>
                         Detto ??spuose ilmeschino on<lb/> Gni chosa sa atte lal?a m<lb/> Attina sifu
                         richominato.<lb/>
                     </p>
@@ -511,7 +565,7 @@
                         Euerano già g???h tutti I si<lb/> Ngniori e ogni ?na ghuata<lb/> Na ?iquello
                         ?illano deduce<lb/>
                         <!-- some more pages after this, moving on to 29R -->
-                        <milestone n="29r" unit="fol."/><cb n="a"/>due che gli ritornerebbe
+                        <milestone n="29R" unit="fol."/><cb n="a"/>due che gli ritornerebbe
                         dalui<lb/> e dale famdro e chosi amro epr<lb/> o misse e fririy molte
                         lagr?me<lb/> e pianto alpartire e friapo chi<lb/> palefo la sua pasotenza
                         ?cem<lb/> en?a cherue asilla doro nome<lb/> anesse notizia eali famdeo
@@ -567,7 +621,7 @@
                         gnia<lb/> chiamata chorouan nando<lb/> e poi suiolfe uerso echolchy<lb/> per
                         terre di saraini e abando<lb/> no e no?ri mari e amdome<lb/> uarso elmare
                         chaspio el?ale <lb/>
-                        <milestone n="29v" unit="fol."/><cb n="a"/>mare a tu nomi el primo e<lb/>
+                        <milestone n="29V" unit="fol."/><cb n="a"/>mare a tu nomi el primo e<lb/>
                         chaspia secondo apanos tergo<lb/> archanio e quesci nomi sono<lb/> perle
                         prauncie che glia din<lb/> torno che naru? chomo ?e?a?<lb/> are alchune
                         giente lachio<lb/> mano mare tarterescho pe<lb/> rche di nerfo lat?rteria
@@ -618,7 +672,7 @@
                         non anno e turchi<lb/>
                         <!-- liufo? --> euide una altra cipta chiama<lb/> ta artanissa pure i iberia
                         po<lb/> i grunse annaltra cupta chio<lb/>
-                        <milestone n="30r" unit="fol."/><cb n="a"/>mata armahbia la quale e ne<lb/>
+                        <milestone n="30R" unit="fol."/><cb n="a"/>mata armahbia la quale e ne<lb/>
                         el grande fiume eufnates e<lb/>
                         <!-- element for place to tag toponyms - <place xml:id="912849">eufnates</place> -->
                         <!-- name of a river eufnates, maybe the euphrates?--> done egli entra in
@@ -694,7 +748,7 @@
                     <p>
                         <!-- Check MS for correct chapter number -->
                         <!-- fols. 31r - 32r missing -->
-                        <milestone n="32v" unit="fol."/><cb n="a"/>el meschino disse chauea ue<lb/>
+                        <milestone n="32V" unit="fol."/><cb n="a"/>el meschino disse chauea ue<lb/>
                         <!-- chauea? --> luta latesa del chonpagnroy<lb/> e pianse e sotte rolla e
                         ssotte<lb/> rrarono cierte altre tes?e<lb/>
                         <!-- ? above --> eossa ella notte dormirono<lb/> in quesco lato e quando

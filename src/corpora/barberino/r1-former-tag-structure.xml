@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../bdl-schema.rng" type="application/relax-ng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Guerrino Meschino</title>
+                <author>
+                    <persName ref="#barberino">Andrea da Barberino</persName>
+                </author>
+                <!-- EDIT SCEHMA:insert date tag, 1445 -->
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.0.1">
+                    <!-- Edition version is set to -1 when still a transcription -->
+                    <title rend="italic" type="digital">Version 0.0.1 is a transcription of
+                        Biblioteca Riccardiana ms. 2266, containing Andrea da Barberino's Guerrino
+                        Meschino and is enriched with text structure tags, abbreviation expansions,
+                        basic decoration identification, and a notes and commentaries
+                        apparatus.</title>
+                    <date when="2021">Initial transcription and TEI development started on June 7,
+                        2021.</date>
+                </edition>
+                <respStmt>
+                    <persName xml:id="mkb">Brooks, Mackenzie</persName>
+                    <resp>Founding editor, TEI development and interface development, server and backend management.</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="spm">McCormick, Stephen P.</persName>
+                    <resp>Founding editor, manuscript transcription, TEI development and markup,
+                        interface development.</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="jbm">Mitchell, Jack B.</persName>
+                    <resp>Founding editor, manuscript transcription, TEI development and markup,
+                        interface development.</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="heh">ElHussiny, Hussiny</persName>
+                    <resp>Founding programmer, interface development, NLP development and
+                        implementation.</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Washington and Lee University</publisher>
+                <pubPlace>Lexington, Virginia</pubPlace>
+                <address>
+                    <name type="institution">Washington and Lee University</name>
+                    <street>204 W. Washington St.</street>
+                    <name type="city">Lexington</name>
+                    <name type="state">Virginia</name>
+                    <postCode>24405</postCode>
+                    <name type="country">USA</name>
+                </address>
+                <availability status="free">
+                    <p>The digital transcription of Andrea da Barberino's <hi>Guerrino Meschino</hi>
+                        is part of the Benci Digital Library project. All texts are freely available
+                        for use. Images may be subject to copyright restrictions.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="Bg"><abbr type="siglum">Bg</abbr> = Bergamo, Biblioteca Civica,
+                        MA 297 (già Alfa 3 16)</witness>
+                    <witness xml:id="DP"><abbr type="siglum">DP</abbr> = Unknown, MS ex Dyson
+                        Perrins 71</witness>
+                    <witness xml:id="Lg"><abbr type="siglum">Lg</abbr> = Florence, Biblioteca
+                        Medicea Laurenziana, Laurenziano Gaddiano 50</witness>
+                    <witness xml:id="N"><abbr type="siglum">N</abbr> = Florence, Biblioteca
+                        Nazionale Centrale, MS 720 C.1 Camaldoli</witness>
+                    <witness xml:id="Ox"><abbr type="siglum">Ox</abbr> = Oxford, Bodleian Library,
+                        Canonico, ital.27</witness>
+                    <witness xml:id="P"><abbr type="siglum">P</abbr> = Paris, MS fonds ital. 491
+                        &amp; 98</witness>
+                    <witness xml:id="Ph"><abbr type="siglum">Ph</abbr> = Philadelphia, Van Pelt
+                        Library, University of Pennsylvania, MS Codex 16</witness>
+                    <witness xml:id="Pr"><abbr type="siglum">Pr</abbr> = Parma, Biblioteca Palatina,
+                        MS Palatino 30</witness>
+                    <witness xml:id="R1"><abbr type="siglum">R1</abbr> = Florence, Biblioteca
+                        Riccardiana, Riccardiano 2266</witness>
+                    <witness xml:id="R2"><abbr type="siglum">R2</abbr> = Florence, Biblioteca
+                        Riccardiana, Riccardiano 2226</witness>
+                    <witness xml:id="R3"><abbr type="siglum">R3</abbr> = Florence, Biblioteca
+                        Riccardiana, Riccardiano 2432</witness>
+                    <witness xml:id="R4"><abbr type="siglum">R4</abbr> = Florence, Biblioteca
+                        Riccardiana, Riccardiano 2267</witness>
+                    <witness xml:id="R5"><abbr type="siglum">R5</abbr> = Florence, Biblioteca
+                        Riccardiana, Riccardiano 1921</witness>
+                    <witness xml:id="V1"><abbr type="siglum">V1</abbr> = Vatican, Biblioteca
+                        Apostolica, Chigiano G VI 162</witness>
+                    <witness xml:id="V2"><abbr type="siglum">V2</abbr> = Vatican, Biblioteca
+                        Apostolica, Barberiniano latino 3988</witness>
+                    <!-- Items 16 and 17, see M. Cursietti -->
+                    <!-- The siglum for display is contained in the abbr element; see 12.1.4.3 The Witness List -->
+                </listWit>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Florence</settlement>
+                        <repository>Biblioteca Riccardiana</repository>
+                        <idno>Riccardiano 2266</idno>
+                        <!-- EDIT SCHEMA:insert date tag, 1445 -->
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <respStmt>
+                                <persName>Giovanni Benci</persName>
+                                <resp xml:id="scribe1">The first hand copied from fol. 1r to the end
+                                    of the first half of the first column of fol. 66r. This may be
+                                    the hand of Giovanni or Iacopo.</resp>
+                            </respStmt>
+                            <respStmt>
+                                <persName>Iacopo Benci</persName>
+                                <resp xml:id="scribe2">The second hand copied from the second half
+                                    of the first column of fol. 66r to fol. 80v, and again briefly
+                                    on fol. 167r. This may be the hand of Giovanni or Iacopo.</resp>
+                            </respStmt>
+                            <respStmt>
+                                <persName>Filippo Benci</persName>
+                                <resp xml:id="fb">Separate documental evidence confirms Filippo
+                                    Benci as the scribe for the section from 81r to the first column
+                                    of 188v.</resp>
+                            </respStmt>
+                            <respStmt>
+                                <persName>Tommaso Benci</persName>
+                                <resp xml:id="tb">Separate documental evidence confirms Tommaso
+                                    Benci as the scribe for the section from the second column of
+                                    188v to 190v.</resp>
+                            </respStmt>
+                            <!-- Cursietti 2006, 612; Tanturli 1978, 284-85. -->
+                        </msItem>
+                        <msItem>
+                            <rubric type="Chapter" n="1"></rubric>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction method="markup">
+                    <p>Apparent errors have been corrected using the sic/corr elements, wrapped in a
+                        choice element.</p>
+                </correction>
+                <!-- include the <respons> tag for editor name and activity -->
+            </editorialDecl>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="lg"/>
+                    <tagUsage gi="l"/>
+                    <tagUsage gi="head"/>
+                    <tagUsage gi="gap"/>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="Book" n="1">
+                <div2 type="Chapter" n="1">
+                        <head type="rubric">
+                            <l><milestone n="1R" unit="fol."/><cb n="a"/><hi rend="blue">Q</hi>ui
+                                comincia [il] primo li</l>
+                            <l>bro chiamato el meschino</l>
+                            <l>di durazo e questo meschino</l>
+                            <l>fu suo sopranome / ch'el</l>
+                            <l>suo primo e diritto nome</l>
+                            <l>fue ghuerino del sangue de</l>
+                            <l>llegniagio de reali di francia</l>
+                            <l>ed è partito questo ... i[n] otto</l>
+                            <l>parti / e tratta di tutte e tre le</l>
+                            <l>parti del mondo ciò è d'africha</l>
+                            <!-- ciò è > cioè ? -->
+                            <l>asia e uropia / e tratta degli</l>
+                            <l>alberi del sole e della luna</l>
+                            <l>e tratta della sibilla / e tratta</l>
+                            <l>del purghatorio di san patrizio</l>
+                            <l>e di molti grandi fatti d'arme</l>
+                            <l>che fei questo meschino che</l>
+                            <!-- fei > fe' - vertical stroke after e; unclear -->
+                            <l>cierchando va chi fu la sua n</l>
+                            <l>azione cioè il suo padre cho</l>
+                            <l>me la storia dimostra e qui</l>
+                            <l>chomincia il proemio dell'al</l>
+                            <l>tore nel chapitolo primo</l>
+                            <!-- Something after primo, unclear -->
+                        </head>
+                        <lg type="chapter" n="1">
+                            <l><hi rend="blue">N</hi>aturalemente pare</l>
+                            <l>che sia di chonsuet</l>
+                            <l>udine che gli uomi</l>
+                            <l>ni si dilettono d'udire</l>
+                            <l>nouelli altori ./ osse</l>
+                            <!-- Scribal error? altori > autori -->
+                            <l>anticha fussono e no siemo di</l>
+                            <l>chonsuertudine cioe non sieno</l>
+                            <l>palesati alla volgare ge[n]te</l>
+                            <l>perche chose antiche e non pale</l>
+                            <l>sate paiono nove alle menti</l>
+                            <l>di choloro che non hanno hudite</l>
+                            <l>piu / e per questo medesimo di</l>
+                            <l>Letto di cierchare molte storie</l>
+                            <l>nouelle e avendo di piaciere di</l>
+                            <l>molte storie trovai questa le</l>
+                            <l>ggienda che molto mi piaque / on</l>
+                            <l>d'io non voglio essere ingrato de</l>
+                            <l>l beneficio ricievto da dDio e da</l>
+                            <l>lla humana natura ricievi .</l>
+                            <l>da cieli più che degnio merito</l>
+                            <l>il perche sono di bassa chondizione</l>
+                            <l>e pure mi chonforta perch'io veggo</l>
+                            <l><cb n="b"/>molti di magiore nazione d[i] me </l>
+                            <!-- d - ligation d + i, or missing i? -->
+                            <l>vivere e stare e fare <choice>
+                                    <sic>pregio</sic>
+                                    <corr resp="#spm">pegio</corr>
+                                </choice></l>
+                            <!-- Scribal error? pregio > pegio -->
+                            <l>di me / o che sia per li loro pecch</l>
+                            <l>ati paterni / e questo io non gi</l>
+                            <l>udcho ma rimangha nel primo</l>
+                            <l>fattore / anchora ueggio per lo</l>
+                            <l>chontrario molti di piu vile d[i]</l>
+                            <!-- d - ligation d + i, or missing i? -->
+                            <l>me sono sormontati / e fanno e</l>
+                            <l>stanno e vivono meglio di me / e q</l>
+                            <l>esto mi chonforta che noi . sia</l>
+                            <l>mo tutti figgluoli del padre</l>
+                            <l>creati da uno solo fattore che</l>
+                            <l>lucie delle sue luci e grazie</l>
+                            <l>piu e meno sechondo che p[er] noi</l>
+                            <l>s'aquista chi in una hopera e</l>
+                            <l>chi in una altra / e questo e do</l>
+                            <l>tato dai dotati cieli sicche . ho</l>
+                            <l>gni uno puo venire nel gra</l>
+                            <l>do suo vertuoso / che resta</l>
+                            <l>in questa vita nella quale p[er]</l>
+                            <l>questa puo aguistare e 'mpren</l>
+                            <l>dere virtu e vizio / benche a</l>
+                            <l>mme pare che lla magior pa</l>
+                            <l>rte seghuita la piu fatichosa</l>
+                            <l>di queste / inpero che e doppia</l>
+                            <!-- queste > questa ? -->
+                            <l>faticha ène affare al male</l>
+                            <!-- ène: è con -ne paragogico; see Rohlfs, 336 -->
+                            <l>a rispetto del bene solo la di</l>
+                            <l>lettantia intrarronpe e ssy a</l>
+                            <l>viliscie l'animo nostro e tiralo</l>
+                            <l>per la sua vilta al male . piu</l>
+                            <l>che a bbene / ma nessuna chosa</l>
+                            <l>non ti schusa per la liberta</l>
+                            <l>del pieno albitro / ispècchiati ne</l>
+                            <l>lla prima liberta data al pr</l>
+                            <l>imo padre adamo che cho[n] tutto</l>
+                            <l>che iddio gli chomandasse non</l>
+                            <l>pecchare non gli tolse pero</l>
+                            <l>il pieno albitro di fare si chome</l>
+                            <l>a llui piaque / e chosi non tolse</l>
+                            <l>mai a neunno / e pero siamo ch</l>
+                            <!-- neunno > neuno ? -->
+                            <l>iamati animali <choice>
+                                    <sic>irrazionali</sic>
+                                    <corr resp="scribe1">razionali</corr>
+                                </choice></l>
+                            <!-- scribal correction: ir of irrazionale stuck out -->
+                            <l>e usciendo fuori della ragione</l>
+                            <l>siamo simili a gli animali irrazio</l>
+                            <l><milestone n="1V" unit="fol."/><cb n="a"/>nali cioe bestiali / e pero
+                                si ssy</l>
+                            <l>chonviene a nnoi la punizione</l>
+                            <l>del fallo per questo . niuno altro</l>
+                            <l>animale e ssugietto a lleggie</l>
+                            <l>di punizione che noi perche no[n]</l>
+                            <l>anno la ragione / e per questo</l>
+                            <l>sono chiamati animali irrazi</l>
+                            <l>onali cioe sanza ragione</l>
+                            <l>e perche alchuno dicha la for</l>
+                            <l>tuna mia mi fo chosy chapitare</l>
+                            <l>questo non è vero / Inperò che</l>
+                            <l>lla fortuna è rheso giusta e</l>
+                            <l>diritta ma noi si siamo indir</l>
+                            <l>itti nelle nostre hoperazioni /</l>
+                            <l>La fortuna sarebbe chomune</l>
+                            <l>e però non è incholpato la fort</l>
+                            <l>una ma incholpa noi mede</l>
+                            <l>dismi e sse lla risprende più è</l>
+                            <l>meno in uno luogho che in u</l>
+                            <l>no altro / questo aviene per</l>
+                            <l>che noi si siamo atti a sonare</l>
+                            <l>e soniamo noi di diversi stor</l>
+                            <l>menti al mondo / e però ogni</l>
+                            <l>uno si ssi ingiegni d'inparare</l>
+                            <l>a sonare buono stormente / e lla</l>
+                            <!-- stormente / scormente ? -->
+                            <l>fortuna si gliele intone di p</l>
+                            <l>erfetta musicha ma ghuarda</l>
+                            <!-- first letter of 'ma guarda' - compare to other occurences of initial m -->
+                            <l>che lle chorde non sieno false</l>
+                            <!-- false / falle ? -->
+                            <l>Inperò che lle chonsonanze <choice>
+                                    <abbr>no</abbr>
+                                    <expan>no<ex>n</ex></expan>
+                                </choice></l>
+                            <!-- utf-8 character to represent n with titulus -->
+                            <l>risponderebbero / e non sarebbe</l>
+                            <l>però cholpa senone di te pr</l>
+                            <l>opio che vai sanza ragione / e</l>
+                            <l>non è cholpa de lla fortuna / o</l>
+                            <l>nd'io chiamo el nome dell'alti</l>
+                            <l>ssimo iddio / e tutte le forze d</l>
+                            <l>a llui hordinate ne' cieli che</l>
+                            <l>mi chonciedino non per debita</l>
+                            <l>ragione ma per grazia di ser</l>
+                            <l>ivere questa picchola hopera</l>
+                            <!-- check serviere -->
+                            <l>di mia mano / e chon quello ho</l>
+                            <!-- check di -->
+                            <l><cb n="b"/>rdine che per me si potrà più</l>
+                            <l>di frutto e di diletto /.</l>
+                        </lg>
+                    
+                </div2>
+                <div2 type="Chapter" n="2">
+                    <head type="rubric">
+                        <l>Chome e per che chagione la</l>
+                        <l>schiatta di borghognia furono</l>
+                        <l>singniori di puglia e del princi</l>
+                        <!-- last letters unclear - check MS -->
+                        <l>pato di taranto e di chui naque</l>
+                        <l>el famoso meschino. chapitolo . ii -</l>
+                        <!-- last letter of chapitolo - maybe i? - check MS -->
+                    </head>
+                    <lg>
+                        <l><hi rend="red">M</hi>agnifichando charlo</l>
+                        <l>magnio re di francia</l>
+                        <!-- cap R? -->
+                        <l>figliuolo <gap reason="faded" extent="two words"/></l>
+                        <l>pipino re di francia</l>
+                        <!-- cap R? -->
+                        <l>e inperadore di roma regni</l>
+                        <l>ando negli anni del nostro si</l>
+                        <l>ngniore gieso cristo d<gap reason="faded" extent="several words"/></l>
+                        <l><gap reason="faded" extent="several words"/> ottanta tre anni e</l>
+                        <l>ssendo charto mangnio nuovo</l>
+                        <l>electo inperadore ma <choice>
+                                <abbr>no</abbr>
+                                <expan>no<ex>n</ex></expan>
+                            </choice> e <choice>
+                                <abbr>i</abbr>
+                                <expan>i<ex>n</ex></expan>
+                            </choice></l>
+                        <!-- utf-8 character to represent n with titulus -->
+                        <!-- utf-8 character to represent i with titulus -->
+                        <l>choronato perche promisse di</l>
+                        <l>botto a dio di non pigliare d'<choice>
+                                <abbr>i</abbr>
+                                <expan>i<ex>n</ex></expan>
+                            </choice></l>
+                        <!-- utf-8 character to represent i with titulus -->
+                        <l>perio sen prima none aquist</l>
+                        <l>ava el chammino di santo ia</l>
+                        <l>chopo apostolo di ghalizia e q</l>
+                        <l>uesto fu al tenpo di papa lione</l>
+                        <l>E in questo tenpo passarono gl</l>
+                        <l>i africhani <choice>
+                                <abbr>i</abbr>
+                                <expan>i<ex>n</ex></expan>
+                            </choice>n italia nei reame</l>
+                        <!-- utf-8 character to represent n with titulus -->
+                        <l>di puglia e di chalavria / e pr</l>
+                        <l>esono tutto quasy il reame <choice>
+                                <abbr>i</abbr>
+                                <expan>i<ex>n</ex></expan>
+                            </choice></l>
+                        <!-- utf-8 character to represent n with titulus -->
+                        <l>sulla marina / e lla prima</l>
+                        <l>terra che presono si fue Risa</l>
+                        <!-- cap R? -->
+                        <l>posta in sulla punta d'italia</l>
+                        <l>il sul farro di messina / e ssi</l>
+                        <l>ghuastarono tutto il reame / e</l>
+                        <l>per questo e rre charlo magnio</l>
+                        <l>re di francia si ssi mosse choll</l>
+                        <!-- cap. R? -->
+                        <l>aiuto di tutti i cristiani d'urop</l>
+                        <l>ia essi passo in italia chontro</l>
+                        <l>agli africhani / e inquesta ba</l>
+                        <l>ttaglia si vvi fu in aiuto il</l>
+                        <l>dicha di borghognia che era</l>
+                        <l>nimicho di charlo che aveva</l>
+                        <l><milestone n="2R" unit="fol."/><cb n="a"/>nome gherardo da fratta / e
+                            v</l>
+                        <l>enne chon quatro figliuoly</l>
+                        <l>e chon due nipoti / e il primo</l>
+                        <l>de' figliuoli ebbe nome Rug</l>
+                        <l>ieri / e il sechondo figliuolo</l>
+                        <l>?ando cioè arnaldo / que</l>
+                        <!-- First letters of line unclear -->
+                        <l>sti due fe gherardo chavalie</l>
+                        <l>ri in borghognia / e 'l terzo fi</l>
+                        <l>gliuolo ghuicciardo / el quarto</l>
+                        <l>ebbe nome milon / e questi due</l>
+                        <l>fecie charlo chavalieri in asp</l>
+                        <l>ramonte / e perche gli africha</l>
+                        <l>ni avieno morti tutti i singnio</l>
+                        <l>ri de rreame di puglia ed</l>
+                        <l>chalavria / e lla magior parte</l>
+                        <l>charlo si gli doto singniori de</l>
+                        <l>rreame di puglia e di chalavria</l>
+                        <l>e del principato di taranto / ed</l>
+                        <l>poi che surono vinti gli afri</l>
+                        <l>chanti / e morto i rre agholante</l>
+                        <l>che era il magiore singniore</l>
+                        <l>dell'oste degli africhanti / et m</l>
+                        <!-- et? unclear -->
+                        <l>orto il suo figliuolo almonte</l>
+                        <l>e lla magiore parte de' re che</l>
+                        <l>vennono chollui / charlo si ssi</l>
+                        <l>torno in francia e debbe molta</l>
+                        <l>ghuerra chon gherardo ducca</l>
+                        <l>di borghognia / nella quale</l>
+                        <l>vi morirono molti nobili sing</l>
+                        <l>niori fra' quali si vi morì / don</l>
+                        <l>chiaro / e don buoso nipoti di ghe</l>
+                        <l>rardo da fratta / e balante ve</l>
+                        <l>ltachin e rriccieri vassallo e g</l>
+                        <l>ilfron di paris e girardo di gh</l>
+                        <l>uaschognia / e dopo la morte</l>
+                        <l>di gherardo / ghiucciardo / e m</l>
+                        <l>ilon passarono in puglia e quegli</l>
+                        <!-- quegli - abbr? -->
+                        <l><cb n="b"/>del regnio si lli ricievettono</l>
+                        <l>e in questo e fue inchoronato</l>
+                        <l>guicciardo re di puglia e mi</l>
+                        <l>lon fu fatto principe di tar<choice>
+                                <abbr>a</abbr>
+                                <expan>a<ex>n</ex></expan>
+                            </choice>to</l>
+                        <l>e di questo milon naque il fra</l>
+                        <l>ncho / meschino / a chui honore</l>
+                        <l>e fatto questo libro / chome la</l>
+                        <l>storia seghuitando rachonta</l>
+                        <l>questi due fratelli ressono</l>
+                        <l>in pacie cinque anni ed era</l>
+                        <l>no molti amati nel loro regi</l>
+                        <l>mento da loro sottoposti / e lla</l>
+                        <l>fortuna della invidia si <del rend="strikethrough">ch</del></l>
+                        <l>chomincio a tentare di più e</l>
+                        <l>magiore signioria /</l>
+                    </lg>
+                </div2>
+                <div2 type="chpater" n="3">
+                    <head type="rubric">
+                        <l>Chome milon principe di ta</l>
+                        <l>ranto delibero fare ghuerra</l>
+                        <l>agli albani sotto honbra d'a</l>
+                        <l>quistare pacie ma egli il fe</l>
+                        <l>Per amore di donna la qua</l>
+                        <l>le ebbe nome finisia / e di</l>
+                        <l>costei naque el valoroso e fra</l>
+                        <l>ncho meschino chapitolo iii -</l>
+                        <!-- again here chapitolo may be chapitoli -->
+                    </head>
+                    <lg>
+                        <l><hi rend="red">E</hi>sendo milion princi</l>
+                        <l>pe di taranto si gli</l>
+                        <l>crebbe l'animo a ma</l>
+                        <l>giore signioria / e gli /</l>
+                        <l>senti che in albania rigniava</l>
+                        <l>no due frategli turchi l'uno</l>
+                        <l>auea nome / madar e l'altro</l>
+                        <l>napar non molti possenti di g</l>
+                        <l>ente / e avevano una loro <del rend="strikethrough" resp="scribe1"
+                                >i</del></l>
+                        <!-- letter i struck through at end of line by scribe1 -->
+                        <l>sorella laquale era tenuta</l>
+                        <l>la più <choice>
+                                <sic>f</sic>
+                                <corr resp="scribe1">b</corr>
+                            </choice>ella damigiella ch</l>
+                        <l>e in quel tenpo fusse nel m<choice>
+                                <abbr>o</abbr>
+                                <expan>o<ex>n</ex></expan>
+                            </choice></l>
+                        <!-- o with titulus -->
+                        <l>do / e questa si fue più chagio</l>
+                        <l>ne di fare muovere la ghue</l>
+                        <l>rra a milon che altra <choice>
+                                <sic>chago</sic>
+                                <corr resp="#spm">chagio</corr>
+                            </choice></l>
+                        <!-- how to wrap the 'ne' in the next line? -->
+                        <l>ne benche sotto chagione om</l>
+                        <!-- 'ombra' in Cursietti, pg. 10; check form of 'm' with other occurences -->
+                        <!-- SKIP fol. 2v -->
+                        <l><milestone n="3R" unit="fol."/><cb n="a"/>Io o già ispiato chome ista l'alba</l>
+                        <l>nia / e di presente n'anderemo</l>
+                        <l>a durazo / el quale in pocho n'a</l>
+                        <l>ndremo e piclieremo / e tanto</l>
+                        <l>gli disse ch'ello recho alla sua</l>
+                        <l>volontà essa gli die licienzia</l>
+                        <l>di fare la ghuerra chontro a tur</l>
+                        <l>chi e agli albani / e diegli quatro</l>
+                        <l>milia chavalieri e cinque milie</l>
+                        <l>pedoni / e milon fecie tra delle</l>
+                        <l>sue terre e delli suoi amici qu</l>
+                        <l>atromilia huomini a chavallo</l>
+                        <l>e cinque milia pedoni / e chon g</l>
+                        <l>randi navili si parti da brandi</l>
+                        <l>zia / e chon questa giente / e pa</l>
+                        <l>sso sopra gli albani / e assali <choice><abbr>q</abbr><expan>q<ex>u</ex></expan></choice>uelli</l>
+                        <!-- insert character for 'qu' abbreviation -->
+                        <l>di durazo d'asprissima ghuerra</l>
+                        <l>e nella prima chorreria si tolso</l>
+                        <l>no due chastella / e l'uno era</l>
+                        <l>chiamato far e l'altro era chia</l>
+                        <l>mato trapal / le quali egli si</l>
+                        <l>forni poi d'arme e di giente e di</l>
+                        <l>vettovaglia / e apresso di verso</l>
+                        <l>durazo chon tutta l'oste si nne</l>
+                        <!-- check 'nneando' for other occurences -->
+                        <l>ando <choice><sic>ischorendo</sic><corr resp="#scribe1">ischorrendo</corr></choice> e predando el</l>
+                        <!-- Scribe adds missing r above line -->
+                        <l>paese / e dipoi non dorono a du</l>
+                        <!-- 'dorono'? -->
+                        <l>razzo /</l>
+                    </lg>
+                </div2>
+                <div2 type="Chapter" n="5">
+                    <head type="rubric">
+                        <l>Chome la giente de'cristiani ch<choice><abbr>o</abbr><expan>o<ex>m</ex></expan></choice></l>
+                        <l>bbatterono chon quelli di du</l>
+                        <l>razo e vinsono e nella quale</l>
+                        <l>vincita presono durazzo / e</l>
+                        <l>milon tolse per moglie la</l>
+                        <l>bella finisia chapitolo v</l>
+                    </head>
+                    <!-- SPM STOP -->
+                    <lg>
+                        <l><hi rend="red">O</hi>etifuchanto lanone</l>
+                        <l>Lla adurago chome</l>
+                        <l>Iori stani erano pa</l>
+                        <l><cb n="b"/>Ssati echame ameano</l>
+                        <l>Tolto for etrapal uifu bran</l>
+                        <l>Deromorie epaura esentiuo</l>
+                        <l>No chome andauano inerso</l>
+                        <l>Durago esudito mando sono y</l>
+                        <l>Messo alsuo fratello chauea</l>
+                        <l>Nome a?adar chello asso eho</l>
+                        <l>Rresse e chome ?rsiani aue</l>
+                        <l>Uano passato elmre e chome</l>
+                        <l>Egli ebbe mamdati uia ???? Siss</l>
+                        <l>Apare chio chon quanta guen?</l>
+                        <l>Potea dachauallo edapp</l>
+                        <l>Eusci diduraggo euenne inch</l>
+                        <l>Ontro amilon chonuentimilia</l>
+                        <l>Trachauallo eapue eapressa</l>
+                        <l>To luno chanpo alla ltro fen?</l>
+                        <l>Milon due uschuere elle pr</l>
+                        <l>Ima chondusse climagni fucho y</l>
+                        <l>Lanberto dappauia chon tre</l>
+                        <l>Milia chaualieri e quatro</l>
+                        <l>Milia pedoni lasechonda</l>
+                        <l>Schiera tolse eghuido miton</l>
+                        <l>Perse chon ein que emilia ch</l>
+                        <l>Aualieri ecinquemilia pedo</l>
+                        <l>Ni senapar sifecie lui due</l>
+                        <l>Schiere della sua guente la</l>
+                        <l>Puma chomando che ghiadasse</l>
+                        <l>Uno albanese chauea nome</l>
+                        <l>Tinbero elguale aueri a ?</l>
+                        <l>Na chapigliera che gli richo</l>
+                        <l>Priua tutte despalle eba</l>
+                        <l>Ueua da fama sibarbuta ch</l>
+                        <l>E pocho della faaia siuedena</l>
+                        <l>Edera molto grande dper?o</l>
+                        <l>Na egrosso oltre amisuza</l>
+                        <l>Eportaua uno chappello d??</l>
+                        <l>Rro I nchapo eilreso della sria</l>
+                        <l>Arma duro era dquoio chotto</l>
+                        <l>Einmano portua una maza</l>
+                        <l><milestone n="3R" unit="fol."/><cb n="a"/>Io o giaissoiato chome isa
+                            lalla</l>
+                        <l>Nia e dupre sente nan deremo</l>
+                        <l>Adrirazo elaule inpocho na</l>
+                        <l>Ndremo epiglieremo e tanto</l>
+                        <l>Gli disse chello recho alla sua</l>
+                        <l>Nolonta cessi glidie licienzia</l>
+                        <l>Di fare laghueria chontro atri?</l>
+                        <l>Chi eagliabbani ediegli quatro</l>
+                        <l>Milia chaualieri e cinque merlie</l>
+                        <l>Perdoni emilon fecie tradelle</l>
+                        <l>Pare terre edelli sua amici qu</l>
+                        <l>Atromilia huomini achaua llo</l>
+                        <l>Ocin que milia pedoni echong</l>
+                        <l>Ocin que milia pedoni echong</l>
+                        <l>Zia echom wue sia giente epa</l>
+                        <l>Sso sopra ghalbani eassali apill?</l>
+                        <l>Di durazo dasprissima ghiurra </l>
+                        <l>Enella prima chorreria sitolso</l>
+                        <l>No drie chase lla chino cra</l>
+                        <l>Chiamato fare ?alro era chia </l>
+                        <l>Mato trapal le quali e glifi</l>
+                        <l>Forni poi darme edioiente e?</l>
+                        <l>Uettoria glia e apresso diner?o</l>
+                        <l>Durago chon tutta hosce sime</l>
+                        <l>Ando ischozendo epredando el</l>
+                        <l>Paese edrpoi nandorono udu</l>
+                        <l>Raggo /.</l>
+                    </lg>
+                </div2>
+                <div2 type="Chapter" n="?">
+                    <!-- insert chapter number -->
+                    <head type="rubric">
+                        <l>Chome lagunte deri scu anicho</l>
+                        <l>Bbatterono chonanelli didu</l>
+                        <l>Rago euinsono enella quale</l>
+                        <l>Uinrito preso no duraggo e</l>
+                        <l>M?lon tolre permoggre ha </l>
+                        <l>Bella fimisia chasorto ei??? </l>
+                    </head>
+                    <lg>
+                        <l>Oerti fucha?? Lanone</l>
+                        <l>Lla aburago chome</l>
+                        <l>Icris?ani erano pa</l>
+                        <l><cb n="b"/>Ssati e chome aueano</l>
+                        <l>Tolto faretrapal uifugran</l>
+                        <l>De romore epaura e sentiuo</l>
+                        <l>No chome andauano inuerso</l>
+                        <l>Burago e subito mando sono y</l>
+                        <l>Messo alsuo chiatello assocho</l>
+                        <l>Nome e chome uer?? Anni ari</l>
+                        <l>Uano passato elmare e chome</l>
+                        <l>Agli ebbe mamdati uia??s???</l>
+                        <l>Apare chio chon quanta guen??</l>
+                        <l>Potea dachariallo e dapp?</l>
+                        <l>Eusei diduraggo euenne inch</l>
+                        <l>Ontro amilon chonuenti milia</l>
+                        <l>Trachauallo eapue eapressa</l>
+                        <l>To luno chanpo all altro / fene</l>
+                        <l>Milon drie usuhiere ella pr</l>
+                        <l>Ima chondusse clmngni fuchoy</l>
+                        <l>Lanberto dappama chon tre</l>
+                        <l>Milia chaualieri equatro</l>
+                        <l>Milia perdoni lasechonda</l>
+                        <l>Schiera tolre eghuido mihon</l>
+                        <l>Perse chon eicinquemilia ch</l>
+                        <l>Aualieri ecinq eicinquemilia pedo</l>
+                        <l>Ni senapar sifecie lui due</l>
+                        <l>Schiere della sua guerte la</l>
+                        <l>Puma chomando chegliadasse</l>
+                        <l>Uno allanese chauea nome</l>
+                        <l>Tinbero elguale aueua?</l>
+                        <l>Priua tutte dessalle a?a</l>
+                        <l>Ueua defama sibarbuta ch</l>
+                        <l>E pocho della faaia siuedena</l>
+                        <l>Edera molto grande dper?o</l>
+                        <l>Na egrosso oltre amisura</l>
+                        <l>Eportaua uno chappello d?a</l>
+                        <l>Rro inchapo eilreso della sua</l>
+                        <l>Armadura era dquoio chotto</l>
+                        <l>Einmano portaua una maza</l>
+
+                        <!-- <l><milestone n="3V" unit="fol."/><cb n="a"/></l>
+                            <cb n="b"/>
+                            <l><milestone n="4R" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="4V" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="5R" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="5V" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="6R" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="6V" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="7R" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="7V" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="8R" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="8V" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="9R" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="9V" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="10R" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="10V" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="11R" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/>
+                            
+                            <l><milestone n="11V" unit="fol."/><cb n="a"/></l>
+                            
+                            <cb n="b"/> -->
+
+                        <l><milestone n="12V" unit="fol."/><cb n="a"/>Chello inpemdore gliautue</l>
+                        <l>Detto ??spuose ilmeschino on</l>
+                        <l>Gni chosa sa atte lal?a m</l>
+                        <l>Attina sifu richominato.</l>
+                    </lg>
+                </div2>
+                <div2 type="Chapter" n="?">
+                    <!-- insert chapter number -->
+                    <head type="rubric">
+                        <l>Chome fumesso oldono on</l>
+                        <l>Piago e Como el meschino</l>
+                        <l>Sa?mo lah?ga volta ueshto</l>
+                        <l>Drbiamcho e?in?el??o ?? Sirup</l>
+                    </head>
+                    <lg>
+                        <l><hi rend="red">L</hi>altra mattina fue</l>
+                        <l>Messo insulta praza</l>
+                        <l>Uno chanallo ayoltro g</l>
+                        <l>Rosso bello erina a</l>
+                        <l>Madura molto magnifico</l>
+                        <l>Con pro?nta escludo e lancia</l>
+                        <l>Espada e ogni chosa che bi</l>
+                        <l>Songnia a?no huomo ae</l>
+                        <l>ssre armato damdare alla</l>
+                        <l>Battaglia e questo era lon</l>
+                        <l>Ore cheese doneria dare nacho</l>
+                        <l>Li? Cherincie?a la giosta</l>
+                        <l>E che a?esse me gli fatto y</l>
+                        <l>E due di passati e Alessadro</l>
+                        <l>Misse?unto armati insrile</l>
+                        <l>A boalia della piaga e disse</l>
+                        <l>Loro che chonpiacie vuole fo</l>
+                        <l>rge singuengniassono dich</l>
+                        <l>Onoscur? Chi fosse anello ch</l>
+                        <l>amalieue chadue da auito</l>
+                        <l>la gioscca enon si palisria</l>
+                        <l>E di questi fanti nesaua do</l>
+                        <l>Ue duti e Dome otto sin tutto</l>
+                        <l>Erano cunto e poi che bono</l>
+                        <l>Desanato tutti chomincio a</l>
+                        <l><cb n="b"/>guin gniere egiosro inpi</l>
+                        <l>Aza ebuinti la gioscca si chom</l>
+                        <l>Incio grande eruedendo alle s</l>
+                        <l>Andro Chosi giosa?ari chiamo</l>
+                        <l>Sebretamente el meschino ed</l>
+                        <l>Ssegli mio chessena hordinato e</l>
+                        <l>Preghollo charissima mente ch</l>
+                        <l>Egli non si armasse ??spuo se</l>
+                        <l>Ilmeschino uada la chose chome</l>
+                        <l>Siu?le chedio marmeco setta </l>
+                        <l>per tua beningnita simmi cho</l>
+                        <l>n cuedeca larmi elchanallo ???</l>
+                        <l>A fine ?dendo Alessandro li</l>
+                        <l>Sue dolci parole alla fine de</l>
+                        <l>l suo parhare sillo prese per</l>
+                        <l>Lamano emenollo nell?o gho</l>
+                        <l>?sato esillo armo e poi gli m</l>
+                        <l>Isse una soprares dizendado</l>
+                        <l>Di ancha e duegli ?na buona</l>
+                        <l>Spada inmano edissegli se</l>
+                        <l>Alchuno sitti ?auoli fare for</l>
+                        <l>Za duchonosciere edupiolia</l>
+                        <l>Rci editenerta Coachella spa</l>
+                        <l>D? Sitti farcia fare luogho</l>
+                        <l>Ecosi il meschino sigli promi</l>
+                        <l>Sse e partissi dall?? Eamdone</l>
+                        <l>Inpraza e Alessandro quado</l>
+                        <l>Lebbe messo fuora delgiardi</l>
+                        <l>No riserro luscio eamdonne</l>
+                        <l>insnlpalagio err?torno per</l>
+                        <l>uedere lagioscra e quando</l>
+                        <l>Il meschino grunse in piazza</l>
+                        <l>Euerano già g???h tutti I si</l>
+                        <l>Ngniori e ogni ?na ghuata</l>
+                        <l>Na ?iquello ?illano deduce</l>
+
+
+                        <!-- some more pages after this, moving on to 29R -->
+
+
+                        <l><milestone n="29R" unit="fol."/><cb n="a"/>due che gli ritornerebbe
+                            dalui</l>
+                        <l>e dale famdro e chosi amro epr</l>
+                        <l>o misse e fririy molte lagr?me</l>
+                        <l>e pianto alpartire e friapo chi</l>
+                        <l>palefo la sua pasotenza ?cem</l>
+                        <l>en?a cherue asilla doro nome</l>
+                        <l>anesse notizia eali famdeo ?</l>
+                        <l>chon pagnio grampego d?a</l>
+                    </lg>
+                </div2>
+                <div2 type="Chapter" n="?">
+                    <!-- insert chapter number -->
+                    <head type="rubric">
+                        <l>come el meschino sipantre dago</l>
+                        <l>?rmnno poli e amdo uecso elbra</l>
+                        <l>mo di sangiongio e allessamdro g</l>
+                        <l>lie uno galoa e entro alospunto</l>
+                        <l>nolmane maon? eueclo la</l>
+                        <l>tuma nando capitoloi</l>
+                        <l>oo?s</l>
+                        <!-- come back to this -->
+                    </head>
+                    <lg>
+                        <!-- make sure to add chapter number -->
+                        <l><hi rend="red">P</hi>reso el meschino chon</l>
+                        <l>miato dallo i peradore</l>
+                        <l>piangiendo lonperador</l>
+                        <l>e lobacio e abraciollo</l>
+                        <l>e bene di sselo e no leuagli dar</l>
+                        <l>e conpangnia manonne uole</l>
+                        <l>oiento domari dozo porto dasp</l>
+                        <l>endere earmato a chauallo</l>
+                        <l>usci drohoscantinopoli e nerfo</l>
+                        <l>lo scretto dali spunto namdo e</l>
+                        <l>ale fandro gli fecie chon pagnia</l>
+                        <l>insino albra?cio di san giorgio</l>
+                        <l>e imaneua alesandro fatto</l>
+                        <l>aparechiare una ghal?a ?</l>
+                        <l>chegli nonamdasse ?terrede</l>
+                        <l>turchi ?amore derre ascil</l>
+                        <l>la doro e in quella ghalea a?</l>
+                        <l>isse il suo chariallo eordino</l>
+                        <l>che glino loponessino o iermi</l>
+                        <l>nia ointre bufonda oincholchi</l>
+                        <l>pru che inturchia nollo pone</l>
+                        <l>wwono e quando il meschino en</l>
+                        <l>tro inghalea ealramo alesan</l>
+                        <l><cb n="b"/>dro e dirotta mento piasono ?</l>
+                        <l>mendue el meschino lo??o</l>
+                        <l>che gli faciesse dire ufrci al so</l>
+                        <l>cierdoti e che glino pre??asso</l>
+                        <l>no addio ? lui e poi enteo</l>
+                        <l>nella ghalea e ferono ue</l>
+                        <l>la ea <!-- insertion above? --> remi e a uela suparti</l>
+                        <l>rono e dent?arono nel mare =</l>
+                        <l>maore euerso latana nando</l>
+                    </lg>
+                </div2>
+                <div2 type="Chapter" n="?">
+                    <!-- insert chapter number -->
+                    <head type="rubric">
+                        <l><hi rend="red">F</hi>inito?lp?mo libro del mesc</l>
+                        <l>hino di ?u??azo ? chomincia el</l>
+                        <l>sechondo libro en prima doula</l>
+                        <l>galea ?lomac?mao? lopose?m</l>
+                        <l>olti nomi d??ami edman?</l>
+                        <l>dcitta o ton?adulmacio ??aspio</l>
+                        <l>quanti nomi alli a einpan?te</l>
+                        <l>toicha di ta??re ?? chapitoloi</l>
+                        <!-- roman numerals -->
+                        <!--found this rubric very challenging, come back later -->
+                    </head>
+                    <lg>
+                        <l><hi rend="red">P</hi>artita che fu lachale</l>
+                        <l>a dalbra?cio di somgio</l>
+                        <l>rgio e perlo mare m</l>
+                        <l>aore naruchandi ?iue</l>
+                        <l>rso latana per molti die qua</l>
+                        <l>ndo arremi e quando auele</l>
+                        <l>sechondo e tenpi earri auah a</l>
+                        <l>lloscretto di samor presso allo</l>
+                        <l>tana a duguento miglia pr</l>
+                        <l>esono porto alla fo??e duno fi</l>
+                        <l>ume che ssi chiama uardon</l>
+                        <l>el meschino smonto e armo ssi</l>
+                        <l>e monto achauallo e partito</l>
+                        <l>si dalla ghalea e su per lari</l>
+                        <l>ua di quesio frume nando In</l>
+                        <l>sino auna grande monta gnia</l>
+                        <l>chiamata chorouan nando</l>
+                        <l>e poi suiolfe uerso echolchy</l>
+                        <l>per terre di saraini e abando</l>
+                        <l>no e no?ri mari e amdome</l>
+                        <l>uarso elmare chaspio el?ale </l>
+                        <l><milestone n="29V" unit="fol."/><cb n="a"/>mare a tu nomi el primo e</l>
+                        <l>chaspia secondo alganos tergo</l>
+                        <l>archanio e quesci nomi sono</l>
+                        <l>perle prauncie che glia din</l>
+                        <l>torno che naru? chomo ?e?a?</l>
+                        <l>are alchune giente lachio</l>
+                        <l>mano mare tarterescho pe</l>
+                        <l>rche di nerfo lat?rteria labuo</l>
+                        <l>no e tartari bassi e quali sono</l>
+                        <l>di pui humana chondzione e fo</l>
+                        <l>no merchatanh ayaque gli che</l>
+                        <l>sono chiamati tartari machal</l>
+                        <l>eos sono giente bestiale e u</l>
+                        <l>iuono chome fammo tramna e</l>
+                        <l>lupi e chami sanga ne ssuna</l>
+                        <l>leggie e mangiano la char</l>
+                        <l>ne erida chome e chami eno</l>
+                        <l>ne nel mondo altro che due gie</l>
+                        <l>negagioni che abbino chorpo d</l>
+                        <l>persona umana che mangino</l>
+                        <l>charne erida lua a sono apesi</l>
+                        <l>tartari alturiori chiamati ay</l>
+                        <l>a?habeo se gli altri pnoi cha</l>
+                        <l>inomoni che anno chapo di ch</l>
+                        <l>ane e quesca giene ragione di</l>
+                        <l>tartari che sono pui sotto la</l>
+                        <l>tua montana abitano ?le</l>
+                        <l>chauerne delle montagme</l>
+                        <l>e tiene quescaltra tarteri ?</l>
+                        <l>bassa dal mare chaspio ?in</l>
+                        <l>sino almare di fiand?a ??</l>
+                        <l>si dal ponente alleuante in</l>
+                        <l>india ? la perfia ?la sia diu</l>
+                        <l>erso tra montana chon finae</l>
+                        <l>trodonia cioe la mangnio</l>
+                        <l>uerso tramontana freddo</l>
+                        <l>masono chomumali ay?????ebe</l>
+                        <l>stiali sono tutti gio ghanh e sono</l>
+                        <l><cb n="b"/>nimci di que qli della suprio re</l>
+                        <l>tartaria per che gli no mangia</l>
+                        <l>no la carne e ruda li quali ab</l>
+                        <l>itano le pui alte montamgne</l>
+                        <l>dette ?anfe donde uiene el g</l>
+                        <l>ran fin me de raf chefcie di</l>
+                        <!-- there are some words above which make no sense-->
+                        <l>no monte detto erereno e fono</l>
+                        <!-- word after detto hard to decipher -->
+                        <l>le piu fredde montangne d</l>
+                        <l>el mondo e qui sente che nascie</l>
+                        <l>il criscallo la qual chosa e ne un</l>
+                        <!-- criscallo? not sure about that word -->
+                        <l>a pietna so da chessi chon ne te</l>
+                        <l>da qua ghia aiata per lunghego</l>
+                        <!-- ghia aiata? does not make sense -->
+                        <l>di tenpo in pietno</l>
+                    </lg>
+                </div2>
+                <div2 type="Chapter" n="?">
+                    <!-- insert chapter number -->
+                    <head type="rubric">
+                        <l>come el meschino passo le min</l>
+                        <!--mania? -->
+                        <l>ia mangnia e uido il mano calp</l>
+                        <l>io e molte pnopiene e fui nalba</l>
+                        <!-- pmopiene? -->
+                        <l>nia giancha e potando al fiume</l>
+                        <l>de nomi douemoreo mac?????</l>
+                        <!-- two lastwords hard to figure out -->
+                        <l>groganio capitoli</l>
+                        <!-- these two words also don't make sense most likely the names of places, check to make sure right, this line is also followed by roman numerals -->
+                    </head>
+                    <lg>
+                        <l><hi rend="red">S</hi>endo uolto el meschino a</l>
+                        <l>lla mano ritta uerfo</l>
+                        <l>cholchose etnouamdo ce</l>
+                        <!-- etnoumdo? -->
+                        <l>rti uillaggi e chascello</l>
+                        <l>domandaria i arria innerso em</l>
+                        <!-- eminia? -->
+                        <l>inia ?n linghua turchesca e f?</l>
+                        <!-- two "?" above -->
+                        <l>uolle andare acholchi perche</l>
+                        <l>sono saraini aya in poche gioma</l>
+                        <l>te giunse i nerminia cioe in</l>
+                        <l>uno reame sotto posco a erminia</l>
+                        <l>chiamato iberia euide lacupto</l>
+                        <l>detta sarmachonde la quale</l>
+                        <l>saramaconde sono huomini m</l>
+                        <l>olto gross? eng molto magiou</l>
+                        <!-- ? and eng check these -->
+                        <l>che turchi ayaano maggiore</l>
+                        <l>e liufo che non anno e turchi</l>
+                        <!-- liufo? -->
+                        <l>euide una altra cipta chiama</l>
+                        <l>ta artanissa pure i iberia po</l>
+                        <l>i grunse annaltra cupta chio</l>
+                        <l><milestone n="30R" unit="fol."/><cb n="a"/>mata armahbia la quale e
+                            ne</l>
+                        <l>el grande fiume eufnates e</l>
+                        <!-- element for place to tag toponyms - <place xml:id="912849">eufnates</place> -->
+                        <!-- name of a river eufnates, maybe the euphrates?-->
+                        <l>done egli entra in quesco fiu</l>
+                        <l>me chon fina dalluna parte d</l>
+                        <l>el fiume erifrates dinerso so</l>
+                        <!-- this river is for sure the euphrates -->
+                        <l>ria lerminia mangnio e dallo</l>
+                        <l>to douera il meschino iberia</l>
+                        <l>e passo el fiume dicure uerf</l>
+                        <l>o le uante sie el bello reamo</l>
+                        <l>dalbania diancha done passo</l>
+                        <l>el meschino ella cipta dettadf</l>
+                        <!-- detta adfopra -->
+                        <l>opra e matigia e andone anno</l>
+                        <l>epta che ne in sul mare chaspio</l>
+                        <l>cha nome giettar e duri al qua</l>
+                        <!-- cannot find out where giettar reffers to -->
+                        <l>nti die siriposoey quesco ?iete</l>
+                        <!-- check ? -->
+                        <l>sono begli huomini e donne</l>
+                        <l>tutte bianchi e anno i chapelli</l>
+                        <l>bianchi e quando i nue chiamo</l>
+                        <!-- nue? -->
+                        <l>el oro chapegli dinentamo ne?</l>
+                        <!-- dinentamo? di nentamo? neither make sense, also ? -->
+                        <l>perlo chontradio de greci e pa</l>
+                        <l>rtito da giettar nando alla citta</l>
+                        <l> detta albane la quale e chapo d</l>
+                        <l>erengnio e fugli fatto grande</l>
+                        <l>honore i quesca erpta annoi</l>
+                        <!-- erpta -->
+                        <l>maschi ello femmine ucha</l>
+                        <l>pegli lunghi euesono pamo</l>
+                        <l>lino la magiore parte tu</l>
+                        <l>tti bianchi chome dusse di sop</l>
+                        <l>a u?f?ono lunghi e parti</l>
+                        <!-- two "?" above -->
+                        <l>to dalbania biancha namday</l>
+                        <!--namdayoirso? -->
+                        <l>oirso le parti di marmangia e</l>
+                        <l>trouai alchune ??me e ip?ae</l>
+                        <!-- not sure about a few letters on line above -->
+                        <l>passai molti gram fiumi chen</l>
+                        <!--gram? -->
+                        <l>trauano nel mare chaspio</l>
+                        <l>e perispagio d?trentei giorna</l>
+                        <!-- ? above -->
+                        <l>te poi chemmi parti dal</l>
+                        <l>mare maore guinsi nella bo</l>
+                        <l>ssa tartaria anno fiume che</l>
+                        <l><cb n="b"/>ssi chiama daranfe quesco fiu</l>
+                        <l>me parte la prouincia di marme</l>
+                        <l>gia dalla bassa tartaria ueso</l>
+                        <l>tnomontana la quale tarterio</l>
+                        <!-- tnomanta? -->
+                        <l>e ne in sul mare chaspio e fono</l>
+                        <l>merchanti egtam trafuchan?</l>
+                        <!-- egtam and "?' -->
+                        <l>nimici de tartaria besciali de</l>
+                        <l>llalte montangnie sotto tr</l>
+                        <l>amontana nel fiumo dell</l>
+                        <l>a tera uerfo ha fredda tram</l>
+                        <l>antana e guinto elmeschi</l>
+                        <l>no a quesco fiume deran</l>
+                        <l>didie non sapeua lufango</l>
+                        <!--sapeua? -->
+                        <l>del fieume el quale la notte</l>
+                        <l>ghia?ia el di ?r? ghiaaia en</l>
+                        <!-- ? above -->
+                        <l>osi puo passare senonne</l>
+                        <l>quando e ghia ?iato el me</l>
+                        <!-- ? above -->
+                        <l>schino nandaria prire su?lo</l>
+                        <!-- ? above -->
+                        <l>fiume e nerso una motag</l>
+                        <l>nia la quale su chiama mo</l>
+                        <l>te oierinero e trouo a?dado</l>
+                        <!-- mark above "a" in adado could signify i? -->
+                        <l>grande ?ti e debbe grande p</l>
+                        <!-- ? above -->
+                        <l>arira di marte e grande</l>
+                        <l>fame soscenne e alla fino</l>
+                        <l>amdamdo ? molte giorna tr</l>
+                        <!-- ? above is a symbol -->
+                        <l>essendo pesso alla grande ?oy</l>
+                        <!-- ? mark could be an "s" but to small, possibly just a line? -->
+                        <l>ontamunia ci e nereo undi</l>
+                        <l>in sulla terga chaminando</l>
+                        <l>superlariria del fiume ede</l>
+                        <l>gli urdde uenire ?nnerfo</l>
+                        <!-- ? above thinking maybe an "i"-->
+                        <l>diseuno huomo ignudo tu</l>
+                        <l>tto pilofo grande chome ?io</l>
+                        <!-- ? above maybe "g" or "b"-->
+                        <l>ghamte discerminata gra</l>
+                        <l>ndeza e bene aueria in to</l>
+                        <l>rno alpetto e alle reni eier</l>
+                        <l>te pelle dibescie e aueria</l>
+                        <l>in mano uno albero dise?min</l>
+                        <!-- ? above -->
+
+                        <!-- 31 R and V missing -->
+
+                        <!-- 32 R missing -->
+
+                        <l><milestone n="32V" unit="fol."/><cb n="a"/>el meschino disse chauea
+                            ue</l>
+                        <!-- chauea? -->
+                        <l>luta latesa del chonpagnroy</l>
+                        <l>e pianse e sotte rolla e ssotte</l>
+                        <l>rrarono cierte altre tes?e</l>
+                        <!-- ? above -->
+                        <l>eossa ella notte dormirono</l>
+                        <l>in quesco lato e quando ebbono</l>
+                        <l>al quanto dormito el meschino</l>
+                        <l>comincio adomandare i che</l>
+                        <l>modo erano arriuah i?esco</l>
+                        <!-- ? difficult to tell -->
+                        <l>parte e come aueano nome</l>
+                        <l>el francioso fuel primo e disse</l>
+                        <l>hogientile huomo io sono da</l>
+                        <l>una cupta cha nome bona d</l>
+                        <l>ghuaschongnia e o nome ay</l>
+                        <l>esserbramdi? e disse iomir</l>
+                        <!-- ? above -->
+                        <l>itronai aparigi di fromcia</l>
+                        <l>auna grande fesca de?tre</l>
+                        <!-- ? above -->
+                        <l>di francia e fecie ano signio</l>
+                        <l>re fore i quella fesca cinq</l>
+                        <l>etiento chaualieri ero fui</l>
+                        <l>gno di que gli e uno mio ig</l>
+                        <l>pangnro eosendo molti cho</l>
+                        <l>ualei dinanzi alla choron?</l>
+                        <!-- ? above -->
+                        <l>chessi uantuano di molte</l>
+                        <l>chose e noi due eiuantamo</l>
+                        <l>dicierchare el mondo ?ma</l>
+                        <!-- ? above, maybe a symbol?-->
+                        <l>re e?terra e choli cinpalm</l>
+                        <!-- ? above -->
+                        <l>amo in fino almorire dino</l>
+                        <l>abandonare lumo lalteo e</l>
+                        <l>l mio chonpagnio aireia n</l>
+                        <l>ome anche lamiro dorien f</l>
+                        <l>ecierchamo in prima ing</l>
+                        <l>ilterra eirlamsenorbella</l>
+                        <!-- this word makes no sense come back to it -->
+                        <l>nf eschogia tutta fiandres</l>
+                        <l>trigia ba? brettangina l</l>
+                        <!-- ? above, also talkonb about england -->
+                        <l>aspangnia borohongnia lam</l>
+                        <l><cb n="a"/>mgnia bassa e lalta uno heri?</l>
+                        <!-- ? above hard to tell probably "a" or "o"-->
+                        <l>buemia la italia chor?i cha</l>
+                        <!-- ? above, chorsi, chorfi, I have a hard time with this letter, don't know what it is, also neither of those words really work -->
+                    </lg>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
