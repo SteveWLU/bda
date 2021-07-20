@@ -471,6 +471,7 @@
                         <lb/>chom'uno toro salvaticho / e <lb/>per queste grida alquanti cr
                         <lb/>istiana isbighottiti e indietro <lb/><cb n="b"/>
                         <!-- Missing 5r - 11v -->
+                        <!-- STOP SPM transcription -->
                         <milestone n="12v" unit="fol."/><cb n="a"/>Chello inpemdore gliautue<lb/>
                         Detto ??spuose ilmeschino on<lb/> Gni chosa sa atte lal?a m<lb/> Attina sifu
                         richominato.<lb/>
@@ -549,11 +550,10 @@
             <div1 type="Book" n="2">
                 <div2 type="Chapter" n="33">
                     <head type="rubric">
-                        <hi rend="red">F</hi>inito?lp?mo libro del mesc<lb/> hino di ?u??azo ?
-                        chomincia el<lb/> sechondo libro en prima doula<lb/> galea ?lomac?mao?
+                        <hi rend="red"><lb/>F</hi>inito el primo libro del mesc<lb/>hino di durazo
+                        chomincia el <lb/>sechondo libro en prima doula <lb/>galea ?lomac?mao?
                         lopose?m<lb/> olti nomi d??ami edman?<lb/> dcitta o ton?adulmacio
-                        ??aspio<lb/> quanti nomi alli a einpan?te<lb/> toicha di ta??re ?? chapitoloi<lb/>
-                        <!-- roman numerals -->
+                        ??aspio<lb/> quanti nomi alli a einpan?te<lb/> toicha di ta??re ?? chapitolo xxxiii<lb/>
                         <!--found this rubric very challenging, come back later -->
                     </head>
                     <p>
@@ -561,12 +561,15 @@
                         rgio e perlo mare m<lb/> aore naruchandi ?iue<lb/> rso latana per molti die
                         qua<lb/> ndo arremi e quando auele<lb/> sechondo e tenpi earri auah a<lb/>
                         lloscretto di samor presso allo<lb/> tana a duguento miglia pr<lb/> esono
-                        porto alla fo??e duno fi<lb/> ume che ssi chiama uardon<lb/> el meschino
+                        porto alla fo??e duno fi<lb/>ume che ssi chiama uardon<lb/> el meschino
                         smonto e armo ssi<lb/> e monto achauallo e partito<lb/> si dalla ghalea e su
                         per lari<lb/> ua di quesio frume nando In<lb/> sino auna grande monta
                         gnia<lb/> chiamata chorouan nando<lb/> e poi suiolfe uerso echolchy<lb/> per
                         terre di saraini e abando<lb/> no e no?ri mari e amdome<lb/> uarso elmare
-                        chaspio el?ale <lb/>
+                        chaspio el <choice>
+                            <abbr>q</abbr>
+                            <expan>q<ex>u</ex></expan>
+                        </choice>ale <lb/>
                         <milestone n="29v" unit="fol."/><cb n="a"/>mare a tu nomi el primo e<lb/>
                         chaspia secondo apanos tergo<lb/> archanio e quesci nomi sono<lb/> perle
                         prauncie che glia din<lb/> torno che naru? chomo ?e?a?<lb/> are alchune
@@ -598,7 +601,6 @@
                     </p>
                 </div2>
                 <div2 type="Chapter" n="34">
-                    <!-- insert chapter number -->
                     <head type="rubric">Come el meschino passo le min<lb/>
                         <!--mania? --> ia mangnia e uido il mano calp<lb/> io e molte pnopiene e fui nalba<lb/>
                         <!-- pmopiene? --> nia giancha e potando al fiume<lb/> de nomi douemoreo mac?????<lb/>
@@ -608,16 +610,16 @@
                     <p>
                         <hi rend="red">S</hi>endo uolto el meschino a<lb/> lla mano ritta uerfo<lb/>
                         cholchose etnouamdo ce<lb/>
-                        <!-- etnoumdo? --> rti uillaggi e chascello<lb/> domandaria i arria innerso em<lb/>
-                        <!-- eminia? --> inia ?n linghua turchesca e f?<lb/>
+                        <!-- etnoumdo? --> rti uillaggi e chascello<lb/> domandaria i arria innerso erm<lb/>
+                        <!-- eminia? -->inia / In linghua turchesca e n<choice><abbr>ō</abbr><expan>o<ex>n</ex></expan></choice><lb/>
                         <!-- two "?" above --> uolle andare acholchi perche<lb/> sono saraini aya in
                         poche gioma<lb/> te giunse i nerminia cioe in<lb/> uno reame sotto posco a
                         erminia<lb/> chiamato iberia euide lacupto<lb/> detta sarmachonde la
-                        quale<lb/> saramaconde sono huomini m<lb/> olto gross? eng molto magiou<lb/>
-                        <!-- ? and eng check these --> che turchi ayaano maggiore<lb/> e liufo che
+                        quale<lb/> saramaconde sono huomini m<lb/>olto grossi / e n<expan><abbr>ō</abbr><expan>o<ex>n</ex></expan> molto magiori<lb/>
+                        <!-- ? and eng check these --> che turchi / Ma anno maggiore <!-- Notice cap. 'M' in Ma ... looks like 'ai' --><lb/>el viso che
                         non anno e turchi<lb/>
-                        <!-- liufo? --> euide una altra cipta chiama<lb/> ta artanissa pure i iberia
-                        po<lb/> i grunse annaltra cupta chio<lb/>
+                        <!-- liufo? --> euide una altra cipta chiama<lb/>ta artanissa / pure <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice> iberia
+                        po<lb/>i giunse annaltra cupta chio<lb/>
                         <milestone n="30r" unit="fol."/><cb n="a"/>mata armahbia la quale e ne<lb/>
                         el grande fiume eufnates e<lb/>
                         <!-- element for place to tag toponyms - <place xml:id="912849">eufnates</place> -->
@@ -715,7 +717,7 @@
                         ecierchamo in prima ing<lb/> ilterra eirlamsenorbella<lb/>
                         <!-- this word makes no sense come back to it --> nf eschogia tutta
                         fiandres<lb/> trigia ba? brettangina lb<lb/>
-                        <!-- ? above, also talkonb about england --> aspangnia borohongnia lam<lb/>
+                        <!-- ? above, also talking about england --> aspangnia borohongnia lam<lb/>
                         <cb n="a"/>mgnia bassa e lalta uno heri?<lb/>
                         <!-- ? above hard to tell probably "a" or "o"--> buemia la italia chor?i cha<lb/>
                         <!-- ? above, chorsi, chorfi, I have a hard time with this letter, don't know what it is, also neither of those words really work -->
