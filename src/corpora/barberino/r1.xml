@@ -102,6 +102,7 @@
                         <idno>Riccardiano 2266</idno>
                         <!-- EDIT SCHEMA:insert date tag, 1445 -->
                     </msIdentifier>
+                    <head/>
                     <msContents>
                         <msItem>
                             <respStmt>
@@ -131,6 +132,46 @@
                         </msItem>
                     </msContents>
                     <!-- Cursietti 2006, 612; Tanturli 1978, 284-85. -->
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>
+                                    <p>Paper codex with front guard pages ii, iii and back guard
+                                        pages i, ii of parchment.</p>
+                                </support>
+                                <extent> iii + 224 folios <dimensions scope="all" type="folio"
+                                        unit="cm">
+                                        <!-- Recount total folios to make sure -->
+                                        <height>29.25</height>
+                                        <width>21.5</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation>The codex foliation is out of order in two places and
+                                    currently is bound in this order: <locus>fols. 1-96</locus>;
+                                        <locus>fol. 112</locus>; <locus>fols. 98-111</locus>;
+                                        <locus>fol. 97</locus>; <locus>fols. 113-175</locus>;
+                                        <locus>fol. fols. 183-189</locus>; <locus>fols.
+                                        176-182</locus>; <locus>fols.
+                                        190-224</locus>.<!-- Why unordered? Occurring with modern rebinding? --><p>In
+                                        # places, on fols. #, there are modern library notes
+                                        addressing the misordered foliation: <locus>on end guard
+                                            page iii "le cc. 176-182 si trovano dopo le c.
+                                            189"</locus><!-- Edit section with other library notes and locus numbers --></p></foliation>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><p>In double columns from fols. 1r to 190v, single column
+                                        from 191r to 224v.</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <p><!-- Description of scribal activity. --></p>
+                        </handDesc>
+                        <decoDesc>
+                            <p><!-- Description of initials and catchwords. --></p>
+                        </decoDesc>
+                    </physDesc>
+                    <history/>
+                    <additional/>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -611,15 +652,24 @@
                         <hi rend="red">S</hi>endo uolto el meschino a<lb/> lla mano ritta uerfo<lb/>
                         cholchose etnouamdo ce<lb/>
                         <!-- etnoumdo? --> rti uillaggi e chascello<lb/> domandaria i arria innerso erm<lb/>
-                        <!-- eminia? -->inia / In linghua turchesca e n<choice><abbr>ō</abbr><expan>o<ex>n</ex></expan></choice><lb/>
+                        <!-- eminia? -->inia / In linghua turchesca e n<choice>
+                            <abbr>ō</abbr>
+                            <expan>o<ex>n</ex></expan>
+                        </choice><lb/>
                         <!-- two "?" above --> uolle andare acholchi perche<lb/> sono saraini aya in
                         poche gioma<lb/> te giunse i nerminia cioe in<lb/> uno reame sotto posco a
                         erminia<lb/> chiamato iberia euide lacupto<lb/> detta sarmachonde la
-                        quale<lb/> saramaconde sono huomini m<lb/>olto grossi / e n<expan><abbr>ō</abbr><expan>o<ex>n</ex></expan> molto magiori<lb/>
-                        <!-- ? and eng check these --> che turchi / Ma anno maggiore <!-- Notice cap. 'M' in Ma ... looks like 'ai' --><lb/>el viso che
-                        non anno e turchi<lb/>
-                        <!-- liufo? --> euide una altra cipta chiama<lb/>ta artanissa / pure <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice> iberia
-                        po<lb/>i giunse annaltra cupta chio<lb/>
+                        quale<lb/> saramaconde sono huomini m<lb/>olto grossi / e n<choice>
+                            <abbr>ō</abbr>
+                            <expan>o<ex>n</ex></expan>
+                        </choice>molto magiori<lb/>
+                        <!-- ? and eng check these --> che turchi / Ma anno maggiore
+                        <!-- Notice cap. 'M' in Ma ... looks like 'ai' --><lb/>el viso che non anno
+                        e turchi<lb/>
+                        <!-- liufo? --> euide una altra cipta chiama<lb/>ta artanissa / pure <choice>
+                            <abbr>i</abbr>
+                            <expan>i<ex>n</ex></expan>
+                        </choice> iberia po<lb/>i giunse annaltra cupta chio<lb/>
                         <milestone n="30r" unit="fol."/><cb n="a"/>mata armahbia la quale e ne<lb/>
                         el grande fiume eufnates e<lb/>
                         <!-- element for place to tag toponyms - <place xml:id="912849">eufnates</place> -->
@@ -684,8 +734,7 @@
                             <abbr>p</abbr>
                             <expan><ex>r</ex></expan>
                         </choice><lb/> eghando iddio ch'ello ghuardo<lb/>
-                        <!-- correct 'ghuardo' > 'ghuarda'? --> sse da morte /<lb/>
-                    </p>
+                        <!-- correct 'ghuardo' > 'ghuarda'? --> sse da morte / </p>
                     <!-- Finish 30v a/b -->
                     <!-- END SPM transcription -->
                 </div2>
