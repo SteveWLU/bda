@@ -773,7 +773,7 @@
                         <lb/>e venuti a brandizia / passam
                         <lb/>o / a durazo / e <choice><sic>rierchamo</sic><corr resp="#jbm">ri<ex>c</ex>erchare</corr></choice>dalm
                         <!-- NOTE - cfr. TEI line 786 -->
-                        <lb/>azia / choruazia / albania pira 
+                        <lb/>azia / choruazia / <place><country>Albania</country><geo>41.1529 20.1606</geo></place>albania pira 
                         <!-- Pira greece? -->
                         <lb/>maciedonia / el bel paese del pe
                         <lb/>nopoles nel quale ene molt
@@ -800,7 +800,52 @@
                         <lb/>ghante cischontro e alpimo
                         <lb/>cholpo u?se e?mio chonpa
                         <!-- two ? above --> 
-                        <lb/>nio 
+                        <lb/>nio e me prife e chaaiomi 
+                        <!-- prife and chaaiomi dont makesense -->
+                        <lb/>in quesca bucha e son? e stato 
+                        <!-- ? above -->
+                        <lb/>diciotto giorni e sommi sech
+                        <lb/>o chome uoi uetate el me
+                        <lb/>schino lo chon forto e disse ?m
+                        <!-- ? above -->
+                        <lb/>ia fe tu sarai mio chon#pagno 
+                        <!-- # above is abrevation -->
+                        <lb/> setti sara drpianere e??oly
+                        <!-- two ? above -->
+                        <lb/>loringragio e aaiettollo ?sing
+                        <!-- ? above -->
+                        <milestone n="33R" unit="fol."/><cb n="a"/>niore enonne per ronpagnio<lb/>
+                        <!-- big three at at top of page, third grouping, also writing in top right margin -->
+                        <lb/>ecio che messe brangis drcieua
+                        <!-- substution above -->
+                        <lb/>el meschino loridicieria aller
+                        <lb/>mino / poi domando lermino 
+                        <lb/>e degli disse gientile uuomo 
+                        <lb/>io sono derminia e sono eristi 
+                        <lb/>ano e de pochi giorni chio ue
+                        <lb/>nni chomio chon pangnio der
+                        <lb/>minia per mare nella tarta 
+                        <lb/>ria bassa peruicitare cierti 
+                        <lb/>dell ordine nostra e nolendo y
+                        <lb/>tornare perl'albania biancho 
+                        <lb/>per ritornare cierti nostra frate
+                        <lb/>gli e non potendo passare qu
+                        <lb/>sco fiume perlo chaldo pre
+                        <lb/>sso al mare uenimo atre gior
+                        <!-- did benci mean altre?, possibl transcription error -->
+                        <lb/>nate insri dallariria dilo
+                        <lb/>eora fa quarta notte passamo 
+                        <lb/>e nome fugiorno ilchantram
+                        <lb/>o questo mal detto giuoh?te 
+                        <!--abreviation in last word of libe above -->
+                        <lb/>il quale quegli di tarteria ba
+                        <lb/>ssa lo chiamano ma?chabeo 
+                        <lb/>maegli nosoleria 
+                        
+                        
+                        
+                        
+                        
                        
                         
                         
