@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { nav } from '../data/nav';
@@ -12,9 +13,13 @@ const Navigation = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="light">
             <Navbar.Brand href="/" >
+                <Container className="left">
                 <img className="huon-logo-nav align-top" src={stemma} alt="logo" />
+                </Container>
+                <Container className="right">
                 <h2 id="site-title">Benci Digital Library</h2>
                 <p id="nav-subtitle">Merchant bibliophiles in fifteenth-century Florence</p>
+                </Container>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
