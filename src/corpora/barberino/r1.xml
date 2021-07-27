@@ -670,11 +670,11 @@
                             <abbr>i</abbr>
                             <expan>i<ex>n</ex></expan>
                         </choice> iberia po<lb/>i giunse annaltra cupta chio<lb/>
-                        <milestone n="30r" unit="fol."/><cb n="a"/>mata armahbia la quale e ne<lb/>
-                        el grande fiume eufnates e<lb/>
-                        <!-- element for place to tag toponyms - <place xml:id="912849">eufnates</place> -->
-                        <!-- name of a river eufnates, maybe the euphrates?--> done egli entra in
-                        quesco fiu<lb/> me chon fina dalluna parte d<lb/> el fiume erifrates dinerso so<lb/>
+                        <milestone n="30r" unit="fol."/><cb n="a"/><lb/>mata armahbia la quale e ne
+                        <lb/>el grande fiume eufnates e <!-- element for place to tag toponyms - <place xml:id="912849">eufnates</place> -->
+                        <!-- name of a river eufnates, maybe the euphrates?-->
+                        <lb/>done egli entra in quesco fiu <lb/> me chon fina dalluna parte d
+                        <lb/>el fiume erifrates dinerso so<lb/>
                         <!-- this river is for sure the euphrates --> ria lerminia mangnio e
                         dallo<lb/> to douera il meschino iberia<lb/> e passo el fiume dicure
                         uerf<lb/> o le uante sie el bello reamo<lb/> dalbania diancha done
@@ -767,88 +767,50 @@
                         <!-- this word makes no sense come back to it --> nf eschogia tutta
                         fiandres<lb/> trigia ba? brettangina lb<lb/>
                         <!-- ? above, also talking about england --> aspangnia borohongnia la m
-                        <lb/><cb n="a"/>angnia bassa / e l'alta ungheria
-                        <lb/>buemia / la italia / chorsicha 
-                        <lb/>sardingnia / maiolicha / cicilia 
-                        <lb/>e venuti a brandizia / passam
-                        <lb/>o / a durazo / e <choice><sic>rierchamo</sic><corr resp="#jbm">ri<ex>c</ex>erchare</corr></choice>dalm
-                        <!-- NOTE - cfr. TEI line 786 -->
-                        <lb/>azia / choruazia / <place><country>Albania</country><geo>41.1529 20.1606</geo></place>albania pira 
-                        <!-- Pira greece? -->
-                        <lb/>maciedonia / el bel paese del pe
-                        <lb/>nopoles nel quale ene molt
-                        <lb/>e citta nelle quali sono queste 
-                        <lb/>ingrarenza / patras chor?ho 
-                        <!-- not sure where ingrarenza is, some where in greece? Also cannot make out what the Chor?o is  -->
-                        <lb/>nessa mospera / malvazia / e n
-                        <lb/>epilia  poi vidi estiva e ll'is
-                        <lb/>ola di negroponte e chandia
-                        <lb/>e tornamo <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice> tesaglia / e cier
-                        <lb/>chamo tutta romania e fu
-                        <lb/>mo a ghostantinopoli e undi 
-                        <lb/>n'andamo all'atana e?tero
-                        <!-- ? above -->
-                        <lb/>uenimo a cholchi poi uedemo 
-                        <!-- uenimo? does not make sense-->
-                        <lb/>erminia ellalbania e uofa
-                        <lb/>uamo amdare nella tartaria
-                        <lb/>bassa iuendo noi ueduto
-                        <lb/>el mare chaspio egrungni
-                        <lb/>emo a questo fiumes edua
-                        <lb/>na sauano uenri? mala detto giu 
-                        <!-- ? above -->
-                        <lb/>ghante cischontro e alpimo
-                        <lb/>cholpo u?se e?mio chonpa
-                        <!-- two ? above --> 
-                        <lb/>nio e me prife e chaaiomi 
-                        <!-- prife and chaaiomi dont makesense -->
-                        <lb/>in quesca bucha e son? e stato 
-                        <!-- ? above -->
-                        <lb/>diciotto giorni e sommi sech
-                        <lb/>o chome uoi uetate el me
-                        <lb/>schino lo chon forto e disse ?m
-                        <!-- ? above -->
-                        <lb/>ia fe tu sarai mio chon#pagno 
-                        <!-- # above is abrevation -->
-                        <lb/> setti sara drpianere e??oly
-                        <!-- two ? above -->
-                        <lb/>loringragio e aaiettollo ?sing
-                        <!-- ? above -->
+                            <lb/><cb n="a"/>angnia bassa / e l'alta ungheria <lb/>buemia / la italia
+                        / chorsicha <lb/>sardingnia / maiolicha / cicilia <lb/>e venuti a brandizia
+                        / passam <lb/>o / a durazo / e <choice>
+                            <sic>rierchamo</sic>
+                            <corr resp="#jbm">ri<ex>c</ex>erchare</corr>
+                        </choice>dalm <!-- NOTE - cfr. TEI line 786 -->
+                        <lb/>azia / choruazia / <place>
+                            <country>Albania</country>
+                            <geo>41.1529 20.1606</geo>
+                        </place>albania pira <!-- Pira greece? -->
+                        <lb/>maciedonia / el bel paese del pe <lb/>nopoles nel quale ene molt <lb/>e
+                        citta nelle quali sono queste <lb/>ingrarenza / patras chor?ho <!-- not sure where ingrarenza is, some where in greece? Also cannot make out what the Chor?o is  -->
+                        <lb/>nessa mospera / malvazia / e n <lb/>epilia poi vidi estiva e ll'is
+                        <lb/>ola di negroponte e chandia <lb/>e tornamo <choice>
+                            <abbr>i</abbr>
+                            <expan>i<ex>n</ex></expan>
+                        </choice> tesaglia / e cier <lb/>chamo tutta romania e fu <lb/>mo a
+                        ghostantinopoli e undi <lb/>n'andamo all'atana e?tero <!-- ? above -->
+                        <lb/>uenimo a cholchi poi uedemo <!-- uenimo? does not make sense-->
+                        <lb/>erminia ellalbania e uofa <lb/>uamo amdare nella tartaria <lb/>bassa
+                        iuendo noi ueduto <lb/>el mare chaspio egrungni <lb/>emo a questo fiumes
+                        edua <lb/>na sauano uenri? mala detto giu <!-- ? above -->
+                        <lb/>ghante cischontro e alpimo <lb/>cholpo u?se e?mio chonpa <!-- two ? above -->
+                        <lb/>nio e me prife e chaaiomi <!-- prife and chaaiomi dont makesense -->
+                        <lb/>in quesca bucha e son? e stato <!-- ? above -->
+                        <lb/>diciotto giorni e sommi sech <lb/>o chome uoi uetate el me <lb/>schino
+                        lo chon forto e disse ?m <!-- ? above -->
+                        <lb/>ia fe tu sarai mio chon#pagno <!-- # above is abrevation -->
+                        <lb/> setti sara drpianere e??oly <!-- two ? above -->
+                        <lb/>loringragio e aaiettollo ?sing <!-- ? above -->
                         <milestone n="33R" unit="fol."/><cb n="a"/>niore enonne per ronpagnio<lb/>
                         <!-- big three at at top of page, third grouping, also writing in top right margin -->
-                        <lb/>ecio che messe brangis drcieua
-                        <!-- substution above -->
-                        <lb/>el meschino loridicieria aller
-                        <lb/>mino / poi domando lermino 
-                        <lb/>e degli disse gientile uuomo 
-                        <lb/>io sono derminia e sono eristi 
-                        <lb/>ano e de pochi giorni chio ue
-                        <lb/>nni chomio chon pangnio der
-                        <lb/>minia per mare nella tarta 
-                        <lb/>ria bassa peruicitare cierti 
-                        <lb/>dell ordine nostra e nolendo y
-                        <lb/>tornare perl'albania biancho 
-                        <lb/>per ritornare cierti nostra frate
-                        <lb/>gli e non potendo passare qu
-                        <lb/>sco fiume perlo chaldo pre
-                        <lb/>sso al mare uenimo atre gior
-                        <!-- did benci mean altre?, possibl transcription error -->
-                        <lb/>nate insri dallariria dilo
-                        <lb/>eora fa quarta notte passamo 
-                        <lb/>e nome fugiorno ilchantram
-                        <lb/>o questo mal detto giuoh?te 
-                        <!--abreviation in last word of libe above -->
-                        <lb/>il quale quegli di tarteria ba
-                        <lb/>ssa lo chiamano ma?chabeo 
-                        <lb/>maegli nosoleria 
-                        
-                        
-                        
-                        
-                        
-                       
-                        
-                        
+                        <lb/>ecio che messe brangis drcieua <!-- substution above -->
+                        <lb/>el meschino loridicieria aller <lb/>mino / poi domando lermino <lb/>e
+                        degli disse gientile uuomo <lb/>io sono derminia e sono eristi <lb/>ano e de
+                        pochi giorni chio ue <lb/>nni chomio chon pangnio der <lb/>minia per mare
+                        nella tarta <lb/>ria bassa peruicitare cierti <lb/>dell ordine nostra e
+                        nolendo y <lb/>tornare perl'albania biancho <lb/>per ritornare cierti nostra
+                        frate <lb/>gli e non potendo passare qu <lb/>sco fiume perlo chaldo pre
+                        <lb/>sso al mare uenimo atre gior <!-- did benci mean altre?, possibl transcription error -->
+                        <lb/>nate insri dallariria dilo <lb/>eora fa quarta notte passamo <lb/>e
+                        nome fugiorno ilchantram <lb/>o questo mal detto giuoh?te <!--abreviation in last word of libe above -->
+                        <lb/>il quale quegli di tarteria ba <lb/>ssa lo chiamano ma?chabeo
+                        <lb/>maegli nosoleria
                         <!-- ? above, chorsi, chorfi, I have a hard time with this letter, don't know what it is, also neither of those words really work -->
                     </p>
                 </div2>
