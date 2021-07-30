@@ -1,12 +1,13 @@
 import './Assets/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Stemma from './Assets/Images/stemma.png'
 // import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Stemma} className="App-logo" alt="logo" />
         
           <h1> The Benci Digital Archive
           </h1> <code>src/App.js</code> and save to reload.
