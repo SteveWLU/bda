@@ -7,8 +7,10 @@ import { BrowserRouter as Router,
 import Home from './pages/Home'
 import About from './pages/About'
 import Collaborators from './pages/Collaborators'
-import Manuscripts from './pages/Manuscripts'
+import Library from './pages/Library'
+import Merchants from './pages/Merchants'
 import Guerrino from './pages/Guerrino'
+import error404 from './pages/error404'
 
 function App() {
   return (
@@ -19,8 +21,10 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/' component={About}/>
           <Route path='/' component={Collaborators}/>
-          <Route path='/' component={Manuscripts}/>
+          <Route path='/' component={Library}/>
+          <Route path='/' component={Merchants}/>
           <Route path='/' component={Guerrino}/>
+          <Route component={error404}/>
         </Switch>
     </Router>
     </>

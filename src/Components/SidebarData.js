@@ -1,7 +1,5 @@
 import React from 'react'
-import * as FaIcons from 'react-icons/fa'
-import * as AiIcons from 'react-icons/ai'
-import * as IoIcons from 'react-icons/io'
+import * as GiIcons from 'react-icons/gi'
 
 // cName - abbreviation for className
 
@@ -9,37 +7,43 @@ export const SidebarData = [
     {
         title: 'Home',
         path: '/',
-        icon: <AiIcons.AiFillHome/>,
+        icon: <GiIcons.GiCastle size={30}/>,
         cName: 'nav-text'
     },
     {
         title: 'About',
-        path: '/reports',
-        icon: <IoIcons.IoIosPaper/>,
+        path: '/about',
+        icon: <GiIcons.GiCompass size={30}/>,
         cName: 'nav-text'
     },
     {
         title: 'Collaborators',
-        path: '/products',
-        icon: <FaIcons.FaCartPlus/>,
+        path: '/collaborators',
+        icon: <GiIcons.GiBattleGear size={30}/>,
         cName: 'nav-text'
     },
     {
-        title: 'Manuscripts',
-        path: '/team',
-        icon: <IoIcons.IoMdPeople/>,
+        title: 'Merchants',
+        path: '/merchants',
+        icon: <GiIcons.GiCaravel size={30}/>,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Library',
+        path: '/library',
+        icon: <GiIcons.GiRat size={30}/>,
         cName: 'nav-text'
     },
     {
         title: 'Guerrino',
-        path: '/messages',
-        icon: <FaIcons.FaEnvelopeOpenText/>,
+        path: '/guerrino',
+        icon: <GiIcons.GiMountedKnight size={30}/>,
         cName: 'nav-text'
     },
     {
         title: 'Bibliography',
-        path: '/support',
-        icon: <IoIcons.IoMdHelpCircle/>,
+        path: '/bibliography',
+        icon: <GiIcons.GiSpellBook size={30}/>,
         cName: 'nav-text'
     },
 ]
