@@ -1,6 +1,9 @@
 import './Assets/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Stemma from './Assets/Images/stemma.png'
+import Sidebar from './Components/sidebar'
+import { BrowserRouter as Router } from 'react-router-dom'
+
 // import './App.scss';
 
 function App() {
