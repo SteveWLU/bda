@@ -19,12 +19,12 @@ function App() {
       <Navbar/>
         <Switch>
           <Route path='/' exact component={Home}/>
-          <Route path='/' component={About}/>
-          <Route path='/' component={Collaborators}/>
-          <Route path='/' component={Library}/>
-          <Route path='/' component={Merchants}/>
-          <Route path='/' component={Guerrino}/>
-          <Route component={error404}/>
+          <Route path='/about' component={About}/>
+          <Route path='/collaborators' component={Collaborators}/>
+          <Route path='/library' component={Library}/>
+          <Route path='/merchants' component={Merchants}/>
+          <Route path='/guerrino' component={Guerrino}/>
+          <Route path='/*' component={error404}/>
         </Switch>
     </Router>
     </>

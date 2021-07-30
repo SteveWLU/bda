@@ -22,7 +22,7 @@ function Navbar() {
         <IconContext.Provider value={{ color: '#fff' }}>
           <div className='navbar'>
             <Link to='#' className='menu-bars'>
-              <GiIcons.GiHamburgerMenu onClick={showSidebar} />
+              <GiIcons.GiHamburgerMenu color="black" onClick={showSidebar} />
             </Link>
           </div>
           <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
